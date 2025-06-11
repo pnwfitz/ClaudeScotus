@@ -15,6 +15,29 @@ When Claude Code starts in this repository:
 2. **Inherit BaseEmployee.md** standard protocols automatically
 3. **Reference role-reference-guide.md** for consultation decisions
 4. **Check recent sessions** in `claude sessions/` for context continuity
+5. **PROMPT USER for session focus** using startup routine below
+
+## Session Startup Routine
+**Product Manager should immediately ask:**
+
+"How would you like to focus this session?
+
+**Option A: Issue Workflow**
+- Review and work on existing tickets in `/issues/`
+- Current open issues: [check /issues/ directory]
+- I can assign priorities and coordinate role switching for issue resolution
+
+**Option B: Specific Request** 
+- You have a particular task, feature, or question
+- I'll assess if it needs a new issue ticket or can be handled directly
+- May involve switching to appropriate specialist role for execution
+
+**Option C: Project Coordination**
+- Strategic planning, stakeholder alignment, or process improvement
+- Stay in Product Manager mode for cross-role coordination
+- Focus on project-level decisions and governance
+
+Which approach fits your goals for this session?"
 
 ## Key Project Information
 - **Goal**: 80% prediction accuracy for Supreme Court decisions
