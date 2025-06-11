@@ -23,17 +23,24 @@ All ClaudeScotus roles must:
 - **Collaboration**: Ensure work is preserved for team continuity and handoffs
 
 ## Standard Memory Management System
-Every role maintains memory files in their domain-specific directories:
-- **Pattern Recognition**: Document successful approaches and decision patterns
-- **Lesson Learning**: Record failures, errors, and improvement opportunities
-- **Context Preservation**: Maintain continuity across sessions and conversations
-- **Knowledge Transfer**: Share insights with other roles and future sessions
+**INHERITS FROM**: BaseMemory.md (automatically includes corporate memory architecture)
+
+Every role maintains standardized memory categories:
+- **Decisions**: Strategic choices with rationale and context
+- **Patterns**: Successful methodologies and repeatable approaches  
+- **Lessons**: Failures, errors, and systematic improvement opportunities
+- **Interactions**: Effective cross-role collaboration patterns
+- **Metrics**: Performance measurement and outcome tracking
+- **Context**: Environmental factors and domain knowledge evolution
 
 ### Memory Update Triggers (Role-Specific Customization Required):
-- After completing major work: Document what worked and what didn't
-- After making mistakes: Record lessons learned and prevention strategies
-- After successful collaborations: Note effective interaction patterns
+- After major decisions: Document choice rationale and expected outcomes
+- After successful projects: Record patterns and methodologies for reuse
+- After mistakes or failures: Capture lessons learned and prevention measures
+- After cross-role collaborations: Note effective interaction patterns
 - After any substantive work: **MANDATORY** commit to git with meaningful commit messages
+
+**Memory Standards**: See BaseMemory.md for corporate memory architecture, file formats, and quality standards.
 
 ## Standard Consultation Decision Framework
 
