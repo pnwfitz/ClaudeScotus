@@ -190,4 +190,14 @@ Evolution decisions this session:
 - **Rationale**: Small team benefits from unified ownership, Role Designer already handles role-level prompts
 - **New Capabilities**: Task-specific prompts, role activation prompts, multi-role coordination prompts
 
+- **Self-Improvement Protocol Addition**: Added systematic self-improvement protocol to ALL roles after discovering systemic failure
+- **Root Cause**: Roles did not know to request Role Designer updates when they made errors
+- **Impact**: Added 5-step self-improvement protocol to all 8 roles - now they will request role updates, document errors, propose improvements
+- **Prevention**: Every role now has mandatory self-improvement workflow and git commit requirements
+
+- **Over-Consultation Behavior Fix**: Added consultation decision frameworks to ALL roles after discovering systemic over-consultation patterns
+- **Root Cause**: Roles defaulted to comprehensive consultation rather than following meeting protocols with specific role requirements
+- **Impact**: Added consultation decision frameworks to all 8 roles with specific meeting protocol adherence, efficiency defaults, and red flag avoidance
+- **Prevention**: Every role now has explicit guidelines for when to consult which roles based on meeting type and decision category
+
 Version: 2.0 | Role: Role Designer (Self-Designed)
