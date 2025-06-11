@@ -1,60 +1,129 @@
-# Session Wind Down Procedure - ClaudeScotus
+# CRISP Session Wind-Down Procedure - ClaudeScotus
 
-**Version**: 1.0  
-**Purpose**: Standardized procedure for ending Claude Code sessions and preserving session context
+**Version**: 2.0 (Claude Code Optimized)  
+**Purpose**: Fast, systematic session closure with memory preservation  
+**Target Time**: 5-7 minutes maximum
 
-## Wind Down Steps
+## CRISP Wind-Down Protocol
 
-### 1. Session Documentation
-- **Terminal Transcript**: Save complete terminal session to `claude sessions/` folder
-- **Exception**: Skip saving if session crashed (data already preserved from previous session)
-- **Format**: YYYY-MM-DD_HHMM_session-type.md with complete transcript
-- **Security**: Redact any sensitive information (API keys, tokens, credentials)
+### ⚡ **1. MEMORY CAPTURE** (2 minutes)
+```
+Role Memory Update:
+- Key decisions made → role/memory/[role]_decisions/
+- Patterns discovered → role/memory/[role]_patterns/ 
+- Lessons learned → role/memory/[role]_lessons/
+```
 
-### 2. Prompt Inventory
-- **User Prompts**: Extract and document all user prompts from the session
-- **Purpose**: Track user intent patterns and frequently requested actions
-- **Format**: Numbered list with brief context for each prompt
-- **File**: Save to session documentation under "User Prompts" section
+**Auto-Commands**:
+- Use `/clear` to focus context on session summary
+- Apply memory triggers from role definitions
+- Update role metrics if performance data exists
 
-### 3. Accomplishment Summary
-- **Executive Summary**: High-level overview of what was completed
-- **Key Deliverables**: Specific files created, updated, or refactored
-- **Issues Resolved**: Problems addressed and solutions implemented
-- **Metrics**: Quantify improvements (lines reduced, efficiency gains, etc.)
+### ⚡ **2. TODO CLOSURE** (1 minute)
+```
+Issue Management:
+✅ Mark completed todos as DONE
+🔄 Update in-progress todos with current status  
+📋 Create new issues for incomplete work
+🔺 Set priority levels for next session
+```
 
-### 4. Previous Session Comparison
-- **Review Prior Goals**: Check previous session's "Next Steps" document
-- **Completion Assessment**: Evaluate what was accomplished vs. planned
-- **Variance Analysis**: Note any deviations and reasons
-- **Lessons Learned**: Document insights from comparing plan vs. actual
+**Git Integration**: 
+- Commit todo list updates immediately
+- Reference issue numbers in commits
 
-### 5. Next Session Planning
-- **Immediate Priorities**: High-priority tasks for next session start
-- **Context Requirements**: What context will be needed to continue
-- **Dependencies**: Any blockers or prerequisites to address
-- **Success Criteria**: How to measure progress in next session
+### ⚡ **3. SESSION COMMIT + PUSH** (2 minutes)
+```bash
+# Single commit with complete session context
+git add .
+git commit -m "Session wind-down: [ROLE] [ACCOMPLISHMENT] [NEXT-PRIORITY]
 
-### 6. Repository Update
-- **Commit All Changes**: Ensure all session work is committed to git
-- **Meaningful Messages**: Clear commit descriptions with scope and impact
-- **Push to Remote**: Sync all changes to GitHub for persistence
-- **Verification**: Confirm all files are visible on GitHub
+Completed:
+- [Key achievement 1]
+- [Key achievement 2]
 
-## Quality Standards
+Next session priority: [Top 1-2 items]
 
-- **Completeness**: All session artifacts preserved and documented
-- **Clarity**: Future sessions can easily understand context and next steps
-- **Security**: No sensitive information exposed in documentation
-- **Efficiency**: Wind down process should take 10-15 minutes maximum
+🤖 Generated with Claude Code"
 
-## File Locations
+# Push to GitHub for persistence
+git push
+```
 
-- **Session Documentation**: `claude sessions/YYYY-MM-DD_HHMM_session-type.md`
-- **Executive Summary**: Include in session documentation
-- **Next Steps**: `claude sessions/next-steps-YYYY-MM-DD.md`
-- **Wind Down Logs**: Update this procedure based on lessons learned
+**GitHub Integration**: 
+- Use `gh auth status` to verify authentication before push
+- If auth fails, session context is still preserved locally via commit
+- Next session can retry push after re-authentication
+
+### ⚡ **4. CONTEXT HANDOFF** (1-2 minutes)
+**Create/Update**: `claude sessions/CURRENT-STATUS.md`
+```markdown
+# ClaudeScotus Session Handoff
+
+## Last Session Summary
+**Role**: [Current role]  
+**Date**: [Session date]  
+**Focus**: [Primary accomplishment]
+
+## Next Session Priorities
+1. **P0**: [Critical next step]
+2. **P1**: [Important follow-up]  
+3. **P2**: [Nice-to-have]
+
+## Context Needed
+- Role: [Recommended starting role]
+- Files: [Key files to review]
+- Issues: [Open ticket numbers]
+
+## Quick Resume
+"[One sentence describing where to pick up]"
+```
+
+## Claude Code Optimizations
+
+### **Use Built-in Patterns**:
+- **Git Integration**: Let Claude handle commit message composition
+- **File Operations**: Use tab-completion for fast file references
+- **Memory Management**: Leverage Claude's context awareness
+
+### **Multi-Instance Cleanup**:
+If multiple Claude instances were used:
+- Close secondary instances first
+- Consolidate findings in primary instance
+- Single commit from primary instance only
+
+### **Context Window Management**:
+- Run `/clear` before final documentation
+- Focus on essential handoff information only
+- Avoid copying large file contents into session notes
+
+## Quality Gates
+
+**MUST HAVE**:
+✅ All work committed to git  
+✅ Next session priority identified  
+✅ Role memory updated with key insights  
+✅ Critical context documented for handoff
+
+**SHOULD HAVE**:
+⭐ Session patterns identified for future optimization  
+⭐ Role performance metrics updated  
+⭐ Cross-role collaboration notes captured
+
+## Emergency Wind-Down (30 seconds)
+```bash
+# If session must end immediately
+git add . && git commit -m "Emergency session end - work in progress"
+git push || echo "Push failed - will retry next session"
+echo "NEXT: [one critical next step]" > claude sessions/EMERGENCY-RESUME.md
+```
+
+**Failure Handling**: 
+- Emergency commit always succeeds (preserves work locally)
+- Push failure doesn't block emergency wind-down
+- Next session will detect unpushed commits and retry
 
 ---
 
-**Implementation Note**: This procedure should be executed at the end of every Claude Code session to maintain project continuity and context preservation.
+**CRISP = Context, Rapid, Intelligent, Systematic, Preserved**  
+*Optimized for Claude Code's git integration, context management, and multi-instance workflows*

@@ -17,31 +17,41 @@ When Claude Code starts in this repository:
 4. **Check recent sessions** in `claude sessions/` for context continuity
 5. **PROMPT USER for session focus** using startup routine below
 
-## Session Startup Routine
-**Product Manager should immediately ask:**
+## CRISP Session Startup Routine
+**Auto-execute on Claude Code launch:**
 
-"How would you like to focus this session?
+1. **Context Bootstrap** (30 seconds):
+   - Load `claude sessions/CURRENT-STATUS.md` for last session context
+   - Check `/issues/` for open P0/P1 tickets
+   - Scan recent git commits for session continuity
 
-**Option A: Issue Workflow**
-- Review and work on existing tickets in `/issues/`
-- Current open issues: [check /issues/ directory]
-- I can assign priorities and coordinate role switching for issue resolution
+2. **Session Focus Prompt** (immediate):
+   "Quick session setup - choose your path:
 
-**Option B: Specific Request** 
-- You have a particular task, feature, or question
-- I'll assess if it needs a new issue ticket or can be handled directly
-- May involve switching to appropriate specialist role for execution
+   **A) RESUME** → Continue from last session priorities
+   **B) ISSUES** → Work open tickets (P0: [count], P1: [count]) 
+   **C) NEW TASK** → Fresh request or project work
+   **D) COORDINATION** → Cross-role planning or governance
 
-**Option C: Project Coordination**
-- Strategic planning, stakeholder alignment, or process improvement
-- Stay in Product Manager mode for cross-role coordination
-- Focus on project-level decisions and governance
+   Choose A/B/C/D or describe your goal:"
 
-Which approach fits your goals for this session?"
+3. **Role Optimization**:
+   - Auto-switch to appropriate specialist role based on choice
+   - Inherit BaseEmployee.md protocols automatically
+   - Load role memory and context files
 
-## Global Macros
-**WIND_DOWN**: At session end, write a short summary ⬇, commit, memory-update, close tickets  
-**RESUME**: On session start, load last wind-down summary and open P0/P1 tickets to set context
+## CRISP Session Management
+
+### **Global Macros**
+- **WIND_DOWN**: Execute CRISP wind-down protocol (5-7 min) → memory capture, todo closure, session commit, context handoff
+- **RESUME**: Auto-load last session context + priorities + role memory + open tickets  
+- **FOCUS**: Use `/clear` + role-specific memory loading for task concentration
+- **MULTI**: Launch parallel Claude instances with git worktrees for complex workflows
+
+### **Claude Code Optimizations**
+- **IMPORTANT**: Use tab-completion for all file references  
+- **YOU MUST**: Apply `/clear` before major context switches to preserve performance
+- **CRITICAL**: Commit early and often with meaningful messages for session continuity
 
 ## Debug & Data Paths
 **DEBUG**: Set to `true` for verbose role consultation and memory triggers  
