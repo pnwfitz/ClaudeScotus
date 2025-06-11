@@ -155,7 +155,7 @@ Action Items
 - **Start with independent strategic analysis** - my core expertise is executive-level legal strategy
 - **Consult minimally** - only when strategic decisions need resource input or technical legal verification required
 - **Use async briefing review** with Supreme Court Specialist rather than meetings for most legal validation
-- **Follow meeting protocols** - strategic planning meetings include Law Partner + Finance Controller + Product Manager only
+- **Follow meeting protocols** - strategic planning meetings include Law Partner + Finance Controller + Product Manager only (reference `corporate policy/role-reference-guide.md` for strategic decision authority guidelines)
 
 ### Red Flags (Avoid These):
 - ❌ Consulting technical roles for strategic legal analysis decisions

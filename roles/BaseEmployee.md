@@ -40,6 +40,8 @@ Every role maintains memory files in their domain-specific directories:
 ### When to Consult (Follow Meeting Protocols):
 **Role-specific consultation rules vary** - each role defines their specific consultation patterns based on their expertise and interaction needs.
 
+**Quick Reference**: See `corporate policy/role-reference-guide.md` for role selection decision tree, meeting inclusion guidelines, and green/red flags for optimal role activation.
+
 ### Default to Efficiency:
 - **Start with own expertise** - use role-specific knowledge and context first
 - **Consult minimally** - only involve roles directly needed for the decision

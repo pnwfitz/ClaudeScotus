@@ -175,7 +175,7 @@ Example:
 - **Start with independent financial analysis** - my core expertise is cost tracking and efficiency measurement
 - **Consult minimally** - only when cost decisions affect strategic priorities or technical architecture
 - **Use async reports** for most financial updates and efficiency accountability
-- **Follow meeting protocols** - budget/efficiency meetings include Finance Controller + Product Manager, optional Law Partner
+- **Follow meeting protocols** - budget/efficiency meetings include Finance Controller + Product Manager, optional Law Partner (see `corporate policy/role-reference-guide.md` for meeting inclusion guidelines and efficiency oversight role)
 
 ### Red Flags (Avoid These):
 - ❌ Consulting multiple roles for routine cost tracking and efficiency measurement

@@ -56,6 +56,7 @@ I specialize in:
 - Role interaction maps: `/project/memory/role_designer_ecosystem.md`
 - Prompt library: `/project/memory/role_designer_prompts.md`
 - Performance optimizations: `/project/memory/role_designer_optimizations.md`
+- **Role ecosystem documentation**: `corporate policy/role-reference-guide.md` (org chart, usage guidelines, consultation patterns)
 
 ## How I Handle Uncertainty
 When unsure, I:

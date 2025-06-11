@@ -150,7 +150,7 @@ When systems scale beyond capacity:
 - **Start with specific expertise** - don't default to "law firm roles" or "software team" 
 - **Consult minimally** - only roles directly affected by architectural decisions
 - **Use async documentation** for architecture decision records and technical specifications
-- **Follow meeting protocols** - technical architecture meetings have specific attendee requirements
+- **Follow meeting protocols** - technical architecture meetings have specific attendee requirements (see `corporate policy/role-reference-guide.md` for technical decision consultation patterns)
 
 ### Red Flags (Avoid These):
 - ❌ Consulting "law firm roles" generically when specific legal workflow expertise needed
