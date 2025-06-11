@@ -4,7 +4,7 @@
 **Roles Affected**: All roles using /winddown command  
 **Type**: Bug  
 **Priority**: P2  
-**Status**: Open  
+**Status**: Resolved  
 
 ## Context  
 The `/winddown` custom command has a timing bug where session documentation files are created AFTER the git commit step, causing session files to not be included in the GitHub push. This was discovered when the `2025-06-11_1540_winddown-optimization-session.md` file was created locally but missing from GitHub.
@@ -33,12 +33,17 @@ The `/winddown` custom command has a timing bug where session documentation file
 
 ## Acceptance Criteria  
 **Done means**:
-- [ ] `/winddown` command updated with corrected step order
-- [ ] Session documentation created before git commit step
-- [ ] All session files automatically included in GitHub push
-- [ ] No manual intervention required for complete session closure
-- [ ] Command tested to verify session files appear on GitHub immediately
-- [ ] Documentation updated to reflect correct workflow sequence
+- [x] `/winddown` command updated with corrected step order
+- [x] Session documentation created before git commit step
+- [x] All session files automatically included in GitHub push
+- [x] No manual intervention required for complete session closure
+- [x] Command tested to verify session files appear on GitHub immediately
+- [x] Documentation updated to reflect correct workflow sequence
+
+## Resolution
+**Resolved**: 2025-06-11 by Product Manager
+**Fix**: Command reordered with session file creation before git commit
+**Validated**: Working correctly in recent sessions
 
 ## Owner  
-Unassigned (PM to assign during triage)
+Product Manager (resolved)
