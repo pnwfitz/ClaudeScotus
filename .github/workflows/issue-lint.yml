@@ -1,0 +1,117 @@
+name: Issue File Linting
+
+on:
+  push:
+    paths:
+      - 'issues/**/*.md'
+  pull_request:
+    paths:
+      - 'issues/**/*.md'
+
+jobs:
+  lint-issues:
+    runs-on: ubuntu-latest
+    name: Validate Issue File Structure
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Lint issue files
+      run: |
+        #!/bin/bash
+        set -e
+        
+        echo "🔍 Linting issue files for required sections..."
+        
+        # Track validation results
+        error_count=0
+        files_checked=0
+        
+        # Required sections for all issue files
+        required_sections=(
+          "Context"
+          "Impact" 
+          "Proposed Resolution"
+          "Acceptance Criteria"
+        )
+        
+        # Check all issue files except template and README
+        for file in issues/*.md; do
+          # Skip template and README
+          if [[ "$file" == "issues/ISSUE_TEMPLATE.md" ]] || [[ "$file" == "issues/README.md" ]]; then
+            continue
+          fi
+          
+          # Skip if no issue files exist yet
+          if [[ "$file" == "issues/*.md" ]]; then
+            echo "ℹ️  No issue files found to validate"
+            exit 0
+          fi
+          
+          echo "📋 Checking: $file"
+          files_checked=$((files_checked + 1))
+          
+          # Validate filename format
+          filename=$(basename "$file")
+          if ! echo "$filename" | grep -qE '^[0-9]{4}-[0-9]{2}-[0-9]{2}_ISS-[0-9]{3}_[a-z0-9-]+\.md$'; then
+            echo "❌ Invalid filename format: $filename"
+            echo "   Expected: YYYY-MM-DD_ISS-###_<slug>.md"
+            error_count=$((error_count + 1))
+          fi
+          
+          # Check for required sections
+          for section in "${required_sections[@]}"; do
+            if ! grep -q "^## $section" "$file"; then
+              echo "❌ Missing required section '$section' in $file"
+              error_count=$((error_count + 1))
+            fi
+          done
+          
+          # Validate Issue ID format
+          if ! grep -q "^\*\*Issue ID\*\*: ISS-[0-9][0-9][0-9]" "$file"; then
+            echo "❌ Missing or invalid Issue ID format in $file"
+            echo "   Expected: **Issue ID**: ISS-###"
+            error_count=$((error_count + 1))
+          fi
+          
+          # Check for required metadata fields
+          required_fields=(
+            "Issue ID"
+            "Opened By"
+            "Roles Affected"
+            "Type"
+            "Priority"
+            "Status"
+          )
+          
+          for field in "${required_fields[@]}"; do
+            if ! grep -q "^\*\*$field\*\*:" "$file"; then
+              echo "❌ Missing required field '$field' in $file"
+              error_count=$((error_count + 1))
+            fi
+          done
+          
+          echo "✅ $file validated"
+        done
+        
+        # Summary
+        echo ""
+        echo "📊 Validation Summary:"
+        echo "   Files checked: $files_checked"
+        echo "   Errors found: $error_count"
+        
+        if [ $error_count -eq 0 ]; then
+          echo "🎉 All issue files passed validation!"
+        else
+          echo "💥 Validation failed with $error_count errors"
+          echo ""
+          echo "Please fix the errors above and ensure all issue files:"
+          echo "  - Follow the naming convention: YYYY-MM-DD_ISS-###_<slug>.md"
+          echo "  - Include all required sections: Context, Impact, Proposed Resolution, Acceptance Criteria"
+          echo "  - Have proper Issue ID format: **Issue ID**: ISS-###"
+          echo "  - Include all required metadata fields"
+          echo ""
+          echo "See issues/README.md for complete guidelines."
+          exit 1
+        fi

@@ -1,0 +1,175 @@
+name: Memory Integration Audit
+
+on:
+  schedule:
+    # Run nightly at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Allow manual trigger
+
+jobs:
+  audit-memory-integration:
+    runs-on: ubuntu-latest
+    name: Audit Closed Issues Memory Integration
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Audit memory integration
+      run: |
+        #!/bin/bash
+        set -e
+        
+        echo "🧠 Auditing memory integration for closed issues..."
+        
+        # Track validation results
+        error_count=0
+        closed_issues=0
+        memory_violations=()
+        
+        # Check all closed issue files
+        for file in issues/*.md; do
+          # Skip template and README
+          if [[ "$file" == "issues/ISSUE_TEMPLATE.md" ]] || [[ "$file" == "issues/README.md" ]]; then
+            continue
+          fi
+          
+          # Skip if no issue files exist yet
+          if [[ "$file" == "issues/*.md" ]]; then
+            echo "ℹ️  No issue files found to audit"
+            exit 0
+          fi
+          
+          # Check if issue is closed
+          if grep -q "^\*\*Status\*\*:.*Closed" "$file"; then
+            closed_issues=$((closed_issues + 1))
+            
+            # Extract issue ID
+            issue_id=$(grep "^\*\*Issue ID\*\*:" "$file" | sed 's/.*ISS-\([0-9][0-9][0-9]\).*/\1/')
+            echo "📋 Checking closed issue: ISS-$issue_id"
+            
+            # Get affected roles
+            roles_line=$(grep "^\*\*Roles Affected\*\*:" "$file" || echo "")
+            
+            if [ -n "$roles_line" ]; then
+              # Extract role names and check for memory updates
+              roles=$(echo "$roles_line" | sed 's/.*: //' | tr ',' '\n' | sed 's/^ *//' | sed 's/ *$//')
+              
+              has_memory_update=false
+              
+              # Check for commits mentioning this issue
+              if git log --oneline | grep -q "#ISS-$issue_id"; then
+                # Get commit dates for this issue
+                commit_dates=$(git log --pretty=format:"%ad" --date=short --grep="#ISS-$issue_id")
+                
+                # Check if any memory files were updated after issue commits
+                for role in $roles; do
+                  # Convert role name to memory directory format
+                  role_dir=$(echo "$role" | tr '[:upper:]' '[:lower:]' | sed 's/ /_/g' | sed 's/full-stackengineer/full_stack_engineer/' | sed 's/supremecourtspecialist/supreme_court_specialist/')
+                  
+                  # Check for recent memory updates in role directories
+                  if [ -d "memory/${role_dir}_context" ] || [ -d "memory/${role_dir}_decisions" ] || [ -d "memory/${role_dir}_patterns" ] || [ -d "memory/${role_dir}_lessons" ]; then
+                    
+                    # Look for memory files created/modified around issue closure
+                    for memory_dir in "memory/${role_dir}_context" "memory/${role_dir}_decisions" "memory/${role_dir}_patterns" "memory/${role_dir}_lessons"; do
+                      if [ -d "$memory_dir" ]; then
+                        # Check for recent files that might reference this issue
+                        if find "$memory_dir" -name "*.md" -type f -exec grep -l "ISS-$issue_id\|$(basename "$file" .md)" {} \; 2>/dev/null | grep -q .; then
+                          has_memory_update=true
+                          break 2
+                        fi
+                      fi
+                    done
+                  fi
+                done
+                
+                # Check shared memory as well
+                if find "memory/shared" -name "*.md" -type f -exec grep -l "ISS-$issue_id\|$(basename "$file" .md)" {} \; 2>/dev/null | grep -q .; then
+                  has_memory_update=true
+                fi
+              fi
+              
+              # Check if this is a memory-exempt issue type
+              issue_type=$(grep "^\*\*Type\*\*:" "$file" | sed 's/.*: //' | tr -d ' ')
+              
+              # Policy and Bug issues may not require memory updates in some cases
+              if [[ "$issue_type" == "Policy" ]] || [[ "$issue_type" == "Bug" ]]; then
+                echo "  ℹ️  $issue_type issue - memory update optional"
+                continue
+              fi
+              
+              if [ "$has_memory_update" = false ]; then
+                echo "  ❌ No memory update found for closed issue ISS-$issue_id"
+                echo "     Affected roles: $roles"
+                echo "     Expected memory update in relevant role directories"
+                memory_violations+=("ISS-$issue_id: $roles")
+                error_count=$((error_count + 1))
+              else
+                echo "  ✅ Memory integration verified for ISS-$issue_id"
+              fi
+            else
+              echo "  ⚠️  No roles specified for ISS-$issue_id - skipping memory check"
+            fi
+          fi
+        done
+        
+        # Check performance thresholds
+        echo ""
+        echo "📊 Performance Threshold Checks:"
+        
+        # Count open P0 issues older than 24 hours
+        p0_violations=0
+        for file in issues/*.md; do
+          if [[ "$file" == "issues/ISSUE_TEMPLATE.md" ]] || [[ "$file" == "issues/README.md" ]]; then
+            continue
+          fi
+          if [[ "$file" == "issues/*.md" ]]; then
+            break
+          fi
+          
+          if grep -q "^\*\*Status\*\*:.*Open" "$file" && grep -q "^\*\*Priority\*\*:.*P0" "$file"; then
+            # Extract date from filename
+            file_date=$(echo "$(basename "$file")" | cut -d'_' -f1)
+            if [ -n "$file_date" ]; then
+              # Check if older than 24 hours (simplified check)
+              current_date=$(date +%Y-%m-%d)
+              if [[ "$file_date" < "$current_date" ]]; then
+                p0_violations=$((p0_violations + 1))
+              fi
+            fi
+          fi
+        done
+        
+        echo "  Open P0 issues >24h: $p0_violations (threshold: 3)"
+        if [ $p0_violations -gt 3 ]; then
+          echo "  🚨 RED FLAG: Too many old P0 issues!"
+          error_count=$((error_count + 1))
+        fi
+        
+        # Summary
+        echo ""
+        echo "📊 Audit Summary:"
+        echo "   Closed issues checked: $closed_issues"
+        echo "   Memory violations: ${#memory_violations[@]}"
+        echo "   P0 threshold violations: $p0_violations"
+        echo "   Total errors: $error_count"
+        
+        if [ $error_count -eq 0 ]; then
+          echo "🎉 Memory integration audit passed!"
+        else
+          echo "💥 Memory integration audit failed!"
+          echo ""
+          echo "Memory violations found:"
+          for violation in "${memory_violations[@]}"; do
+            echo "  - $violation"
+          done
+          echo ""
+          echo "Required actions:"
+          echo "  1. Update relevant role memories for closed issues"
+          echo "  2. Document lessons learned in appropriate memory directories"
+          echo "  3. Ensure insights are captured for institutional learning"
+          echo ""
+          echo "Memory directories should contain files referencing the issue ID or key learnings."
+          exit 1
+        fi

@@ -1,7 +1,11 @@
 # ClaudeScotus Meeting Protocols
-**Version**: 1.0  
-**Effective Date**: 2025-06-10  
-**Review Date**: Quarterly
+**Version**: 1.1  
+**Effective Date**: 2025-06-11  
+**Review Date**: Quarterly  
+
+## Version History
+- **v1.1** (2025-06-11): Added Issue Tracking Integration section, updated Policy Evolution references
+- **v1.0** (2025-06-10): Initial meeting protocols and efficiency standards
 
 ## Meeting Philosophy
 Every meeting represents a significant cost investment (~$1,000/hour for full team). Meetings are reserved for decisions, problem-solving, and coordination that cannot be accomplished asynchronously.
@@ -159,20 +163,41 @@ Success Criteria:
 - Recurring meetings without clear purpose or value assessment
 - Attendee lists including roles without clear contribution to objectives
 
+## Issue Tracking Integration
+
+### Issue Creation Requirements:
+All non-trivial work requests and decisions must be tracked through the `/issues/` system:
+- **Meeting Outcomes**: Major decisions create issues for implementation tracking
+- **Action Items**: Tasks assigned during meetings must reference valid issue IDs
+- **Policy Changes**: Meeting-driven policy updates require formal issue documentation
+- **Process Improvements**: Efficiency findings and recommendations tracked as enhancement issues
+
+### Commit Integration:
+- All commits implementing meeting decisions must reference issue tags (#ISS-###)
+- Pre-commit hooks enforce issue tagging for accountability
+- Meeting minutes must include created issue IDs for follow-up tracking
+
+### Memory Integration:
+- Closed issues from meeting decisions trigger role memory updates
+- Lessons learned from meeting outcomes documented in appropriate memory directories
+- Nightly CI audits ensure meeting-driven changes include memory integration
+
+**Reference**: See `/issues/README.md` for complete issue tracking procedures and templates.
+
 ## Policy Evolution
 
 ### Quarterly Review Process:
 1. Finance Controller analyzes meeting efficiency metrics
 2. All roles provide feedback on meeting effectiveness
-3. Product Manager proposes policy improvements
+3. Product Manager proposes policy improvements via issue tracking
 4. Role Designer updates protocols based on consensus
 5. New version published with 30-day implementation period
 
 ### Continuous Improvement Triggers:
-- Meeting cost exceeds 2x value delivered (immediate review)
-- Decision quality drops below 80% (process audit)
-- Attendee satisfaction scores <7/10 (facilitation training)
-- Meeting hours increase >20% quarter-over-quarter (efficiency review)
+- Meeting cost exceeds 2x value delivered (immediate review via #ISS-### ticket)
+- Decision quality drops below 80% (process audit with issue tracking)
+- Attendee satisfaction scores <7/10 (facilitation training enhancement issues)
+- Meeting hours increase >20% quarter-over-quarter (efficiency review with formal issues)
 
 ---
 
