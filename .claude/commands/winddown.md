@@ -40,10 +40,48 @@ Next session priority: [Top 1-2 items]
 
 **Local Preservation**: All work safely committed locally before handoff documentation.
 
-### ⚡ **4. CONTEXT HANDOFF** (1-2 minutes)
-Create/update session continuity file:
+### ⚡ **4. SESSION DOCUMENTATION** (1-2 minutes)
+Create timestamped session file and update handoff:
 
-**File**: `claude sessions/CURRENT-STATUS.md`
+**Session File**: `claude sessions/YYYY-MM-DD_HHMM_session-type.md`
+```markdown
+# Claude Session - [Session Focus]
+**Date**: [YYYY-MM-DD]  
+**Start Time**: [HHMM]  
+**Session Type**: [Brief description of session type/focus]
+
+## Session Objectives
+- [List objectives - mark ✅ for completed, ⚠️ for partial, ❌ for failed]
+
+## Key Deliverables Created
+- [List files created/modified with ✅ status]
+
+## Tickets Created This Session
+- [List new ISS-### tickets with titles and priorities]
+
+## Tickets Cleared This Session  
+- [List completed ISS-### tickets with brief resolution summary]
+
+## Critical Issues Identified & Fixed
+1. **[Issue Name]**: [Description] - [Resolution]
+
+## Session Highlights
+[Key accomplishments, decisions, patterns discovered]
+
+## Major Accomplishments
+[Numbered list of significant achievements]
+
+## Issues Still In Progress
+- [Items that need follow-up]
+
+## Technical Status
+- [Git commits, file changes, integration status]
+
+## Next Session Priorities
+1. [Priority items for continuation]
+```
+
+**Handoff File**: Update `claude sessions/CURRENT-STATUS.md`
 ```markdown
 # ClaudeScotus Session Handoff
 
