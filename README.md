@@ -113,24 +113,45 @@ ClaudeScotus/
 - **User-centered design** - Optimize for Fortune 500 general counsel decision-making
 - **Systematic learning** - Document patterns, failures, and improvements
 
-## Repository Evolution
+## Three-Arc Roadmap
 
-### Infrastructure Phase (Complete)
-- ✅ Role ecosystem creation and optimization
-- ✅ BaseEmployee.md inheritance architecture  
-- ✅ Organizational governance and protocols
-- ✅ Session continuity and documentation systems
+| Phase | Status | Focus | Key Deliverables | Success Metrics |
+|-------|--------|-------|------------------|------------------|
+| **Arc 1: Infrastructure** | ✅ Complete | Role ecosystem & governance | 9 specialized roles, BaseEmployee inheritance, issue tracking, memory systems | 100% role compliance, systematic documentation |
+| **Arc 2: MVP Validation** | 🎯 In Progress | Case analysis workflow testing | Historical prediction validation, confidence calibration, client deliverable format | 80% accuracy on test cases, Fortune 500 utility validation |
+| **Arc 3: Production Scale** | 📋 Planned | Legal data pipeline & optimization | Automated case intake, Justice-specific modeling, prediction accuracy improvement | <5-day cycle time, systematic client feedback integration |
 
-### Current Phase (In Progress)
-- 🎯 Case analysis workflow testing
-- 🎯 Historical case prediction validation
-- 🎯 Confidence calibration and accuracy measurement
+## Session Wind-down & Fast-Resume Protocol
 
-### Future Phases
-- Legal data pipeline automation
-- Justice-specific modeling refinement
-- Client deliverable format optimization
-- Prediction accuracy improvement iteration
+### Wind-down Procedure
+When approaching token limits or ending a session, execute the `WIND_DOWN` macro:
+
+**Required Wind-down Summary Contents:**
+- **Objectives**: ✅ Completed / ❌ Incomplete / 🔄 Partial
+- **Issues Created/Closed**: Reference all ISS-### tickets
+- **Next-step Tickets**: Priority assignments for continuation
+- **Memory Paths**: Role memories updated with key decisions/lessons
+- **Context Handoff**: Critical information for fast resume
+
+**Storage Locations:**
+- Primary: `claude sessions/YYYY-MM-DD_HHMM_wind_down.md`
+- Role-specific: `memory/<role>/lessons/YYYY-MM-DD_session_lessons.md`
+- Issues: Update status and create follow-up tickets as needed
+
+### Fast-Resume Procedure
+To reopen the project efficiently:
+
+1. **Load Last Wind-down**: Read most recent `claude sessions/*_wind_down.md`
+2. **Check Open Issues**: Review `/issues/` for assigned P0/P1 tickets
+3. **Role Context**: Check relevant `memory/<role>/` for recent decisions
+4. **Set Session Focus**: Use CLAUDE.md startup routine for work prioritization
+
+**Resume Checklist:**
+- [ ] Last wind-down summary reviewed
+- [ ] Open P0/P1 issues identified
+- [ ] Role memories scanned for context
+- [ ] Session focus selected (issues/specific/coordination)
+- [ ] Work prioritization established
 
 ---
 
@@ -140,6 +161,7 @@ ClaudeScotus/
 **Want to start case analysis?** → Activate Supreme Court Specialist  
 **Planning project work?** → Product Manager (auto-loads)  
 **Technical questions?** → System Architect or Staff Engineer  
-**Strategic decisions?** → Law Partner + Finance Controller
+**Strategic decisions?** → Law Partner + Finance Controller  
+**Session management?** → Use `WIND_DOWN` and `RESUME` macros in CLAUDE.md
 
 *Built with Claude Code, GitHub, and systematic prompt engineering*

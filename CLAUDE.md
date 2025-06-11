@@ -39,11 +39,20 @@ When Claude Code starts in this repository:
 
 Which approach fits your goals for this session?"
 
+## Global Macros
+**WIND_DOWN**: At session end, write a short summary ⬇, commit, memory-update, close tickets  
+**RESUME**: On session start, load last wind-down summary and open P0/P1 tickets to set context
+
+## Debug & Data Paths
+**DEBUG**: Set to `true` for verbose role consultation and memory triggers  
+**DATA_RAW**: `data/raw/` - Unprocessed case materials, briefs, transcripts  
+**DATA_PROCESSED**: `data/processed/` - Analyzed case data, predictions, confidence scores
+
 ## Key Project Information
 - **Goal**: 80% prediction accuracy for Supreme Court decisions
 - **Client**: Fortune 500 general counsel strategic guidance
 - **Architecture**: Role-based system with 9 specialized experts
-- **Current Status**: Infrastructure complete, ready for case analysis testing
+- **Current Status**: Arc 2 - MVP validation and case analysis workflow testing
 
 ## Common Next Steps
 - Review `claude sessions/next-steps-2025-06-11.md` for session priorities

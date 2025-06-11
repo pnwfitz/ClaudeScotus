@@ -69,4 +69,68 @@ if ! ls $issue_file_pattern >/dev/null 2>&1; then
 fi
 
 echo "✅ Issue tag validated: #ISS-${issue_number}"
+
+# Additional formatting and style checks
+echo "🔍 Running formatting and style checks..."
+
+# Check for trailing newlines in markdown files
+echo "📝 Checking markdown files for trailing newlines..."
+for file in $(git diff --cached --name-only --diff-filter=ACM | grep '\.md$'); do
+    if [ -f "$file" ]; then
+        if ! tail -c1 "$file" | read -r _ || [ "$(tail -c1 "$file")" ]; then
+            echo "❌ Missing trailing newline in: $file"
+            echo "Please add a trailing newline to the file"
+            exit 1
+        fi
+    fi
+done
+
+# Validate wind-down template for wind-down files
+echo "🌪️ Checking wind-down files for required template sections..."
+for file in $(git diff --cached --name-only --diff-filter=ACM | grep '_wind_down\.md$'); do
+    if [ -f "$file" ]; then
+        required_sections=("Objectives Status" "Issues Created/Updated" "Next-Step Tickets" "Memory Paths Updated" "Context Handoff")
+        
+        for section in "${required_sections[@]}"; do
+            if ! grep -q "## $section" "$file"; then
+                echo "❌ Missing required section '$section' in wind-down file: $file"
+                echo "Please ensure wind-down files follow the template in STYLE_GUIDE.md"
+                exit 1
+            fi
+        done
+    fi
+done
+
+# Run Python formatting checks if Python files are staged
+python_files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$' || true)
+if [ -n "$python_files" ]; then
+    echo "🐍 Checking Python formatting with black and ruff..."
+    if command -v black >/dev/null 2>&1; then
+        if ! black --check --line-length 88 --target-version py311 $python_files; then
+            echo "❌ Python files need formatting. Run: black --line-length 88 --target-version py311 ."
+            exit 1
+        fi
+    fi
+    
+    if command -v ruff >/dev/null 2>&1; then
+        if ! ruff check $python_files; then
+            echo "❌ Python files have linting errors. Run: ruff check --fix ."
+            exit 1
+        fi
+    fi
+fi
+
+# Run Bash formatting checks if shell scripts are staged
+bash_files=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(sh|bash)$|^scripts/' || true)
+if [ -n "$bash_files" ]; then
+    echo "🐚 Checking Bash formatting with shfmt..."
+    if command -v shfmt >/dev/null 2>&1; then
+        if ! shfmt -i 2 -d $bash_files; then
+            echo "❌ Bash files need formatting. Run: shfmt -i 2 -w scripts/"
+            exit 1
+        fi
+    fi
+fi
+
+echo "✅ All formatting and style checks passed!"
 exit 0
