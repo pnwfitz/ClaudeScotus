@@ -108,6 +108,11 @@ YYYY-MM-DD_role_decision.md        # Memory files
 - **Primary**: [commit_sha] - [brief description]
 - **Secondary**: [commit_sha] - [brief description]
 
+## GitHub Push Status
+- [ ] **Pushed to remote**: `git push origin main` - [success/blocked/error details]
+- [ ] **CI status**: GitHub Actions status after push
+- [ ] **Issues synced**: GitHub issue tracker updated if applicable
+
 ---
 *Wind-down completed: [timestamp]*
 ```

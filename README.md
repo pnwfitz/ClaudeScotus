@@ -132,6 +132,7 @@ When approaching token limits or ending a session, execute the `WIND_DOWN` macro
 - **Next-step Tickets**: Priority assignments for continuation
 - **Memory Paths**: Role memories updated with key decisions/lessons
 - **Context Handoff**: Critical information for fast resume
+- **GitHub Push**: Push all commits to remote repository
 
 **Storage Locations:**
 - Primary: `claude sessions/YYYY-MM-DD_HHMM_wind_down.md`
