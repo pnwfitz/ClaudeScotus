@@ -22,7 +22,7 @@ Systematic issue and task management:
 - 🔺 Set priority levels (P0/P1/P2/P3) for next session
 - Reference issue numbers in subsequent commits
 
-### ⚡ **3. SESSION COMMIT + PUSH** (2 minutes)
+### ⚡ **3. SESSION COMMIT** (1 minute)
 Single comprehensive commit with context:
 
 ```bash
@@ -36,14 +36,9 @@ Completed:
 Next session priority: [Top 1-2 items]
 
 🤖 Generated with Claude Code"
-
-git push
 ```
 
-**GitHub Integration**: 
-- Verify `gh auth status` if push fails
-- Session work preserved locally even if push fails
-- Include context for next session handoff
+**Local Preservation**: All work safely committed locally before handoff documentation.
 
 ### ⚡ **4. CONTEXT HANDOFF** (1-2 minutes)
 Create/update session continuity file:
@@ -70,6 +65,18 @@ Create/update session continuity file:
 ## Quick Resume
 "[One sentence describing where to pick up]"
 ```
+
+### ⚡ **5. FINAL PUSH** (30 seconds)
+Push all session work to GitHub:
+
+```bash
+git push
+```
+
+**GitHub Integration**: 
+- Verify `gh auth status` if push fails
+- Session work preserved locally even if push fails
+- All context and handoff documentation included in push
 
 ## Quality Verification
 
