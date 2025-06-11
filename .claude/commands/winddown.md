@@ -22,25 +22,7 @@ Systematic issue and task management:
 - 🔺 Set priority levels (P0/P1/P2/P3) for next session
 - Reference issue numbers in subsequent commits
 
-### ⚡ **3. SESSION COMMIT** (1 minute)
-Single comprehensive commit with context:
-
-```bash
-git add .
-git commit -m "Session wind-down: [ROLE] [PRIMARY_ACCOMPLISHMENT] [NEXT_PRIORITY]
-
-Completed:
-- [Key achievement 1]
-- [Key achievement 2]
-
-Next session priority: [Top 1-2 items]
-
-🤖 Generated with Claude Code"
-```
-
-**Local Preservation**: All work safely committed locally before handoff documentation.
-
-### ⚡ **4. SESSION DOCUMENTATION** (1-2 minutes)
+### ⚡ **3. SESSION DOCUMENTATION** (1-2 minutes)
 Create timestamped session file and update handoff:
 
 **Session File**: `claude sessions/YYYY-MM-DD_HHMM_session-type.md`
@@ -103,6 +85,24 @@ Create timestamped session file and update handoff:
 ## Quick Resume
 "[One sentence describing where to pick up]"
 ```
+
+### ⚡ **4. SESSION COMMIT** (1 minute)
+Single comprehensive commit with ALL session work including documentation:
+
+```bash
+git add .
+git commit -m "Session wind-down: [ROLE] [PRIMARY_ACCOMPLISHMENT] [NEXT_PRIORITY]
+
+Completed:
+- [Key achievement 1]
+- [Key achievement 2]
+
+Next session priority: [Top 1-2 items]
+
+🤖 Generated with Claude Code"
+```
+
+**Complete Preservation**: All work AND session documentation committed together locally.
 
 ### ⚡ **5. FINAL PUSH** (30 seconds)
 Push all session work to GitHub:
