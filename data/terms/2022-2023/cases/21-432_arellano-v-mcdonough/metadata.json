@@ -1,0 +1,54 @@
+{
+  "docket_number": "21-432",
+  "case_name": "Arellano v. McDonough",
+  "short_name": "Arellano v. McDonough",
+  "decision_date": "2023-01-23",
+  "term": "2022-2023",
+  "vote_breakdown": {
+    "unanimous": ["Roberts", "Thomas", "Alito", "Sotomayor", "Kagan", "Gorsuch", "Kavanaugh", "Barrett", "Jackson"],
+    "majority": [],
+    "dissent": [],
+    "vote_count": "9-0"
+  },
+  "opinion_authors": {
+    "majority": "Barrett",
+    "dissents": [],
+    "concurrences": []
+  },
+  "legal_areas": [
+    "Veterans Affairs",
+    "Administrative Law", 
+    "Statutory Interpretation",
+    "Equitable Tolling"
+  ],
+  "case_type": "Veterans Benefits Appeal",
+  "lower_court": "Federal Circuit Court of Appeals",
+  "lower_court_outcome": "Denied equitable tolling",
+  "supreme_court_outcome": "Affirmed",
+  "broader_implications": "Strict construction of veterans benefits deadlines, limits judicial discretion in statutory interpretation",
+  "data_acquisition_status": {
+    "supreme_court_docket": "Available at supremecourt.gov/docket/docketfiles/html/public/21-432.html",
+    "justia_page": "Available at supreme.justia.com/cases/federal/us/598/21-432/",
+    "oral_argument_audio": "Available at supremecourt.gov/oral_arguments/audio/2022/21-432",
+    "opinion_pdf": "Available at supremecourt.gov/opinions/22pdf/21-432_f2bh.pdf",
+    "briefs_available": true,
+    "amicus_briefs": ["Military-Veterans Advocacy Inc.", "Disabled American Veterans", "Constitutional Accountability Center", "Federal Circuit Bar Association", "National Law School Veterans Clinic Consortium"]
+  },
+  "prediction_metrics": {
+    "difficulty_level": "Low",
+    "prediction_value": "High",
+    "amateur_accessibility": "High",
+    "test_case_suitability": "Excellent"
+  },
+  "claudescotus_analysis": {
+    "priority_ranking": 1,
+    "baseline_test_case": true,
+    "unanimous_decision": true,
+    "clear_legal_standard": true,
+    "complete_materials_available": true,
+    "justice_predictability": {
+      "unanimous_vote": "100% predictable for all justices",
+      "opinion_assignment": "Barrett authorship provides writing style sample"
+    }
+  }
+}
