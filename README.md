@@ -1,7 +1,17 @@
 # ClaudeScotus
-# SCOTUS Prediction System
+**Supreme Court Prediction System**
 
 An experimental system to predict Supreme Court decisions using LLM-based analysis and role-based prompt engineering.
+
+## 📋 Table of Contents
+
+| Quick Navigation | Documentation | Workflows |
+|-----------------|---------------|-----------|
+| [🚀 Getting Started](#-getting-started) | [📊 Current Status](#-project-status) | [⚖️ Case Analysis](#for-case-analysis) |
+| [🏗️ Architecture](#-role-based-architecture) | [📁 File Structure](#current-system-architecture) | [🔄 Session Management](#session-wind-down--fast-resume-protocol) |
+| [🎯 Goals & Metrics](#-goals--success-metrics) | [🔧 Configuration](#claude-code-configuration) | [📖 Role Reference](#quick-reference) |
+
+---
 
 ## Claude Code Configuration
 
@@ -21,32 +31,31 @@ This project predicts SCOTUS rulings through:
 3. **Strategic Synthesis**: Law Partner transforms analysis into Fortune 500 executive briefings
 4. **System Architecture**: Full software engineering practices using role-based development
 
-## Project Status
+## 📊 Project Status
 
-✅ **Architecture Complete** - Role-based system with BaseEmployee.md inheritance  
-✅ **Role Ecosystem** - 9 specialized roles with organizational reference guide  
-🎯 **Next Phase** - Case analysis workflow testing and prediction validation
+| Component | Status | Progress | Next Steps |
+|-----------|--------|----------|------------|
+| **🏗️ Architecture** | ✅ Complete | Role-based system with BaseEmployee.md inheritance | [Begin Arc 2 validation](#three-arc-roadmap) |
+| **👥 Role Ecosystem** | ✅ Complete | 9 specialized roles with org reference guide | [Human name assignments](issues/2025-06-11_ISS-014_human-name-assignment-rollout.md) |
+| **🔄 Current Phase** | 🎯 Active | Case analysis workflow testing | [SCOTUS prediction validation](#for-case-analysis) |
 
-## Role-Based Architecture
+**🎯 Focus:** Arc 2 - MVP Validation → 80% prediction accuracy target
 
-### Leadership & Strategy
-- **Law Partner**: Strategic decision authority, client deliverables
-- **Finance Controller**: Budget management, efficiency oversight
+## 🏗️ Role-Based Architecture
 
-### Project Coordination  
-- **Product Manager**: Project orchestration, stakeholder alignment *(Default Role)*
-- **Role Designer**: Role creation, system evolution
+| Role Category | Role | Primary Function | Quick Activate |
+|---------------|------|------------------|----------------|
+| **👥 Leadership** | [Law Partner](roles/LawPartner.md) | Strategic authority, client deliverables | Supreme Court decisions |
+|  | [Finance Controller](roles/FinanceController.md) | Budget management, efficiency oversight | Cost optimization |
+| **📋 Coordination** | [Product Manager](roles/ProductManager.md) | Project orchestration *(Default)* | Project planning |
+|  | [Role Designer](roles/RoleDesign.md) | System evolution, Maya Chen | Role improvements |
+| **⚖️ Legal** | [Supreme Court Specialist](roles/SupremeCourtSpecialist.md) | Primary legal analysis | Case analysis |
+|  | [Data Specialist](roles/DataSpecialist.md) | Legal data processing | CourtListener API |
+| **💻 Engineering** | [System Architect](roles/SystemArchitect.md) | Technical foundation | Architecture decisions |
+|  | [Staff Engineer](roles/StaffEngineer.md) | Code quality, leadership | Code reviews |
+|  | [Full-Stack Engineer](roles/FullStackEngineer.md) | Implementation | Feature development |
 
-### Legal Expertise
-- **Supreme Court Specialist**: Primary legal analysis, case research
-- **Data Specialist**: Legal data processing, evidence compilation
-
-### Software Engineering
-- **System Architect**: Technical foundation, system design
-- **Staff Engineer**: Technical leadership, code quality
-- **Full-Stack Engineer**: Implementation, feature development
-
-*See `corporate policy/role-reference-guide.md` for complete organizational chart and usage guidelines.*
+**📖 Complete Guide:** [`corporate policy/role-reference-guide.md`](corporate%20policy/2025-06-11_role-reference-guide-organizational-chart.md)
 
 ## Current System Architecture
 
@@ -92,19 +101,23 @@ ClaudeScotus/
 - **Transparent uncertainty**: Clear confidence intervals and limitations
 - **Iterative improvement**: Learning from each case analysis
 
-## Getting Started
+## 🚀 Getting Started
 
 ### For New Users
-1. **Start with Product Manager role** (auto-loads by default)
-2. **Review role reference guide**: `corporate policy/role-reference-guide.md`
-3. **Check recent sessions**: `claude sessions/` for current context
-4. **Follow meeting protocols**: Efficient consultation and decision-making
+| Step | Action | Quick Link |
+|------|--------|------------|
+| **1** | Start with Product Manager role *(auto-loads)* | [CLAUDE.md startup routine](CLAUDE.md#crisp-session-startup-routine) |
+| **2** | Review role reference guide | [`role-reference-guide.md`](corporate%20policy/2025-06-11_role-reference-guide-organizational-chart.md) |
+| **3** | Check recent sessions for context | [`claude sessions/`](claude%20sessions/) |
+| **4** | Follow meeting protocols | [Efficiency standards](corporate%20policy/2025-06-10_meeting-protocols-and-efficiency-standards.md) |
 
 ### For Case Analysis
-1. **Activate Supreme Court Specialist** for legal research and analysis
-2. **Use Law Partner** for strategic synthesis and client deliverables
-3. **Consult System Architect** for technical workflow optimization
-4. **Reference role guide** for optimal role selection patterns
+| Workflow | Role | Purpose | Quick Start |
+|----------|------|---------|-------------|
+| **🔍 Legal Research** | [Supreme Court Specialist](roles/SupremeCourtSpecialist.md) | Case analysis, precedent mapping | CourtListener case intake |
+| **📊 Strategic Synthesis** | [Law Partner](roles/LawPartner.md) | Client deliverables, Fortune 500 briefings | Executive recommendations |
+| **⚙️ Technical Optimization** | [System Architect](roles/SystemArchitect.md) | Workflow automation | Pipeline improvements |
+| **📋 Coordination** | [Product Manager](roles/ProductManager.md) | Multi-role orchestration | Session planning |
 
 ## Development Philosophy
 

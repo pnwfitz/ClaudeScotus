@@ -157,27 +157,6 @@ Memory systems should:
 
 ---
 
-## Directory Structure Template
-
-```
-/{project-name}/memory/
-├── {role-name}_decisions/     # Strategic choices and rationale
-├── {role-name}_patterns/      # Successful methodologies  
-├── {role-name}_lessons/       # Failures and improvements
-├── {role-name}_interactions/  # Cross-role collaboration
-├── {role-name}_metrics/       # Performance and outcomes
-├── {role-name}_context/       # Environmental factors
-└── shared/                    # Cross-role accessible memory
-    ├── decisions/             # Strategic decisions visible to multiple roles
-    ├── patterns/              # Methodologies useful across roles
-    └── lessons/               # Corporate learning for all roles
-```
 
 ---
 
-**BaseMemory Template Version**: 1.0  
-**Created**: 2025-06-11 Corporate Memory Architecture Implementation  
-**Purpose**: Standardized institutional learning and knowledge transfer across all corporate projects  
-**Maintenance**: Regular updates based on memory system usage and corporate learning patterns
-
-*This template creates systematic institutional memory that compounds corporate knowledge and capability over time.*

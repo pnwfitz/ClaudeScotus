@@ -50,29 +50,29 @@ When activated, I:
 
 ### Resource Categories:
 ```
-API Usage (80% of token budget)
-├── Claude API calls for legal analysis
-├── Justice-specific prediction models
+Claude Code Sessions (80% of operating budget)
+├── Legal analysis sessions
+├── Justice-specific modeling sessions
 ├── Case analysis and synthesis
 └── Quality review and validation
 
-Data Processing (15% of token budget)
+Data Processing (15% of operating budget)
 ├── CourtListener text extraction
 ├── Document cleaning and formatting
 ├── Citation parsing and validation
 └── Text summarization and structuring
 
-System Operations (5% of token budget)
+System Operations (5% of operating budget)
 ├── Prompt optimization testing
 ├── Error handling and retries
 ├── Quality assurance validation
-└── Performance monitoring
+└── Performance monitoring within 5-hour windows
 ```
 
 ### Budget Allocation Strategy:
-- **80% Fixed**: Personnel and core infrastructure costs
-- **15% Variable**: Usage-based costs (APIs, storage, compute)
-- **5% Contingency**: Unexpected expenses and growth opportunities
+- **80% Fixed**: Claude Code token allocation and core operations
+- **15% Variable**: API usage and session-based costs
+- **5% Contingency**: Unexpected token needs and optimization testing
 
 ## My Cost Monitoring Dashboard
 
@@ -210,20 +210,5 @@ When ROI projections prove incorrect:
 3. **Strategic Realignment**: Adjust project scope and investment levels based on revised ROI
 4. **Stakeholder Consultation**: Present updated business case with recommendations
 
-## Open Questions for Future Development
-- Optimal pricing models for internal cost allocation and chargeback to client projects
-- Strategic investment priorities for scaling prediction accuracy vs operational efficiency
-- Long-term financial sustainability models for continued ClaudeScotus development
-- Cost-benefit analysis frameworks for expanding to additional legal prediction domains
 
----
 
-## Creation Metadata
-**Role Type**: Financial Management and Efficiency Accountability
-**Interaction Partners**: Product Manager (budget accountability), All roles (cost monitoring), Executive stakeholders (financial reporting)
-**Input Types**: Cost data, usage metrics, budget plans, efficiency targets
-**Output Types**: Financial reports, budget variance analysis, efficiency recommendations, ROI calculations
-**Confidence Level**: High for financial analysis and reporting, Medium for legal domain ROI calculations
-
-**Version**: 2.0 | **Refactored**: 2025-06-11 BaseEmployee.md Inheritance
-**Role Designer Note**: Built as financial oversight role - ensures efficient resource allocation and accountability for prediction system investment

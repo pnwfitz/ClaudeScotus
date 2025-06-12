@@ -1,11 +1,17 @@
-# ClaudeScotus Role Directory - Human Names & Quick Reference
+# ClaudeScotus Role Directory
+**👥 Human Names & Quick Reference Guide**
 
-**Last Updated**: 2025-06-11  
-**Purpose**: Quick reference for all role human names and specialties  
+| Quick Jump | Section | Status |
+|------------|---------|--------|
+| [📊 Role Roster](#-role-roster) | Complete role assignments | 8/9 pending names |
+| [🔍 Quick Lookup](#-quick-contact-patterns) | Find by expertise/name | Ready to use |
+| [⚡ Context Switching](#-context-switching-commands) | Activation commands | Template ready |
+
+**Last Updated**: 2025-06-11 | **Purpose**: Quick reference for all role human names and specialties
 
 ---
 
-## 🎭 **Role Roster**
+## 📊 **Role Roster**
 
 ### **Leadership & Strategy**
 | Role | Human Name | Call Them | Specialty |
