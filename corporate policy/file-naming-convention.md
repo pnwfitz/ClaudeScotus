@@ -1,8 +1,37 @@
 # ClaudeScotus File Naming Convention
 
+![Version](https://img.shields.io/badge/Version-1.0-blue) ![Scope](https://img.shields.io/badge/Scope-SCOTUS%20System-green) ![Authority](https://img.shields.io/badge/Authority-Technical%20Team-orange)
+
 **Version**: 1.0  
 **Scope**: SCOTUS prediction system files and session documentation  
 **Authority**: System Architect + Data Specialist + Staff Engineer
+
+## 📋 Table of Contents
+
+<details>
+<summary>Naming Standards</summary>
+
+- [Standard File Naming Pattern](#standard-file-naming-pattern)
+- [Category-Specific Conventions](#category-specific-conventions)
+- [Anti-Patterns to Avoid](#anti-patterns-to-avoid)
+
+</details>
+
+<details>
+<summary>Implementation & Tools</summary>
+
+- [Tools and Automation](#tools-and-automation)
+- [Implementation Guidelines](#implementation-guidelines)
+- [Quality Standards](#quality-standards)
+
+</details>
+
+<details>
+<summary>Maintenance & Evolution</summary>
+
+- [Evolution and Maintenance](#evolution-and-maintenance)
+
+</details>
 
 ---
 
@@ -10,26 +39,40 @@
 
 ### Primary Convention: `YYYY-MM-DD_descriptive-name-with-hyphens.extension`
 
+| Component | Format | Example | Purpose |
+|-----------|--------|---------|----------|
+| **Date** | YYYY-MM-DD | 2025-06-11 | Chronological sorting |
+| **Separator** | _ | _ | Date/description separation |
+| **Description** | kebab-case | baseemployee-architecture-implementation | Human-readable content |
+| **Extension** | .md/.json/.yaml | .md | File type identification |
+
 **Examples**:
-- `2025-06-11_baseemployee-architecture-implementation.md`
-- `2025-06-11_supreme-court-prediction-methodology.md`
-- `2025-06-11_scotus-case-analysis-workflow.md`
+```bash
+2025-06-11_baseemployee-architecture-implementation.md
+2025-06-11_supreme-court-prediction-methodology.md
+2025-06-11_scotus-case-analysis-workflow.md
+```
 
-### Date Format: ISO 8601 (YYYY-MM-DD)
-- **Rationale**: Ensures chronological sorting in all file systems
-- **Consistency**: Works across operating systems and tools
-- **Searchability**: Easy to filter by date ranges
+### Format Specifications
 
-### Separator: Underscore after date, hyphens within description
-- **Date Separator**: `_` (underscore) separates date from description
-- **Word Separator**: `-` (hyphen) separates words within description
-- **Rationale**: Clear visual distinction between date and content description
+| Specification | Standard | Rationale | Benefits |
+|---------------|----------|-----------|----------|
+| **Date Format** | ISO 8601 (YYYY-MM-DD) | Universal standard | Chronological sorting, cross-platform compatibility |
+| **Date Separator** | `_` (underscore) | Visual distinction | Clear separation between date and description |
+| **Word Separator** | `-` (hyphen) | kebab-case standard | URL-safe, command-line friendly |
+| **Description Length** | 3-8 words maximum | Readability | Balance between detail and brevity |
+| **Case Style** | lowercase | Consistency | Prevents case-sensitivity issues |
+| **Specificity** | Descriptive, not generic | Searchability | Easy file identification and discovery |
 
-### Description Requirements:
-- **Length**: 3-8 words maximum for readability
-- **Content**: Describes primary purpose or topic, not generic terms
-- **Style**: Lowercase with hyphens (kebab-case)
-- **Specificity**: Specific enough to distinguish from similar files
+### Requirements Checklist
+
+- [ ] **Date in YYYY-MM-DD format**
+- [ ] **Underscore after date**
+- [ ] **Hyphens between words in description**
+- [ ] **3-8 words in description**
+- [ ] **Lowercase throughout**
+- [ ] **No spaces or special characters**
+- [ ] **Descriptive, not generic content**
 
 ---
 
@@ -71,26 +114,35 @@
 
 ## Anti-Patterns to Avoid
 
-### ❌ Generic or Vague Names
-- `document.md` (what document?)
-- `update.md` (update to what?)
-- `notes.md` (notes about what?)
-- `final.md` (final version of what?)
+| Anti-Pattern | Bad Example | Why It's Bad | Correct Approach |
+|--------------|-------------|--------------|------------------|
+| **Generic Names** | `document.md` | No context about purpose | `2025-06-11_scotus-prediction-methodology.md` |
+| **Generic Names** | `update.md` | No indication of what's updated | `2025-06-11_baseemployee-architecture-update.md` |
+| **Generic Names** | `notes.md` | Too vague for team use | `2025-06-11_session-planning-notes.md` |
+| **Generic Names** | `final.md` | No content description | `2025-06-11_case-analysis-final-report.md` |
+| **Version Numbers** | `requirements-v2.md` | Git handles versioning | `2025-06-11_scotus-requirements-update.md` |
+| **Version Numbers** | `design-final-final.md` | Version confusion | `2025-06-11_system-design-specification.md` |
+| **Version Numbers** | `document-revised.md` | Git shows history | `2025-06-11_role-guide-revision.md` |
+| **Wrong Date Format** | `06-11-2025_document.md` | Non-ISO date format | `2025-06-11_document-description.md` |
+| **Wrong Date Format** | `2025_06_11_document.md` | Wrong separators | `2025-06-11_document-description.md` |
+| **Wrong Date Format** | `11-06-2025_document.md` | Ambiguous month/day | `2025-06-11_document-description.md` |
+| **Special Characters** | `document (updated).md` | Spaces and parentheses | `2025-06-11_document-updated.md` |
+| **Special Characters** | `document&update.md` | Special characters | `2025-06-11_document-update.md` |
+| **Special Characters** | `document file.md` | Spaces break commands | `2025-06-11_document-file.md` |
 
-### ❌ Version Numbers in Filenames
-- `requirements-v2.md` (use git for versioning)
-- `design-final-final.md` (git handles versions)
-- `document-revised.md` (git shows revision history)
+### Common Mistakes Prevention
 
-### ❌ Inconsistent Date Formats
-- `06-11-2025_document.md` (wrong date format)
-- `2025_06_11_document.md` (wrong separators)
-- `11-06-2025_document.md` (ambiguous month/day)
+<details>
+<summary>Click to expand mistake prevention guide</summary>
 
-### ❌ Special Characters or Spaces
-- `document (updated).md` (spaces and parentheses)
-- `document&update.md` (special characters)
-- `document file.md` (spaces cause command line issues)
+- [ ] **Avoid generic terms**: document, file, notes, update, final
+- [ ] **No version numbers**: Use git for version control
+- [ ] **Consistent date format**: Always YYYY-MM-DD
+- [ ] **No special characters**: Stick to alphanumeric, hyphens, underscores
+- [ ] **No spaces**: Use hyphens instead
+- [ ] **Descriptive content**: Name should explain purpose
+
+</details>
 
 ---
 
@@ -138,13 +190,27 @@
 ## Quality Standards
 
 ### File Name Review Checklist
-- [ ] Date in YYYY-MM-DD format
-- [ ] Underscore separating date from description
-- [ ] Hyphens separating words in description
-- [ ] 3-8 words describing SCOTUS prediction content
-- [ ] Lowercase throughout description
-- [ ] No spaces or special characters
-- [ ] Clear distinction from existing prediction files
+
+| Criteria | Requirement | Status | Notes |
+|----------|-------------|--------|---------|
+| **Date Format** | YYYY-MM-DD format | ☐ | Must use ISO 8601 standard |
+| **Date Separator** | Underscore after date | ☐ | `_` separates date from description |
+| **Word Separators** | Hyphens in description | ☐ | `-` separates words (kebab-case) |
+| **Description Length** | 3-8 words describing content | ☐ | Balance detail and brevity |
+| **Case Style** | Lowercase throughout | ☐ | Prevents case-sensitivity issues |
+| **Character Safety** | No spaces or special characters | ☐ | Command-line and URL safe |
+| **Uniqueness** | Distinct from existing files | ☐ | Clear identification |
+| **Content Description** | SCOTUS prediction relevance | ☐ | Purpose should be obvious |
+
+### Quick Validation
+
+- [ ] **Date in YYYY-MM-DD format**
+- [ ] **Underscore separating date from description**
+- [ ] **Hyphens separating words in description**
+- [ ] **3-8 words describing SCOTUS prediction content**
+- [ ] **Lowercase throughout description**
+- [ ] **No spaces or special characters**
+- [ ] **Clear distinction from existing prediction files**
 
 ### Exceptions and Special Cases
 - **README.md**: Standard convention, no date prefix needed

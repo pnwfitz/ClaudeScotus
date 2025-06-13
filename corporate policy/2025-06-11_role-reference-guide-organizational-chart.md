@@ -1,28 +1,69 @@
 # ClaudeScotus Role Reference Guide
 
+![Version](https://img.shields.io/badge/Version-2.0-blue) ![Purpose](https://img.shields.io/badge/Purpose-Role%20Selection-green) ![Focus](https://img.shields.io/badge/Focus-SCOTUS%20Prediction-purple)
+
 **Version**: 2.0  
 **Purpose**: Quick reference for role selection and session coordination  
-**Focus**: SCOTUS prediction development workflow  
+**Focus**: SCOTUS prediction development workflow
+
+## 📋 Table of Contents
+
+<details>
+<summary>Organization & Structure</summary>
+
+- [Organizational Structure](#organizational-structure)
+- [Role Quick Reference](#role-quick-reference)
+- [Role Selection for SCOTUS Prediction Work](#role-selection-for-scotus-prediction-work)
+
+</details>
+
+<details>
+<summary>Session Management</summary>
+
+- [Session Handoff Guidelines](#session-handoff-guidelines)
+- [Session Anti-Patterns to Avoid](#session-anti-patterns-to-avoid)
+- [Session Efficiency Optimization](#session-efficiency-optimization)
+
+</details>
+
+<details>
+<summary>Performance & Optimization</summary>
+
+- [Session Performance Indicators](#session-performance-indicators)
+- [Quick Reference Cards](#quick-reference-cards)
+
+</details>  
 
 ---
 
 ## Organizational Structure
 
+```mermaid
+flowchart TD
+    A[ClaudeScotus SCOTUS Prediction System] --> B[Legal Analysis Core]
+    A --> C[Data & Engineering]
+    A --> D[Coordination]
+    
+    B --> B1[Supreme Court Specialist<br/>Case Analysis & Predictions]
+    B --> B2[Law Partner<br/>Strategic Validation]
+    
+    C --> C1[Data Specialist<br/>Case Data Pipeline]
+    C --> C2[System Architect<br/>Technical Architecture]
+    C --> C3[Staff Engineer<br/>Code Quality]
+    C --> C4[Full Stack Engineer<br/>Implementation]
+    
+    D --> D1[Product Manager<br/>Session Orchestration]
+    D --> D2[Finance Controller<br/>Efficiency Optimization]
+    D --> D3[Role Designer<br/>Workflow Optimization]
 ```
-ClaudeScotus SCOTUS Prediction System
-├── Legal Analysis Core
-│   ├── Supreme Court Specialist (Case Analysis & Predictions)
-│   └── Law Partner (Strategic Validation)
-├── Data & Engineering
-│   ├── Data Specialist (Case Data Pipeline)
-│   ├── System Architect (Technical Architecture)
-│   ├── Staff Engineer (Code Quality)
-│   └── Full Stack Engineer (Implementation)
-├── Coordination
-│   ├── Product Manager (Session Orchestration)
-│   ├── Finance Controller (Efficiency Optimization)
-│   └── Role Designer (Workflow Optimization)
-```
+
+### Organizational Hierarchy
+
+| Division | Roles | Primary Function |
+|----------|-------|------------------|
+| **Legal Analysis Core** | Supreme Court Specialist, Law Partner | SCOTUS case analysis and strategic validation |
+| **Data & Engineering** | Data Specialist, System Architect, Staff Engineer, Full Stack Engineer | Technical implementation and data processing |
+| **Coordination** | Product Manager, Finance Controller, Role Designer | Session management and optimization |
 
 ---
 
@@ -86,25 +127,58 @@ ClaudeScotus SCOTUS Prediction System
 
 ## Role Selection for SCOTUS Prediction Work
 
-### 🎯 **Need SCOTUS analysis?**
+| Need Category | Specific Requirement | Recommended Role | Secondary Support |
+|---------------|---------------------|------------------|-------------------|
+| **🎯 SCOTUS Analysis** | Case analysis & predictions | Supreme Court Specialist | Data Specialist |
+| **🎯 SCOTUS Analysis** | Strategic validation | Law Partner | Supreme Court Specialist |
+| **🎯 SCOTUS Analysis** | Case data processing | Data Specialist | System Architect |
+| **🔧 Technical Work** | System architecture | System Architect | Staff Engineer |
+| **🔧 Technical Work** | Code quality/standards | Staff Engineer | Full-Stack Engineer |
+| **🔧 Technical Work** | Implementation/features | Full-Stack Engineer | Staff Engineer |
+| **📈 Coordination** | Session management & issue tracking | Product Manager | Role Designer |
+| **📈 Coordination** | Session efficiency optimization | Finance Controller | Product Manager |
+| **📈 Coordination** | Role/workflow improvements | Role Designer | Product Manager |
+| **💼 Optimization** | Prediction accuracy validation | Law Partner | Supreme Court Specialist |
+| **💼 Optimization** | Session performance analysis | Finance Controller | Role Designer |
+| **💼 Optimization** | Workflow and priority management | Product Manager | Finance Controller |
+
+### Quick Selection Guide
+
+<details>
+<summary>🎯 Need SCOTUS analysis?</summary>
+
 - **Case analysis & predictions** → Supreme Court Specialist
 - **Strategic validation** → Law Partner  
 - **Case data processing** → Data Specialist
 
-### 🔧 **Need technical work?**
+</details>
+
+<details>
+<summary>🔧 Need technical work?</summary>
+
 - **System architecture** → System Architect
 - **Code quality/standards** → Staff Engineer
 - **Implementation/features** → Full-Stack Engineer
 
-### 📈 **Need coordination?**
+</details>
+
+<details>
+<summary>📈 Need coordination?</summary>
+
 - **Session management & issue tracking** → Product Manager
 - **Session efficiency optimization** → Finance Controller
 - **Role/workflow improvements** → Role Designer
 
-### 💼 **Need optimization?**
+</details>
+
+<details>
+<summary>💼 Need optimization?</summary>
+
 - **Prediction accuracy validation** → Law Partner
 - **Session performance analysis** → Finance Controller
 - **Workflow and priority management** → Product Manager
+
+</details>
 
 ---
 
@@ -130,23 +204,29 @@ ClaudeScotus SCOTUS Prediction System
 
 ## Session Anti-Patterns to Avoid
 
-### ❌ **Wrong Role Activation**
-- Using Supreme Court Specialist for technical implementation
-- Using Product Manager for detailed legal analysis
-- Using Finance Controller for case analysis or coding
-- Using System Architect for routine implementation tasks
+| Anti-Pattern Category | Specific Issues | Correct Approach | Impact |
+|----------------------|----------------|------------------|--------|
+| **❌ Wrong Role Activation** | Supreme Court Specialist for technical implementation | Use System Architect/Staff Engineer | Poor quality, wasted time |
+| **❌ Wrong Role Activation** | Product Manager for detailed legal analysis | Use Supreme Court Specialist | Inaccurate analysis |
+| **❌ Wrong Role Activation** | Finance Controller for case analysis or coding | Use appropriate domain expert | Ineffective session |
+| **❌ Wrong Role Activation** | System Architect for routine implementation tasks | Use Full-Stack Engineer | Resource misallocation |
+| **❌ Session Scope Confusion** | Mixing legal and technical in single session | Separate sessions by domain | Context confusion |
+| **❌ Session Scope Confusion** | Wrong role expertise for task domain | Match expertise to need | Poor outcomes |
+| **❌ Session Scope Confusion** | Comprehensive analysis when focused needed | Target specific expertise | Inefficient analysis |
+| **❌ Session Scope Confusion** | Context switching without handoff documentation | Proper documentation | Lost context |
+| **❌ Missing Validation** | SCOTUS predictions without Law Partner validation | Always validate with Law Partner | Accuracy risk |
+| **❌ Missing Validation** | Technical architecture without System Architect review | System Architect validation | Technical debt |
+| **❌ Missing Validation** | Session efficiency issues without Finance Controller | Finance Controller analysis | Continued inefficiency |
+| **❌ Missing Validation** | Role performance without Role Designer consultation | Role Designer optimization | Ongoing problems |
 
-### ❌ **Session Scope Confusion**
-- Mixing legal analysis with technical implementation in single session
-- Using wrong role expertise for task domain
-- Attempting comprehensive analysis when focused expertise needed
-- Context switching without proper handoff documentation
+### Critical Avoidance Checklist
 
-### ❌ **Missing Validation**
-- SCOTUS predictions without Law Partner accuracy validation
-- Technical architecture without System Architect review
-- Session efficiency issues without Finance Controller analysis
-- Role performance problems without Role Designer consultation
+- [ ] **Role-Task Alignment**: Correct role selected for task domain
+- [ ] **Session Focus**: Single domain focus per session
+- [ ] **Expertise Match**: Role expertise matches requirement
+- [ ] **Validation Process**: Appropriate validation role involved
+- [ ] **Handoff Documentation**: Context preserved between sessions
+- [ ] **Domain Separation**: Legal and technical work properly separated
 
 ---
 
