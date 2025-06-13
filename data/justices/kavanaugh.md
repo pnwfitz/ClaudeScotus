@@ -1,22 +1,22 @@
 # Justice Brett M. Kavanaugh
 
 **Appointed**: 2018 by President Trump  
-**Confirmation Vote**: 50-48 (contentious confirmation process)  
+**Confirmation**: 50-48  
 **Tenure**: 6+ years  
-**Background**: D.C. Circuit Judge, White House Staff Secretary
+**Background**: D.C. Circuit Judge
 
-## Law Team Analysis
+## Analysis
 
-### Jurisprudential Profile
-**Core Philosophy**: Establishment conservative with institutional respect  
-**Approach**: Moderate conservative, precedent-respectful, seeks consensus when possible  
-**Key Doctrine**: Executive power (but less than Alito), precedent stability, mainstream conservatism
+### Philosophy
+**Core**: Establishment conservative, institutional respect  
+**Approach**: Moderate conservative, precedent-respectful  
+**Doctrine**: Executive power, precedent stability
 
-### Voting Patterns (2022-2024 Terms)
+### Voting Patterns
 
-**Reliability Score**: 80% conservative alignment (moderate conservative)  
-**Swing Vote Frequency**: 15-20% (occasional swing vote, especially on procedural issues)  
-**Opinion Style**: Careful, precedent-focused, avoids inflammatory language
+**Conservative Alignment**: 80%  
+**Swing Vote**: 15-20%  
+**Opinion Style**: Careful, precedent-focused, non-inflammatory
 
 **Notable Positions**:
 - **Abortion**: Joined Dobbs majority but has signaled caution about further restrictions

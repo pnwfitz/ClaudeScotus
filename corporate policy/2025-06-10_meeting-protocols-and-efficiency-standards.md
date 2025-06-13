@@ -1,210 +1,175 @@
-# ClaudeScotus Meeting Protocols
-**Version**: 1.1  
-**Effective Date**: 2025-06-11  
-**Review Date**: Quarterly  
+# ClaudeScotus Session Coordination Standards
+**Version**: 2.0  
+**Focus**: Claude Code session-based coordination for SCOTUS prediction development
 
-## Version History
-- **v1.1** (2025-06-11): Added Issue Tracking Integration section, updated Policy Evolution references
-- **v1.0** (2025-06-10): Initial meeting protocols and efficiency standards
+## Session Philosophy
+Claude Code sessions optimize for focused work with specific role expertise. Multi-role coordination uses structured handoffs and documented decision points rather than traditional meetings.
 
-## Meeting Philosophy
-Every meeting represents a significant cost investment (~$1,000/hour for full team). Meetings are reserved for decisions, problem-solving, and coordination that cannot be accomplished asynchronously.
+## Session Coordination Patterns
 
-## Meeting Types and Time Limits
+### Technical Architecture Sessions
+**Approach**: System Architect primary session → documented handoff → Staff Engineer review  
+**Context**: Technical specifications in git commits and memory files  
+**Output**: Architecture decisions logged in `/memory/system_architect_decisions/`
 
-### Technical Architecture Meetings (45 minutes max)
-**Purpose**: Major technical decisions requiring cross-role input  
-**Required Attendees**: System Architect, Staff Engineer, Product Manager  
-**Optional**: Full-Stack Engineer, Data Specialist  
-**Pre-work**: Technical specifications and options analysis distributed 24 hours prior
+### SCOTUS Analysis Sessions
+**Approach**: Supreme Court Specialist analysis → Law Partner strategic review  
+**Context**: Case files and precedent research documented in `/data/`  
+**Output**: Predictions with confidence levels in `/data/predictions/`
 
-### Product Planning Meetings (30 minutes max)
-**Purpose**: Feature prioritization and roadmap decisions  
-**Required Attendees**: Product Manager, Law Partner, Finance Controller  
-**Optional**: Relevant specialists based on features discussed  
-**Pre-work**: Written feature proposals with business cases
+### Code Quality Sessions
+**Approach**: Staff Engineer standards → Full-Stack Engineer implementation  
+**Context**: Quality standards in role definitions and commit hooks  
+**Output**: Code quality metrics and improved implementation patterns
 
-### Legal Analysis Reviews (60 minutes max)
-**Purpose**: Complex legal questions requiring collaborative analysis  
-**Required Attendees**: Supreme Court Specialist, Law Partner  
-**Optional**: Product Manager (for strategic context)  
-**Pre-work**: Legal research and precedent analysis completed
+## Session Handoff Standards
 
-### Sprint Planning/Retrospectives (30 minutes max)
-**Purpose**: Development cycle planning and process improvement  
-**Required Attendees**: Product Manager, Full-Stack Engineer, Staff Engineer  
-**Optional**: System Architect for architectural discussions  
-**Pre-work**: Sprint metrics and velocity analysis prepared
+### Required Session Elements:
+1. **Context Documentation** in role memory files
+2. **Decision Logging** in git commits with issue references
+3. **Next Session Preparation** in `CURRENT-STATUS.md`
+4. **Quality Gates** met before session wind-down
 
-### Emergency Response Meetings (15 minutes max)
-**Purpose**: Critical system issues or urgent business decisions  
-**Required Attendees**: Determined by issue type  
-**No Pre-work**: Immediate response required
-
-## Meeting Structure Standards
-
-### Required Meeting Elements:
-1. **Written Agenda** (distributed 24 hours prior)
-2. **Cost Justification** (Finance Controller approval for >30 minutes)
-3. **Pre-work Completion** (mandatory for all attendees)
-4. **Time Keeper** (Finance Controller monitors all meetings)
-5. **Decision Documentation** (clear outcomes and next steps)
-
-### Meeting Agenda Template:
+### Session Handoff Template:
 ```
-Meeting Purpose: [One sentence objective]
-Duration: [Maximum time limit]
-Cost Estimate: [Finance Controller calculation]
+## Session Context
+Role: [Current role]
+Focus: [Primary objective]
+Files Modified: [Key changes]
 
-Pre-work Required:
-- [ ] [Specific preparation items]
-- [ ] [Documentation to review]
+## Decisions Made:
+- [Decision] → [Rationale] → [Next Steps]
 
-Agenda Items:
-1. [Decision Point] - [Time allocation] - [Expected outcome]
-2. [Discussion Topic] - [Time allocation] - [Decision criteria]
-
-Success Criteria:
-- [ ] [Specific deliverable]
-- [ ] [Clear action items with owners]
+## Next Session Needs:
+- Role: [Recommended role]
+- Priority: [P0/P1/P2]
+- Context: [Key files/issues to review]
 ```
 
-## Role-Specific Meeting Responsibilities
+## Role-Specific Session Responsibilities
 
-### Finance Controller (Meeting Efficiency Enforcer):
-- Approve all meetings >30 minutes with cost-benefit analysis
-- Monitor meeting duration and intervene at time limits
-- Track meeting ROI and quarterly efficiency reporting
-- Authority to end meetings that exceed value threshold
+### Finance Controller (Efficiency Optimization):
+- Monitor Claude Code session performance and context usage
+- Identify workflow bottlenecks and optimization opportunities
+- Track prediction accuracy ROI and session effectiveness
 
-### Product Manager (Meeting Organizer):
-- Ensure agenda clarity and business value justification
-- Facilitate cross-role coordination meetings
-- Document decisions and distribute action items
-- Escalate blocked decisions to appropriate authority
+### Product Manager (Coordination):
+- Manage issue tracking and session priority queues
+- Coordinate role handoffs and context preservation
+- Document cross-role dependencies and resolution paths
 
-### System Architect (Technical Meetings):
-- Provide technical context and options analysis
-- Ensure architectural decisions consider long-term implications
-- Document technical decisions and rationale
-- Define technical pre-work requirements
+### System Architect (Technical Foundation):
+- Ensure technical decisions support SCOTUS prediction accuracy
+- Document architectural decisions in memory system
+- Validate technical approaches against prediction requirements
 
-### Law Partner (Strategic Meetings):
-- Frame legal discussions in business impact terms
-- Provide final authority on legal strategy decisions
-- Ensure legal analysis supports business objectives
-- Review meeting outcomes for strategic alignment
+### Law Partner (Strategic Oversight):
+- Frame legal analysis in terms of prediction methodology
+- Validate Supreme Court Specialist output for accuracy
+- Ensure analysis maintains professional legal standards
 
-## Meeting Alternatives (Preferred Methods)
+## Preferred Coordination Methods
 
-### Async Documentation Review:
-- Technical specifications and architectural proposals
-- Legal research and case analysis reports
-- Code review and technical feedback
-- Status updates and progress reporting
+### Git-Based Documentation:
+- Technical decisions in commit messages and memory files
+- Legal analysis documented in `/data/analysis/`
+- Code reviews through git diff and quality standards
+- Session continuity through `CURRENT-STATUS.md`
 
-### Decision Matrices:
-- Feature prioritization with scoring criteria
-- Technical option evaluation with trade-offs
-- Risk assessment with probability and impact
-- Resource allocation with cost-benefit analysis
+### Issue Tracking System:
+- Feature development tracked in `/issues/`
+- Technical debt and optimization opportunities
+- Prediction accuracy improvements and methodology refinements
+- Cross-role dependencies and handoff requirements
 
-### Time-Boxed Slack Threads:
-- Quick technical questions and clarifications
-- Resource availability and scheduling
-- Minor scope and requirement adjustments
-- Process clarifications and policy questions
+### Role Memory System:
+- Session learnings preserved in role-specific memory directories
+- Decision rationale and context for future reference
+- Pattern recognition and workflow optimization insights
 
-## Meeting Quality Metrics
+## Session Quality Metrics
 
 ### Efficiency Targets:
-- **Decision Rate**: >80% of agenda items result in clear decisions
-- **Action Item Completion**: >90% completion rate within agreed timeframes
-- **Meeting ROI**: Measurable value delivery >3x meeting cost
-- **Preparation Rate**: >95% attendee pre-work completion
+- **Issue Resolution**: >80% of P0/P1 issues resolved within 3 sessions
+- **Context Preservation**: >95% session handoffs include complete context
+- **Prediction Accuracy**: SCOTUS predictions achieve 80% accuracy target
+- **Session Focus**: Clear role activation and scope maintenance
 
-### Monthly Reporting:
-- Total meeting hours and cost analysis
-- Meeting type distribution and efficiency trends
-- Decision quality assessment and outcome tracking
-- Process improvement recommendations
+### Session Tracking:
+- Git commit frequency and quality (meaningful progress markers)
+- Role memory updates and knowledge preservation
+- Issue lifecycle management and resolution patterns
+- Prediction validation and accuracy improvement trends
 
-## Escalation Procedures
+## Session Issue Resolution
 
-### Meeting Overruns:
-1. Finance Controller calls time at limit
-2. Meeting organizer proposes: continue, reschedule, or async resolution
-3. Majority vote required to extend (max 15 minutes)
-4. Automatic post-meeting efficiency review
+### Context Overload:
+1. Apply `/clear` command to focus session scope
+2. Document essential context in memory files
+3. Use role-specific memory triggers for context recovery
+4. Consider role switching if expertise mismatch
 
-### Blocked Decisions:
-1. Document blocking issues and required information
-2. Assign specific research/analysis tasks with deadlines
-3. Schedule follow-up decision meeting (max 1 week)
-4. Escalate to Law Partner for strategic decisions
+### Blocked Progress:
+1. Document blocking issues in `/issues/` with clear next steps
+2. Identify appropriate role for resolution
+3. Update `CURRENT-STATUS.md` with handoff context
+4. Escalate to Law Partner for SCOTUS prediction methodology questions
 
-### Persistent Meeting Issues:
-1. Finance Controller reports quarterly efficiency review
-2. Product Manager proposes process improvements
-3. System Architect evaluates technical communication patterns
-4. Role Designer updates meeting protocols based on learnings
+### Quality Standards Issues:
+1. Finance Controller evaluates session efficiency patterns
+2. Product Manager updates issue tracking and priority systems
+3. System Architect reviews technical workflow bottlenecks
+4. Role Designer optimizes role definitions based on session learnings
 
-## Anti-Patterns to Avoid
+## Session Anti-Patterns to Avoid
 
-### Prohibited Meeting Activities:
-- **Information Dumping**: Reading documents aloud that could be reviewed async
-- **Status Updates**: Progress reporting better handled through written updates
-- **Open-Ended Brainstorming**: Ideation should happen before meetings with proposals ready
-- **Technical Deep-Dives**: Complex implementation details belong in smaller technical sessions
+### Inefficient Session Activities:
+- **Role Confusion**: Using wrong role for task domain
+- **Context Dumping**: Reading large files instead of targeted analysis
+- **Scope Creep**: Expanding beyond session role expertise
+- **Memory Neglect**: Failing to update role memory with insights
 
-### Meeting Red Flags:
-- Agenda items without clear decisions or outcomes
-- Meetings scheduled without mandatory pre-work
-- Recurring meetings without clear purpose or value assessment
-- Attendee lists including roles without clear contribution to objectives
+### Session Red Flags:
+- Session objectives unclear or too broad for single role
+- Context window exhaustion without using `/clear`
+- Multiple sessions on same issue without progress documentation
+- Role switching without proper context handoff
 
 ## Issue Tracking Integration
 
 ### Issue Creation Requirements:
-All non-trivial work requests and decisions must be tracked through the `/issues/` system:
-- **Meeting Outcomes**: Major decisions create issues for implementation tracking
-- **Action Items**: Tasks assigned during meetings must reference valid issue IDs
-- **Policy Changes**: Meeting-driven policy updates require formal issue documentation
-- **Process Improvements**: Efficiency findings and recommendations tracked as enhancement issues
+All SCOTUS prediction work and technical improvements tracked through `/issues/`:
+- **Prediction Methodology**: Analysis improvements and accuracy optimization
+- **Technical Debt**: Code quality and architecture enhancement needs
+- **Data Pipeline**: Case analysis workflow and validation improvements
+- **Role Optimization**: Performance issues and workflow refinements
 
 ### Commit Integration:
-- All commits implementing meeting decisions must reference issue tags (#ISS-###)
-- Pre-commit hooks enforce issue tagging for accountability
-- Meeting minutes must include created issue IDs for follow-up tracking
+- All commits reference issue tags (#ISS-###) for traceability
+- Pre-commit hooks enforce quality standards and issue tagging
+- Session outcomes create specific issues for follow-up work
 
 ### Memory Integration:
-- Closed issues from meeting decisions trigger role memory updates
-- Lessons learned from meeting outcomes documented in appropriate memory directories
-- Nightly CI audits ensure meeting-driven changes include memory integration
+- Completed issues trigger role memory updates
+- Session learnings documented in role-specific memory directories
+- Pattern recognition and workflow improvements preserved for future sessions
 
-**Reference**: See `/issues/README.md` for complete issue tracking procedures and templates.
+## Continuous Improvement
 
-## Policy Evolution
+### Session-Based Review:
+1. Finance Controller tracks session efficiency and Claude Code performance
+2. Role memory system captures learnings and optimization opportunities
+3. Product Manager updates issue tracking based on workflow insights
+4. Role Designer refines role definitions based on session effectiveness
 
-### Quarterly Review Process:
-1. Finance Controller analyzes meeting efficiency metrics
-2. All roles provide feedback on meeting effectiveness
-3. Product Manager proposes policy improvements via issue tracking
-4. Role Designer updates protocols based on consensus
-5. New version published with 30-day implementation period
-
-### Continuous Improvement Triggers:
-- Meeting cost exceeds 2x value delivered (immediate review via #ISS-### ticket)
-- Decision quality drops below 80% (process audit with issue tracking)
-- Attendee satisfaction scores <7/10 (facilitation training enhancement issues)
-- Meeting hours increase >20% quarter-over-quarter (efficiency review with formal issues)
+### Performance Triggers:
+- SCOTUS prediction accuracy below 80% target
+- Session context management becoming inefficient
+- Role expertise gaps affecting prediction quality
+- Git workflow or issue tracking bottlenecks
 
 ---
 
-**Document Control**:
-- **Owner**: Role Designer & Product Manager
-- **Approver**: Finance Controller (cost implications) & Law Partner (strategic alignment)
-- **Distribution**: All ClaudeScotus roles
-- **Review Cycle**: Quarterly with metrics-driven updates
-
-*This policy reflects the collaborative input of all ClaudeScotus roles and balances efficiency with effective decision-making.*
+**Document Focus**: Session-based coordination for SCOTUS prediction development  
+**Owners**: Product Manager (coordination), Role Designer (optimization)  
+**Context**: Supports Claude Code workflow optimization and prediction accuracy goals

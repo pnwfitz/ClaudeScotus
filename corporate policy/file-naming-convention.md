@@ -1,9 +1,8 @@
-# Corporate File Naming Convention
+# ClaudeScotus File Naming Convention
 
 **Version**: 1.0  
-**Effective Date**: 2025-06-11  
-**Scope**: All ClaudeScotus files and future corporate projects  
-**Authority**: System Architect + Data Specialist + Staff Engineer consensus
+**Scope**: SCOTUS prediction system files and session documentation  
+**Authority**: System Architect + Data Specialist + Staff Engineer
 
 ---
 
@@ -14,7 +13,7 @@
 **Examples**:
 - `2025-06-11_baseemployee-architecture-implementation.md`
 - `2025-06-11_supreme-court-prediction-methodology.md`
-- `2025-06-11_fortune-500-client-briefing-template.md`
+- `2025-06-11_scotus-case-analysis-workflow.md`
 
 ### Date Format: ISO 8601 (YYYY-MM-DD)
 - **Rationale**: Ensures chronological sorting in all file systems
@@ -57,16 +56,16 @@
 
 **Examples**:
 - `2025-06-11_dobbs-v-jackson-prediction-analysis.md`
-- `2025-06-11_justice-thomas-constitutional-framework.md`
-- `2025-06-11_supreme-court-term-2024-methodology.md`
+- `2025-06-11_justice-thomas-voting-pattern-analysis.md`
+- `2025-06-11_scotus-term-2024-prediction-methodology.md`
 
 ### Session Files
 **Pattern**: `YYYY-MM-DD_HHMM_session-type-description.md`
 
 **Examples**:
 - `2025-06-11_1400_role-architecture-optimization.md`
-- `2025-06-11_0900_case-analysis-workflow-testing.md`
-- `2025-06-11_1600_strategic-planning-session.md`
+- `2025-06-11_0900_scotus-case-analysis-workflow.md`
+- `2025-06-11_1600_prediction-accuracy-validation.md`
 
 ---
 
@@ -98,19 +97,19 @@
 ## Tools and Automation
 
 ### Git Integration
-- **Commit Messages**: Should reference primary file being changed
-- **Branch Names**: Follow same convention when branch represents specific work
-- **Tag Names**: Use YYYY-MM-DD for release/milestone tags
+- **Commit Messages**: Reference prediction work and accuracy improvements
+- **Branch Names**: Follow same convention for SCOTUS analysis work
+- **Tag Names**: Use YYYY-MM-DD for prediction milestone releases
 
 ### Search and Discovery
-- **Grep Patterns**: `grep "2025-06-11" *.md` finds all files from specific date
-- **Date Range Search**: Easy filtering by date prefixes
-- **Content Search**: Descriptive names improve search relevance
+- **Date Patterns**: `grep "2025-06-11" *.md` finds files from specific session date
+- **Case Search**: Easy filtering by case names and analysis types
+- **Prediction Search**: Descriptive names improve SCOTUS analysis discovery
 
-### Cross-Platform Compatibility
-- **Windows/Mac/Linux**: All systems sort identically with this convention
-- **Command Line**: No spaces or special characters that require escaping
-- **Web Systems**: URLs and links work consistently
+### Claude Code Compatibility
+- **File Operations**: Tab-completion works efficiently with this convention
+- **Command Line**: No spaces or special characters requiring escaping
+- **Git Integration**: Consistent naming supports effective version control
 
 ---
 
@@ -124,15 +123,15 @@
 5. **Check uniqueness**: Ensure name distinguishes from existing files
 
 ### For Existing Files
-1. **Gradual Migration**: Rename files when substantially updating content
-2. **Maintain References**: Update any documentation that references old names
+1. **Session-Based Updates**: Rename files when updating for prediction accuracy
+2. **Reference Updates**: Update documentation referencing old file names
 3. **Git History**: Use `git mv` to preserve file history during renames
-4. **Communication**: Notify team of renames that affect shared workflows
+4. **Context Preservation**: Maintain session continuity during file updates
 
 ### For Directories
-- **Use descriptive names**: `memory/`, `corporate policy/`, `claude sessions/`
-- **Avoid dates in directory names**: Directories contain multiple dated files
-- **Consistent structure**: Follow established patterns for new directories
+- **Descriptive names**: `memory/`, `data/`, `claude sessions/`, `issues/`
+- **No dates in directories**: Directories contain multiple dated files
+- **SCOTUS structure**: Follow prediction system organization patterns
 
 ---
 
@@ -142,39 +141,39 @@
 - [ ] Date in YYYY-MM-DD format
 - [ ] Underscore separating date from description
 - [ ] Hyphens separating words in description
-- [ ] 3-8 words describing content purpose
+- [ ] 3-8 words describing SCOTUS prediction content
 - [ ] Lowercase throughout description
 - [ ] No spaces or special characters
-- [ ] Distinguishable from existing files
+- [ ] Clear distinction from existing prediction files
 
 ### Exceptions and Special Cases
 - **README.md**: Standard convention, no date prefix needed
 - **LICENSE**: Standard convention, no date prefix needed
 - **CLAUDE.md**: Configuration file, no date prefix needed
-- **BaseEmployee.md**: Template file, no date prefix needed
-- **BaseMemory.md**: Template file, no date prefix needed
+- **Role files**: Template files (BaseEmployee.md, etc.), no date prefix needed
+- **System files**: Configuration and template files maintain standard names
 
 ---
 
 ## Evolution and Maintenance
 
 ### Review Process
-- **Quarterly**: Review convention effectiveness and usage patterns
-- **Project Basis**: Adapt for project-specific needs while maintaining core pattern
-- **Tool Integration**: Update convention based on tool capabilities and requirements
+- **Session-Based**: Review convention effectiveness during session optimization
+- **Prediction Focus**: Adapt for SCOTUS analysis needs while maintaining core pattern
+- **Claude Code Integration**: Update convention based on workflow efficiency
 
 ### Success Metrics
-- **File Discovery Time**: How quickly team members locate relevant files
-- **Naming Consistency**: Percentage of files following convention
-- **Search Effectiveness**: Quality of search results using naming patterns
-- **Cross-Project Reuse**: Ease of understanding files from other projects
+- **File Discovery Time**: Session efficiency for locating prediction files
+- **Naming Consistency**: Percentage of SCOTUS files following convention
+- **Search Effectiveness**: Quality of case analysis and prediction file discovery
+- **Session Continuity**: Ease of understanding context from file names alone
 
 ---
 
-**Document Control**:
-- **Owners**: System Architect (technical structure), Data Specialist (information architecture), Staff Engineer (quality standards)
-- **Approvers**: Product Manager (workflow integration), Finance Controller (efficiency impact)
-- **Implementation**: All roles must follow convention for new files
-- **Enforcement**: Code review and documentation review processes
+**Document Focus**:
+- **Owners**: System Architect (structure), Data Specialist (organization), Staff Engineer (standards)
+- **Context**: Product Manager (workflow), Finance Controller (efficiency)
+- **Implementation**: All roles follow convention for SCOTUS prediction files
+- **Quality**: Session review and git commit standards
 
-*This convention creates systematic file organization that scales across corporate projects and improves team efficiency through consistent, discoverable naming patterns.*
+*This convention creates systematic organization for SCOTUS prediction development and improves session efficiency through consistent, discoverable naming patterns.*

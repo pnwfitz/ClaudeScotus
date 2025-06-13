@@ -1,21 +1,21 @@
 # Justice Clarence Thomas
 
 **Appointed**: 1991 by President Bush  
-**Confirmation Vote**: 52-48 (narrowest margin in modern history)  
-**Tenure**: 32+ years (senior Associate Justice)
+**Confirmation**: 52-48  
+**Tenure**: 32+ years (senior Associate)
 
-## Law Team Analysis
+## Analysis
 
-### Jurisprudential Profile
-**Core Philosophy**: Originalist textualist with revolutionary conservative agenda  
-**Approach**: Willing to overturn precedent, radical constitutional interpretation, indifferent to institutional concerns  
-**Key Doctrine**: Original public meaning, natural law foundations, aggressive federalism
+### Philosophy
+**Core**: Originalist textualist  
+**Approach**: Willing to overturn precedent, radical interpretation  
+**Doctrine**: Original public meaning, aggressive federalism
 
-### Voting Patterns (2022-2024 Terms)
+### Voting Patterns
 
-**Reliability Score**: 95% conservative alignment (most predictable conservative vote)  
-**Swing Vote Frequency**: <5% (virtually never sides with liberal bloc)  
-**Opinion Style**: Long, scholarly, historically detailed, often solo concurrences/dissents
+**Conservative Alignment**: 95%  
+**Swing Vote**: <5%  
+**Opinion Style**: Long, scholarly, historically detailed
 
 **Notable Positions**:
 - **Originalism**: Most aggressive originalist on Court, willing to revisit foundational precedents
@@ -25,57 +25,52 @@
 
 ### Prediction Indicators
 
-**High Confidence Predictors** (95%+ accuracy):
-- Thomas votes conservative on: Gun rights, religious liberty, abortion restrictions, voting rights limitations
-- Thomas writes separately when: Majority opinion doesn't go far enough in conservative direction
-- Thomas signals future targeting of: Precedents he views as wrongly decided (substantive due process, etc.)
+**High Confidence** (95%+):
+- Conservative: Gun rights, religious liberty, abortion restrictions, voting limitations
+- Writes separately: When majority insufficient
+- Targets: Precedents viewed as wrongly decided
 
-**Medium Confidence Predictors** (80-90% accuracy):
-- **Commerce Clause**: Narrow interpretation, hostile to federal economic regulation
-- **Free Speech**: Strong protection except for obscenity and certain regulatory contexts
-- **Criminal Law**: Generally pro-prosecution but originalist on specific constitutional protections
+**Medium Confidence** (80-90%):
+- Commerce Clause: Narrow interpretation
+- Free Speech: Strong protection with exceptions
+- Criminal Law: Pro-prosecution but originalist
 
-**Low Confidence Predictors** (60-80% accuracy):
-- Cases involving conflict between originalism and conservative policy outcomes
-- Rare instances of procedural or jurisdictional technicalities
-- Cases where he might stake out position even more conservative than majority
+**Low Confidence** (60-80%):
+- Originalism vs conservative policy conflicts
+- Procedural technicalities
+- More conservative than majority positions
 
-### Strategic Considerations
+### Strategic Factors
 
-**Precedent Approach**: Willing to overturn any precedent inconsistent with original meaning  
-**Long-term Vision**: Reshaping constitutional law toward 18th/19th century understanding  
-**Intellectual Leadership**: Influences conservative legal movement through scholarly separate opinions
+**Precedent**: Willing to overturn inconsistent precedents  
+**Vision**: 18th/19th century constitutional understanding  
+**Leadership**: Influences conservative movement through separate opinions
 
-### Case Analysis Framework
+### Analysis Framework
 
-**Thomas Likely Majority**:
+**Likely Majority**:
 - Conservative outcome with originalist reasoning
-- Historical analysis and founding-era sources
-- Skepticism of modern constitutional interpretation
+- Historical analysis, founding-era sources
+- Skepticism of modern interpretation
 
-**Thomas Likely Concurrence**:
-- When majority reaches conservative result but insufficient originalist reasoning
-- Signals for future cases to go further
-- Academic exposition of constitutional theory
+**Likely Concurrence**:
+- Conservative result, insufficient reasoning
+- Signals for future cases
+- Constitutional theory exposition
 
-**Thomas Likely Dissent**:
-- Virtually never in non-conservative cases
-- When majority insufficiently originalist
-- When institutional concerns override constitutional principles
+**Likely Dissent**:
+- Insufficient originalism
+- Institutional over constitutional concerns
 
-## Historical Context
+## Context
 
-**Early Career**: Initially more restrained, evolved into most aggressive conservative  
-**Intellectual Development**: Became leading originalist theorist and practitioner  
-**Current Role**: Intellectual leader of conservative legal movement, precedent skeptic
+**Evolution**: Restrained early career to aggressive conservative  
+**Role**: Leading originalist theorist, conservative movement leader
 
-### Key Thomas Indicators
-- **Footnote Signals**: Thomas often telegraphs future targets in footnotes and dicta
-- **Historical Research**: Opinions include extensive founding-era analysis
-- **Precedent Skepticism**: Regularly questions major precedents in separate writings
+### Key Indicators
+- Footnote signals for future targets
+- Extensive historical research
+- Regular precedent questioning
 
----
-
-**Confidence Level**: Extremely High for conservative outcomes, High for specific reasoning approaches  
-**Last Updated**: Term data through 2023-2024  
-**Analysis Source**: ClaudeScotus Law Team collaborative assessment
+**Confidence**: Extremely High for conservative outcomes, High for reasoning  
+**Updated**: 2023-2024 term data

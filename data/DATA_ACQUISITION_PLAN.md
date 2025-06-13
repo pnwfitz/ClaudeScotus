@@ -1,9 +1,7 @@
-# ClaudeScotus Data Acquisition Plan
+# Data Acquisition Plan
 
-## Overview
-**Objective**: Populate 2022-2024 Supreme Court term data for prediction validation  
-**Scope**: Complete case materials for accuracy baseline establishment  
-**Structure**: Amateur-friendly organization with professional-grade completeness
+## Objective
+Populate 2022-2024 Supreme Court term data for prediction validation
 
 ## Data Sources Strategy
 
@@ -28,70 +26,43 @@
    - Excellent for argument transcripts
    - Educational focus, amateur-friendly
 
-### Premium Sources (If Budget Available)
-1. **Westlaw/LexisNexis** - Most comprehensive legal database
-2. **Bloomberg Law** - Good business case coverage
-3. **SCOTUSblog** - Expert analysis and case tracking
+### Additional Sources
+1. **SCOTUSblog** - Case tracking and analysis
 
 ## Data Collection Workflow
 
-### Phase 1: Case Inventory (Week 1)
-**Task**: Identify all cases for each term
-```bash
-# For each term, create comprehensive case list
-terms/[year]/cases/CASE_INVENTORY.md
-- List all decided cases with docket numbers
-- Categorize by legal area (Constitutional, Administrative, etc.)
-- Priority ranking for ClaudeScotus prediction value
-```
+### Phase 1: Case Inventory
+- Identify all cases for each term
+- Categorize by legal area
+- Priority ranking for prediction value
 
-### Phase 2: Document Acquisition (Weeks 2-4)
+### Phase 2: Document Acquisition
 **Priority Order**: 
-1. **High-Value Cases** (Constitutional law, major precedent impact)
-2. **Prediction Test Cases** (Clear conservative/liberal splits)
-3. **Complete Term Coverage** (All remaining cases)
+1. High-value cases (constitutional law, major precedent impact)
+2. Prediction test cases (clear ideological splits)
+3. Complete term coverage
 
-**Document Checklist Per Case**:
+**Document Structure**:
 ```
 [docket-number]_[case-name]/
-├── README.md (case summary, outcome, ClaudeScotus prediction value)
+├── README.md
 ├── briefs/
-│   ├── petitioner_brief.pdf
-│   ├── respondent_brief.pdf
-│   ├── amicus_briefs/ (top 3-5 most significant)
-│   └── cert_petition.pdf
 ├── oral_arguments/
-│   ├── transcript.pdf
-│   ├── audio.mp3 (if available)
-│   └── argument_analysis.md (key moments, Justice questions)
 ├── opinions/
-│   ├── majority_opinion.pdf
-│   ├── dissents/
-│   │   ├── [justice]_dissent.pdf
-│   │   └── [additional_dissents].pdf
-│   ├── concurrences/
-│   │   ├── [justice]_concurrence.pdf
-│   │   └── [additional_concurrences].pdf
-│   └── opinion_analysis.md (vote breakdown, reasoning)
-└── metadata.json (structured data for analysis)
+└── metadata.json
 ```
 
-### Phase 3: Metadata Creation (Week 5)
-**Systematic Data Structure**:
+### Phase 3: Metadata Creation
 ```json
 {
   "docket_number": "22-123",
   "case_name": "Example v. Case",
   "decision_date": "2023-06-15",
   "vote_breakdown": {
-    "majority": ["Roberts", "Thomas", "Alito", "Gorsuch", "Kavanaugh", "Barrett"],
+    "majority": ["Roberts", "Thomas", "Alito"],
     "dissent": ["Sotomayor", "Kagan", "Jackson"]
   },
-  "legal_areas": ["Constitutional Law", "First Amendment"],
-  "prediction_value": "High",
-  "business_impact": "Broad regulatory changes",
-  "difficulty_level": "Amateur-friendly",
-  "claudescotus_priority": 1
+  "legal_areas": ["Constitutional Law"]
 }
 ```
 
@@ -115,22 +86,14 @@ terms/[year]/cases/CASE_INVENTORY.md
 
 ## Resource Requirements
 
-### Time Estimates
-- **Phase 1 (Inventory)**: 40 hours (1 person-week)
-- **Phase 2 (Acquisition)**: 120 hours (3 person-weeks)  
-- **Phase 3 (Metadata)**: 80 hours (2 person-weeks)
-- **Total**: 240 hours (6 person-weeks across 6 weeks)
+### Roles
+- Data Specialist: Collection automation
+- Supreme Court Specialist: Case analysis
+- System Architect: Technical infrastructure
 
-### Personnel Assignments
-- **Data Specialist**: Lead collection and processing automation
-- **Supreme Court Specialist**: Case priority ranking and legal analysis
-- **Law Partner**: Quality validation and business impact assessment
-- **System Architect**: Technical infrastructure and automation tools
-
-### Storage Requirements
-- **Estimated Size**: 50-100 GB total (mostly PDF documents)
-- **Organization**: Git LFS for large files, standard git for metadata
-- **Backup**: GitHub repository with document cloud storage
+### Storage
+- Estimated size: 50-100 GB
+- Git LFS for large files
 
 ## Quality Assurance
 
@@ -148,32 +111,19 @@ terms/[year]/cases/CASE_INVENTORY.md
 
 ## Success Metrics
 
-### Quantitative Goals
-- **Coverage**: 90% of major cases for each term
-- **Completeness**: 100% document sets for top 20 cases per term
-- **Accessibility**: <3 clicks to reach any case from repository root
-- **Quality**: 95% accuracy in metadata and summaries
+- 90% coverage of major cases per term
+- Complete document sets for priority cases
+- Accurate metadata and summaries
+- Analysis-ready data structure
 
-### Validation Criteria
-- **Amateur Test**: Non-lawyer can find and understand any case within 5 minutes
-- **Professional Test**: Law firm partner can quickly assess case relevance
-- **Analysis Ready**: Data Specialist can immediately begin prediction analysis
+## Implementation
 
-## Implementation Timeline
+1. Case inventory and priority ranking
+2. High-priority case document acquisition
+3. Complete term coverage
+4. Metadata creation and validation
 
-**Week 1**: Case inventory and priority ranking  
-**Week 2-3**: High-priority case document acquisition  
-**Week 4**: Complete term coverage and amicus brief collection  
-**Week 5**: Metadata creation and quality validation  
-**Week 6**: Amateur testing and final organization
-
-**Milestone Deliverable**: Complete, amateur-accessible Supreme Court case database ready for ClaudeScotus prediction validation and baseline accuracy measurement.
-
----
-
-**Next Steps After Completion**:
-1. **Baseline Accuracy Testing** - Use complete dataset for initial prediction validation
-2. **Justice Pattern Analysis** - Validate Justice profiles against actual voting data
-3. **Client Prototype** - Create first Fortune 500 prediction deliverable using real case data
-
-**Error Log Integration**: All acquisition errors, missing documents, and quality issues tracked in `/data/acquisition_log.md` for systematic resolution.
+**Next Steps**:
+- Baseline accuracy testing
+- Justice pattern analysis
+- Prediction validation

@@ -98,43 +98,25 @@ Supreme Court ruled that Harvard's race-conscious admissions program violates Eq
   "supreme_court_outcome": "Reversed",
   "business_impact": "Broad regulatory changes affecting all higher education",
   "prediction_metrics": {
-    "difficulty_level": "Medium",
-    "conservative_coalition_strength": "High",
-    "prediction_value": "High",
-    "amateur_accessibility": "High"
-  },
-  "claudescotus_analysis": {
-    "priority_ranking": 1,
-    "baseline_test_case": true,
-    "justice_predictability": {
-      "roberts": "High confidence conservative",
-      "thomas": "High confidence conservative", 
-      "alito": "High confidence conservative",
-      "sotomayor": "High confidence liberal",
-      "kagan": "High confidence liberal",
-      "jackson": "High confidence liberal",
-      "gorsuch": "Medium confidence conservative",
-      "kavanaugh": "Medium confidence conservative",
-      "barrett": "High confidence conservative"
-    }
+    "difficulty": "Medium",
+    "coalition_strength": "High",
+    "prediction_value": "High"
   }
 }
 ```
 
-## File Naming Conventions
+## File Naming
 
-**Cases**: `[docket-number]_[case-name-hyphenated]`  
-**PDFs**: Descriptive names (petitioner_brief.pdf, majority_opinion.pdf)  
-**Justice Files**: `[lastname]_[opinion-type].pdf`  
-**Analysis**: Always `.md` format for readability
+- Cases: `[docket-number]_[case-name-hyphenated]`
+- PDFs: Descriptive names (petitioner_brief.pdf, majority_opinion.pdf)
+- Justice Files: `[lastname]_[opinion-type].pdf`
+- Analysis: `.md` format
 
 ## Quality Standards
 
-**Amateur Accessibility**: Any folder should be understandable within 2 minutes  
-**Professional Completeness**: All documents a law firm would need  
-**Analysis Ready**: Structured data enables immediate prediction work  
-**Navigation Clarity**: Clear file names and consistent organization
-
----
+- Clear organization
+- Complete documents
+- Analysis-ready structure
+- Consistent navigation
 
 **This structure will be replicated for every major case across all three terms (2022-2024), providing the foundation for ClaudeScotus prediction accuracy validation.**

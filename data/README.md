@@ -1,27 +1,26 @@
-# ClaudeScotus Supreme Court Data Repository
+# Supreme Court Data Repository
 
-## Navigation Guide for Amateurs
+## Structure
 
-### 🗂️ **Browse by Year**
-- **[2022-2023](terms/2022-2023/)** - Justice Jackson's first term
-- **[2023-2024](terms/2023-2024/)** - Recent completed term  
-- **[2024-2025](terms/2024-2025/)** - Current term (ongoing)
+### Terms
+- [2022-2023](terms/2022-2023/) - Jackson's first term
+- [2023-2024](terms/2023-2024/) - Completed term  
+- [2024-2025](terms/2024-2025/) - Current term
 
-### 👨‍⚖️ **Justice Profiles**
-Individual Justice analysis and voting patterns:
-- [Chief Justice Roberts](justices/roberts.md)
-- [Justice Thomas](justices/thomas.md)
-- [Justice Alito](justices/alito.md)
-- [Justice Sotomayor](justices/sotomayor.md)
-- [Justice Kagan](justices/kagan.md)
-- [Justice Gorsuch](justices/gorsuch.md)
-- [Justice Kavanaugh](justices/kavanaugh.md)
-- [Justice Barrett](justices/barrett.md)
-- [Justice Jackson](justices/jackson.md) *(joined 2022)*
+### Justice Profiles
+- [Roberts](justices/roberts.md) - Chief Justice
+- [Thomas](justices/thomas.md) - Senior Associate
+- [Alito](justices/alito.md)
+- [Sotomayor](justices/sotomayor.md)
+- [Kagan](justices/kagan.md)
+- [Gorsuch](justices/gorsuch.md)
+- [Kavanaugh](justices/kavanaugh.md)
+- [Barrett](justices/barrett.md)
+- [Jackson](justices/jackson.md) - Newest
 
-### 📊 **Analysis Tools**
-- [Predictions](analysis/predictions/) - ClaudeScotus prediction tracking
-- [Accuracy Tracking](analysis/accuracy_tracking/) - Historical performance metrics
+### Analysis
+- [Predictions](analysis/predictions/) - Current predictions
+- [Accuracy](analysis/accuracy_tracking/) - Performance metrics
 
 ## Case File Structure
 
@@ -41,11 +40,8 @@ Each case folder contains:
 └── metadata.json       # Structured case data
 ```
 
-## Quick Access
+## Usage
 
-**Need pure odds on a case?** → Check case README.md for our prediction confidence  
-**Want to understand a Justice?** → Read their profile in `/justices/`  
-**Looking for specific term?** → Navigate to `/terms/[year]/cases/`
-
----
-*Built for legal professionals and curious amateurs alike*
+- Case predictions: Check case README.md files
+- Justice analysis: `/justices/` directory
+- Term cases: `/terms/[year]/cases/`

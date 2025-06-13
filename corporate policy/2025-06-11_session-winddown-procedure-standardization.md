@@ -1,7 +1,7 @@
-# CRISP Session Wind-Down Procedure - ClaudeScotus
+# CRISP Session Wind-Down Procedure
 
-**Version**: 2.0 (Claude Code Optimized)  
-**Purpose**: Fast, systematic session closure with memory preservation  
+**Version**: 2.0  
+**Purpose**: Claude Code session closure with memory preservation for SCOTUS prediction work  
 **Target Time**: 5-7 minutes maximum
 
 ## CRISP Wind-Down Protocol
@@ -9,121 +9,120 @@
 ### ⚡ **1. MEMORY CAPTURE** (2 minutes)
 ```
 Role Memory Update:
-- Key decisions made → role/memory/[role]_decisions/
-- Patterns discovered → role/memory/[role]_patterns/ 
-- Lessons learned → role/memory/[role]_lessons/
+- SCOTUS analysis insights → memory/[role]_decisions/
+- Prediction patterns → memory/[role]_patterns/ 
+- Session learnings → memory/[role]_lessons/
 ```
 
-**Auto-Commands**:
-- Use `/clear` to focus context on session summary
-- Apply memory triggers from role definitions
-- Update role metrics if performance data exists
+**Session Focus**:
+- Use `/clear` to focus on session summary
+- Update role memory with prediction-relevant insights
+- Capture accuracy improvements and methodology refinements
 
-### ⚡ **2. TODO CLOSURE** (1 minute)
+### ⚡ **2. ISSUE TRACKING** (1 minute)
 ```
-Issue Management:
-✅ Mark completed todos as DONE
-🔄 Update in-progress todos with current status  
-📋 Create new issues for incomplete work
-🔺 Set priority levels for next session
+SCOTUS Prediction Work:
+✅ Mark completed prediction tasks as DONE
+🔄 Update analysis progress with current status  
+📋 Create issues for prediction improvements
+🔺 Set P0/P1 priorities for accuracy goals
 ```
 
 **Git Integration**: 
-- Commit todo list updates immediately
-- Reference issue numbers in commits
+- Commit issue updates with prediction context
+- Reference issue numbers (#ISS-###) in commits
 
 ### ⚡ **3. SESSION COMMIT + PUSH** (2 minutes)
 ```bash
-# Single commit with complete session context
+# Single commit with SCOTUS prediction context
 git add .
-git commit -m "Session wind-down: [ROLE] [ACCOMPLISHMENT] [NEXT-PRIORITY]
+git commit -m "Session wind-down: [ROLE] - [SCOTUS-ACCOMPLISHMENT]
 
 Completed:
-- [Key achievement 1]
-- [Key achievement 2]
+- [Prediction analysis/technical work]
+- [Accuracy improvements/methodology]
 
-Next session priority: [Top 1-2 items]
+Next session: [Priority for prediction development]
 
 🤖 Generated with Claude Code"
 
-# Push to GitHub for persistence
 git push
 ```
 
-**GitHub Integration**: 
-- Use `gh auth status` to verify authentication before push
-- If auth fails, session context is still preserved locally via commit
-- Next session can retry push after re-authentication
+**Context Preservation**: 
+- Commit preserves SCOTUS prediction progress locally
+- Push failures don't block session wind-down
+- Next session can retry push and continue prediction work
 
 ### ⚡ **4. CONTEXT HANDOFF** (1-2 minutes)
-**Create/Update**: `claude sessions/CURRENT-STATUS.md`
+**Update**: `claude sessions/CURRENT-STATUS.md`
 ```markdown
-# ClaudeScotus Session Handoff
+# SCOTUS Prediction Session Handoff
 
 ## Last Session Summary
 **Role**: [Current role]  
 **Date**: [Session date]  
-**Focus**: [Primary accomplishment]
+**Focus**: [SCOTUS prediction work completed]
 
 ## Next Session Priorities
-1. **P0**: [Critical next step]
-2. **P1**: [Important follow-up]  
-3. **P2**: [Nice-to-have]
+1. **P0**: [Critical prediction/accuracy work]
+2. **P1**: [Important analysis/technical work]  
+3. **P2**: [Optimization opportunities]
 
-## Context Needed
-- Role: [Recommended starting role]
-- Files: [Key files to review]
-- Issues: [Open ticket numbers]
+## Context for Resume
+- Role: [Recommended role for next work]
+- Files: [Key prediction/analysis files]
+- Issues: [Open prediction improvement tickets]
 
 ## Quick Resume
-"[One sentence describing where to pick up]"
+"[Next step for SCOTUS prediction development]"
 ```
 
-## Claude Code Optimizations
+## SCOTUS Prediction Session Optimizations
 
-### **Use Built-in Patterns**:
-- **Git Integration**: Let Claude handle commit message composition
-- **File Operations**: Use tab-completion for fast file references
-- **Memory Management**: Leverage Claude's context awareness
+### **Prediction-Focused Workflow**:
+- **Git Integration**: Commit messages reference prediction accuracy and methodology
+- **File Operations**: Tab-completion for case files and analysis documents
+- **Memory Management**: Focus on prediction insights and accuracy improvements
 
-### **Multi-Instance Cleanup**:
-If multiple Claude instances were used:
-- Close secondary instances first
-- Consolidate findings in primary instance
-- Single commit from primary instance only
+### **Multi-Instance Validation**:
+For SCOTUS prediction validation:
+- Consolidate prediction analysis from multiple instances
+- Validate accuracy across different approaches
+- Primary instance commits consolidated prediction results
 
 ### **Context Window Management**:
-- Run `/clear` before final documentation
-- Focus on essential handoff information only
-- Avoid copying large file contents into session notes
+- Run `/clear` before final prediction documentation
+- Focus on prediction accuracy and methodology insights
+- Preserve essential case analysis context for next session
 
 ## Quality Gates
 
 **MUST HAVE**:
-✅ All work committed to git  
-✅ Next session priority identified  
-✅ Role memory updated with key insights  
-✅ Critical context documented for handoff
+✅ SCOTUS prediction work committed to git  
+✅ Next session priority for prediction accuracy identified  
+✅ Role memory updated with prediction insights  
+✅ Critical analysis context documented for handoff
 
 **SHOULD HAVE**:
-⭐ Session patterns identified for future optimization  
-⭐ Role performance metrics updated  
-⭐ Cross-role collaboration notes captured
+⭐ Prediction accuracy patterns identified for optimization  
+⭐ Analysis methodology improvements captured  
+⭐ Cross-role prediction validation notes preserved
 
 ## Emergency Wind-Down (30 seconds)
 ```bash
-# If session must end immediately
-git add . && git commit -m "Emergency session end - work in progress"
+# If SCOTUS prediction session must end immediately
+git add . && git commit -m "Emergency session end - SCOTUS prediction work in progress"
 git push || echo "Push failed - will retry next session"
-echo "NEXT: [one critical next step]" > claude sessions/EMERGENCY-RESUME.md
+echo "NEXT: [critical prediction work step]" > claude sessions/EMERGENCY-RESUME.md
 ```
 
-**Failure Handling**: 
-- Emergency commit always succeeds (preserves work locally)
-- Push failure doesn't block emergency wind-down
-- Next session will detect unpushed commits and retry
+**Prediction Work Preservation**: 
+- Emergency commit preserves SCOTUS analysis work locally
+- Push failure doesn't lose prediction progress
+- Next session continues prediction development from preserved state
 
 ---
 
 **CRISP = Context, Rapid, Intelligent, Systematic, Preserved**  
-*Optimized for Claude Code's git integration, context management, and multi-instance workflows*
+*Optimized for SCOTUS prediction development with Claude Code session management*

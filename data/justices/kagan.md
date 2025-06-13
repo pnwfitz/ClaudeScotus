@@ -1,22 +1,22 @@
 # Justice Elena Kagan
 
 **Appointed**: 2010 by President Obama  
-**Confirmation Vote**: 63-37  
+**Confirmation**: 63-37  
 **Tenure**: 13+ years  
-**Background**: Former Solicitor General, Harvard Law Dean
+**Background**: Solicitor General, Harvard Law Dean
 
-## Law Team Analysis
+## Analysis
 
-### Jurisprudential Profile
-**Core Philosophy**: Pragmatic liberal with strong institutional awareness  
-**Approach**: Strategic liberal, process-focused, builds coalitions through legal craft  
-**Key Doctrine**: Administrative law expertise, textualism when convenient, institutional respect
+### Philosophy
+**Core**: Pragmatic liberal, institutional awareness  
+**Approach**: Strategic liberal, process-focused, coalition building  
+**Doctrine**: Administrative law expertise, institutional respect
 
-### Voting Patterns (2022-2024 Terms)
+### Voting Patterns
 
-**Reliability Score**: 85% liberal alignment (strategic moderate within liberal bloc)  
-**Swing Vote Frequency**: 10-15% (occasionally joins conservatives on procedural/technical issues)  
-**Opinion Style**: Scholarly, witty, strategically restrained, excellent legal writing
+**Liberal Alignment**: 85%  
+**Swing Vote**: 10-15%  
+**Opinion Style**: Scholarly, witty, strategically restrained
 
 **Notable Positions**:
 - **Administrative Law**: Expert defender of agency authority and Chevron deference

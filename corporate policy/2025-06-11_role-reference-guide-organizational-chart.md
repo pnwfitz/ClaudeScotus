@@ -1,28 +1,27 @@
-# ClaudeScotus Role Reference Guide & Organizational Chart
+# ClaudeScotus Role Reference Guide
 
-**Version**: 1.0  
-**Purpose**: Quick reference for role selection, meeting inclusion, and consultation decisions  
-**Target Users**: Anyone working with the ClaudeScotus role ecosystem  
+**Version**: 2.0  
+**Purpose**: Quick reference for role selection and session coordination  
+**Focus**: SCOTUS prediction development workflow  
 
 ---
 
 ## Organizational Structure
 
 ```
-ClaudeScotus Role Ecosystem
-├── Strategic Leadership
-│   ├── Law Partner (Strategic Decision Authority)
-│   └── Finance Controller (Budget & Efficiency Oversight)
-├── Project Coordination  
-│   ├── Product Manager (Project Orchestrator)
-│   └── Role Designer (Role Creation & Evolution)
-├── Legal Expertise
-│   ├── Supreme Court Specialist (Primary Legal Analysis)
-│   └── Data Specialist (Legal Data Pipeline)
-└── Software Engineering
-    ├── System Architect (Technical Foundation)
-    ├── Staff Engineer (Technical Leadership)
-    └── Full-Stack Engineer (Code Implementation)
+ClaudeScotus SCOTUS Prediction System
+├── Legal Analysis Core
+│   ├── Supreme Court Specialist (Case Analysis & Predictions)
+│   └── Law Partner (Strategic Validation)
+├── Data & Engineering
+│   ├── Data Specialist (Case Data Pipeline)
+│   ├── System Architect (Technical Architecture)
+│   ├── Staff Engineer (Code Quality)
+│   └── Full Stack Engineer (Implementation)
+├── Coordination
+│   ├── Product Manager (Session Orchestration)
+│   ├── Finance Controller (Efficiency Optimization)
+│   └── Role Designer (Workflow Optimization)
 ```
 
 ---
@@ -30,193 +29,190 @@ ClaudeScotus Role Ecosystem
 ## Role Quick Reference
 
 ### 🏛️ Law Partner
-**Purpose**: Transforms legal analysis into Fortune 500 strategic guidance  
-**🟢 Activate When**: Need executive-level legal briefings, strategic business risk assessment, client deliverables  
-**🔴 Avoid When**: Technical legal research, routine case analysis, software implementation questions  
-**Meeting Role**: Final decision authority on legal strategy, client communication standards  
+**Purpose**: Validates SCOTUS prediction methodology and analysis quality  
+**🟢 Activate When**: Strategic validation of predictions, legal analysis quality assurance  
+**🔴 Avoid When**: Technical research, data processing, software implementation  
+**Session Role**: Final validation of legal analysis accuracy and professional standards  
 
 ### 💰 Finance Controller  
-**Purpose**: Budget management, cost optimization, and efficiency enforcement  
-**🟢 Activate When**: Need cost analysis, resource allocation, efficiency improvements, meeting oversight  
-**🔴 Avoid When**: Technical implementation, legal analysis, role creation, day-to-day execution  
-**Meeting Role**: Meeting efficiency enforcer, cost-benefit analysis, resource approval authority  
+**Purpose**: Claude Code session efficiency and prediction ROI optimization  
+**🟢 Activate When**: Session performance analysis, workflow efficiency improvements  
+**🔴 Avoid When**: Technical implementation, legal analysis, role creation  
+**Session Role**: Session efficiency monitoring, workflow optimization, performance metrics  
 
 ### 📋 Product Manager
-**Purpose**: Project orchestration, stakeholder alignment, and delivery coordination  
-**🟢 Activate When**: Need sprint planning, stakeholder coordination, feature prioritization, project guidance  
-**🔴 Avoid When**: Deep technical architecture, detailed legal analysis, role design, cost optimization  
-**Meeting Role**: Meeting organizer, cross-role coordination, decision documentation, timeline management  
+**Purpose**: SCOTUS prediction project coordination and session management  
+**🟢 Activate When**: Session planning, issue tracking, role coordination, project guidance  
+**🔴 Avoid When**: Deep technical architecture, detailed legal analysis, role design  
+**Session Role**: Session orchestration, cross-role handoffs, issue tracking management  
 
 ### 🎭 Role Designer
-**Purpose**: Role creation, evolution, and prompt engineering optimization  
-**🟢 Activate When**: Creating/updating roles, fixing role performance issues, prompt optimization  
-**🔴 Avoid When**: Domain expertise needed (legal, technical, business), routine project work  
-**Meeting Role**: Process improvement, role clarification, system architecture for role interactions  
+**Purpose**: Role optimization and Claude Code workflow improvement  
+**🟢 Activate When**: Role performance issues, session workflow optimization, context management  
+**🔴 Avoid When**: Domain expertise needed (legal, technical), routine prediction work  
+**Session Role**: Workflow optimization, role definition refinement, session efficiency improvement  
 
 ### ⚖️ Supreme Court Specialist
-**Purpose**: Primary legal analysis, case research, and judicial prediction  
-**🟢 Activate When**: Need legal case analysis, Supreme Court research, prediction methodology, legal expertise  
-**🔴 Avoid When**: Business strategy, technical implementation, project management, cost analysis  
-**Meeting Role**: Legal expertise authority, methodology validation, analysis quality assurance  
+**Purpose**: Primary SCOTUS case analysis and judicial decision prediction  
+**🟢 Activate When**: Case analysis, Justice behavior patterns, prediction methodology, legal research  
+**🔴 Avoid When**: Technical implementation, project management, workflow coordination  
+**Session Role**: Core prediction generation, legal analysis, accuracy validation  
 
 ### 📊 Data Specialist
-**Purpose**: Legal data processing, evidence organization, and analytical pipeline  
-**🟢 Activate When**: Need data processing, evidence compilation, analytical workflows, legal research support  
-**🔴 Avoid When**: Strategic decisions, technical architecture, legal interpretation, client communication  
-**Meeting Role**: Data quality assurance, analytical methodology, research process optimization  
+**Purpose**: SCOTUS case data processing and analysis pipeline management  
+**🟢 Activate When**: Case data processing, evidence compilation, analytical workflows, research support  
+**🔴 Avoid When**: Strategic decisions, technical architecture, legal interpretation  
+**Session Role**: Data quality assurance, analytical methodology, research process optimization  
 
 ### 🏗️ System Architect
-**Purpose**: Technical foundation, system design, and architectural decisions  
-**🟢 Activate When**: Need technical architecture, system design, integration planning, technology decisions  
-**🔴 Avoid When**: Day-to-day coding, legal analysis, business strategy, role design  
-**Meeting Role**: Technical authority, architectural guidance, long-term system planning  
+**Purpose**: SCOTUS prediction system architecture and technical foundation  
+**🟢 Activate When**: System architecture, integration planning, scalability decisions  
+**🔴 Avoid When**: Day-to-day coding, legal analysis, session coordination  
+**Session Role**: Technical architecture authority, system design validation, integration planning  
 
 ### 👨‍💼 Staff Engineer
-**Purpose**: Technical leadership, code quality, and engineering mentorship  
-**🟢 Activate When**: Need code review, technical mentoring, quality standards, performance optimization  
-**🔴 Avoid When**: System architecture decisions, legal analysis, business strategy, project planning  
-**Meeting Role**: Technical quality assurance, implementation feasibility, code review authority  
+**Purpose**: Code quality standards and technical implementation leadership  
+**🟢 Activate When**: Code review, quality standards, technical optimization, performance improvements  
+**🔴 Avoid When**: Architecture decisions, legal analysis, project planning  
+**Session Role**: Technical quality assurance, implementation standards, code review  
 
 ### 💻 Full-Stack Engineer
-**Purpose**: Code implementation, feature development, and technical execution  
-**🟢 Activate When**: Need coding, implementation, technical building, feature development  
-**🔴 Avoid When**: Architectural decisions, legal analysis, strategic planning, role design  
-**Meeting Role**: Implementation perspective, technical constraints, development timeline input  
+**Purpose**: SCOTUS prediction system implementation and feature development  
+**🟢 Activate When**: Coding, implementation, feature development, technical building  
+**🔴 Avoid When**: Architecture decisions, legal analysis, strategic planning  
+**Session Role**: Implementation execution, technical constraints, development progress  
 
 ---
 
-## Quick Role Selection Decision Tree
+## Role Selection for SCOTUS Prediction Work
 
-### 🎯 **Need legal work?**
-- **Strategic legal guidance** → Law Partner
-- **Case analysis & research** → Supreme Court Specialist  
-- **Legal data processing** → Data Specialist
+### 🎯 **Need SCOTUS analysis?**
+- **Case analysis & predictions** → Supreme Court Specialist
+- **Strategic validation** → Law Partner  
+- **Case data processing** → Data Specialist
 
 ### 🔧 **Need technical work?**
 - **System architecture** → System Architect
-- **Code quality/review** → Staff Engineer
-- **Implementation/coding** → Full-Stack Engineer
+- **Code quality/standards** → Staff Engineer
+- **Implementation/features** → Full-Stack Engineer
 
-### 📈 **Need project coordination?**
-- **Sprint planning & stakeholder management** → Product Manager
-- **Budget/efficiency concerns** → Finance Controller
-- **Role issues/improvements** → Role Designer
+### 📈 **Need coordination?**
+- **Session management & issue tracking** → Product Manager
+- **Session efficiency optimization** → Finance Controller
+- **Role/workflow improvements** → Role Designer
 
-### 💼 **Need strategic decisions?**
-- **Legal strategy & client deliverables** → Law Partner
-- **Resource allocation & cost management** → Finance Controller
-- **Project priorities & roadmap** → Product Manager
-
----
-
-## Meeting Inclusion Guidelines
-
-### 🟢 **Always Include**
-- **Strategic Planning**: Law Partner + Finance Controller + Product Manager
-- **Technical Architecture**: System Architect + Staff Engineer + Product Manager
-- **Legal Analysis**: Supreme Court Specialist + Law Partner (+ Product Manager for context)
-- **Sprint Planning**: Product Manager + Full-Stack Engineer + Staff Engineer
-
-### 🟡 **Include If Relevant**
-- **Data Specialist**: When data processing/research methodology is central to discussion
-- **Role Designer**: When role performance or process improvement is the focus
-- **Finance Controller**: When any meeting >30 minutes (efficiency oversight)
-
-### 🔴 **Rarely Include Unless Specific Need**
-- **Full-Stack Engineer**: In strategic planning (unless technical implementation central)
-- **Supreme Court Specialist**: In technical architecture (unless legal requirements central)
-- **Data Specialist**: In budget/business strategy (unless data costs/requirements central)
+### 💼 **Need optimization?**
+- **Prediction accuracy validation** → Law Partner
+- **Session performance analysis** → Finance Controller
+- **Workflow and priority management** → Product Manager
 
 ---
 
-## Common Anti-Patterns to Avoid
+## Session Handoff Guidelines
+
+### 🟢 **Primary Session Patterns**
+- **SCOTUS Analysis**: Supreme Court Specialist → Law Partner validation
+- **Technical Implementation**: System Architect → Staff Engineer → Full-Stack Engineer
+- **Data Processing**: Data Specialist → Supreme Court Specialist analysis
+- **Session Coordination**: Product Manager orchestration with role-specific handoffs
+
+### 🟡 **Secondary Coordination**
+- **Finance Controller**: Session efficiency analysis and workflow optimization
+- **Role Designer**: When session patterns need optimization or role improvements
+- **Cross-validation**: Multiple Claude instances for critical prediction validation
+
+### 🔴 **Avoid Session Mixing**
+- **Technical roles**: In pure legal analysis sessions
+- **Legal roles**: In pure technical implementation sessions
+- **Coordination roles**: In domain-specific deep work sessions
+
+---
+
+## Session Anti-Patterns to Avoid
 
 ### ❌ **Wrong Role Activation**
-- Using Supreme Court Specialist for business strategy questions
-- Using Product Manager for detailed technical implementation
-- Using Finance Controller for legal analysis or technical decisions
-- Using System Architect for day-to-day coding tasks
+- Using Supreme Court Specialist for technical implementation
+- Using Product Manager for detailed legal analysis
+- Using Finance Controller for case analysis or coding
+- Using System Architect for routine implementation tasks
 
-### ❌ **Meeting Over-Inclusion**
-- Inviting all roles to every meeting "for awareness"
-- Including domain experts in meetings outside their expertise
-- Comprehensive consultation when selective consultation works
-- Technical roles in strategic planning without technical component
+### ❌ **Session Scope Confusion**
+- Mixing legal analysis with technical implementation in single session
+- Using wrong role expertise for task domain
+- Attempting comprehensive analysis when focused expertise needed
+- Context switching without proper handoff documentation
 
-### ❌ **Under-Consultation**
-- Making legal strategy decisions without Law Partner
-- Technical architecture decisions without System Architect
-- Budget/resource decisions without Finance Controller
-- Role design changes without Role Designer
-
----
-
-## Efficiency Optimization Tips
-
-### ⚡ **Start Small**
-1. **Begin with primary role** for your domain
-2. **Check if decision requires consultation** (see role-specific frameworks)
-3. **Use async documentation** before meetings when possible
-4. **Follow meeting protocols** for required attendees
-
-### ⚡ **Role Handoffs**
-- **Document context clearly** when passing work between roles
-- **Include relevant memory/history** for role bootstrap
-- **Specify expected deliverables** and quality standards
-- **Set clear deadlines** and communication expectations
-
-### ⚡ **Consultation Decision**
-Each role has specific consultation frameworks in their role definitions. Default pattern:
-1. **Use role expertise first** - most questions can be answered within role scope
-2. **Consult minimally** - only involve roles directly needed for decision
-3. **Follow meeting protocols** - use established meeting types for structured decisions
-4. **Document decisions** - preserve context for future reference
+### ❌ **Missing Validation**
+- SCOTUS predictions without Law Partner accuracy validation
+- Technical architecture without System Architect review
+- Session efficiency issues without Finance Controller analysis
+- Role performance problems without Role Designer consultation
 
 ---
 
-## Role Performance Red Flags
+## Session Efficiency Optimization
 
-### 🚨 **When to Consider Role Designer Consultation**
-- Role consistently over-consulting or under-consulting
-- Role boundaries becoming unclear or overlapping
-- Role performance not meeting quality standards
-- Role evolution needed based on project learnings
+### ⚡ **Start Focused**
+1. **Select appropriate role** for primary task domain
+2. **Use role memory triggers** for context loading
+3. **Check `CURRENT-STATUS.md`** for session continuity
+4. **Apply `/clear`** before major context switches
 
-### 🚨 **When to Escalate to Law Partner**
-- Legal strategy questions beyond Supreme Court Specialist scope
-- Client deliverable quality or strategic alignment issues
-- Cross-role conflicts affecting legal work quality
-- Strategic decisions with significant legal/business implications
+### ⚡ **Session Handoffs**
+- **Update role memory** with key insights and decisions
+- **Commit progress** with meaningful git messages
+- **Update `CURRENT-STATUS.md`** with next session context
+- **Reference issue tags** for traceability
 
-### 🚨 **When to Escalate to Finance Controller**
-- Any meeting running significantly over time/budget
-- Resource allocation conflicts or efficiency concerns
-- Cost-benefit questions about role usage or project direction
-- Process inefficiencies affecting project economics
+### ⚡ **Context Management**
+1. **Use role expertise** within defined scope
+2. **Document handoff needs** in session wind-down
+3. **Preserve context** in git commits and memory files
+4. **Optimize for prediction accuracy** as primary success metric
+
+---
+
+## Session Performance Indicators
+
+### 🚨 **Role Designer Consultation Needed**
+- Session patterns consistently inefficient or unfocused
+- Role boundaries unclear affecting prediction quality
+- Workflow bottlenecks reducing session effectiveness
+- Context management issues affecting role performance
+
+### 🚨 **Law Partner Validation Required**
+- SCOTUS prediction accuracy concerns
+- Legal analysis quality issues
+- Methodology validation for complex cases
+- Strategic alignment of prediction approach
+
+### 🚨 **Finance Controller Analysis Needed**
+- Session efficiency declining or context overload frequent
+- Workflow bottlenecks affecting prediction development
+- Performance optimization opportunities identified
+- Session pattern analysis for improvement opportunities
 
 ---
 
 ## Quick Reference Cards
 
-### 📋 **Product Manager Priorities**
-Focus: Sprint planning, stakeholder alignment, delivery coordination  
-Consult: Law Partner (strategy), Finance Controller (resources), System Architect (technical)  
-Avoid: Deep technical implementation, detailed legal analysis  
+### 📋 **Product Manager Session Focus**
+Primary: Session coordination, issue tracking, role handoff management  
+Handoff: Law Partner (validation), Finance Controller (efficiency), System Architect (technical)  
+Avoid: Deep technical work, detailed legal analysis  
 
-### ⚖️ **Supreme Court Specialist Priorities**  
-Focus: Legal case analysis, judicial prediction, legal research  
-Consult: Law Partner (strategy), Data Specialist (research support)  
-Avoid: Business strategy, technical implementation, project management  
+### ⚖️ **Supreme Court Specialist Session Focus**  
+Primary: SCOTUS case analysis, judicial prediction, legal research  
+Handoff: Law Partner (validation), Data Specialist (data processing)  
+Avoid: Technical implementation, session coordination  
 
-### 🏗️ **System Architect Priorities**
-Focus: Technical architecture, system design, technology decisions  
-Consult: Staff Engineer (implementation), Product Manager (requirements)  
-Avoid: Day-to-day coding, legal analysis, business strategy  
+### 🏗️ **System Architect Session Focus**
+Primary: Technical architecture, system design, integration planning  
+Handoff: Staff Engineer (implementation), Product Manager (coordination)  
+Avoid: Routine coding, legal analysis, session management  
 
 ---
 
-**Document Maintenance**: Updated when roles evolve or usage patterns change  
-**Owner**: Role Designer + Product Manager  
-**Review Cycle**: Quarterly or when role ecosystem changes  
-
-*This reference guide is designed to maximize role ecosystem efficiency and reduce consultation overhead while ensuring appropriate expertise is applied to each challenge.*
+**Focus**: SCOTUS prediction development with efficient Claude Code session management  
+**Owners**: Role Designer (optimization) + Product Manager (coordination)  
+**Context**: Supports 80% prediction accuracy target through focused role expertise

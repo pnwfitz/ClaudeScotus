@@ -1,21 +1,21 @@
 # Justice Sonia Sotomayor
 
 **Appointed**: 2009 by President Obama  
-**Confirmation Vote**: 68-31  
+**Confirmation**: 68-31  
 **Tenure**: 14+ years
 
-## Law Team Analysis
+## Analysis
 
-### Jurisprudential Profile
-**Core Philosophy**: Liberal activist with strong social justice commitments  
-**Approach**: Living constitutionalist, pragmatic liberal, outcome-focused on equity issues  
-**Key Doctrine**: Substantive due process, equal protection expansion, skeptical of originalism
+### Philosophy
+**Core**: Liberal activist, social justice focus  
+**Approach**: Living constitutionalist, pragmatic liberal  
+**Doctrine**: Substantive due process, equal protection expansion
 
-### Voting Patterns (2022-2024 Terms)
+### Voting Patterns
 
-**Reliability Score**: 95% liberal alignment (most predictable liberal vote)  
-**Swing Vote Frequency**: <5% (virtually never sides with conservative majority on major issues)  
-**Opinion Style**: Passionate, policy-focused, frequently emotional in dissents
+**Liberal Alignment**: 95%  
+**Swing Vote**: <5%  
+**Opinion Style**: Passionate, policy-focused, emotional dissents
 
 **Notable Positions**:
 - **Abortion**: Strong supporter of reproductive rights

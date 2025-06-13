@@ -1,21 +1,21 @@
 # Justice Neil M. Gorsuch
 
 **Appointed**: 2017 by President Trump  
-**Confirmation Vote**: 54-45 (after nuclear option elimination of filibuster)  
+**Confirmation**: 54-45  
 **Tenure**: 7+ years
 
-## Law Team Analysis
+## Analysis
 
-### Jurisprudential Profile
-**Core Philosophy**: Libertarian-leaning textualist with strong individual rights focus  
-**Approach**: Originalist methodology with libertarian outcomes, skeptical of government power  
-**Key Doctrine**: Criminal procedure protection, Native American rights, anti-administrative state
+### Philosophy
+**Core**: Libertarian-leaning textualist  
+**Approach**: Originalist methodology, skeptical of government power  
+**Doctrine**: Criminal procedure protection, Native American rights
 
-### Voting Patterns (2022-2024 Terms)
+### Voting Patterns
 
-**Reliability Score**: 75% conservative alignment (most unpredictable conservative)  
-**Swing Vote Frequency**: 20-25% (joins liberals on criminal justice and individual rights)  
-**Opinion Style**: Elegant, principled, historically grounded, occasionally contrarian
+**Conservative Alignment**: 75%  
+**Swing Vote**: 20-25%  
+**Opinion Style**: Elegant, principled, historically grounded
 
 **Notable Positions**:
 - **Criminal Justice**: Surprisingly liberal on Fourth Amendment and criminal procedure

@@ -1,22 +1,22 @@
 # Justice Ketanji Brown Jackson
 
 **Appointed**: 2022 by President Biden  
-**Confirmation Vote**: 53-47  
-**Tenure**: 2+ years (newest Justice)  
-**Background**: Federal Judge, Public Defender, Sentencing Commission
+**Confirmation**: 53-47  
+**Tenure**: 2+ years (newest)  
+**Background**: Federal Judge, Public Defender
 
-## Law Team Analysis
+## Analysis
 
-### Jurisprudential Profile
-**Core Philosophy**: Progressive liberal with strong criminal justice reform focus  
-**Approach**: Living constitutionalist, practical liberal, social justice orientation  
-**Key Doctrine**: Criminal justice reform, equal protection expansion, skeptical of originalism
+### Philosophy
+**Core**: Progressive liberal, criminal justice focus  
+**Approach**: Living constitutionalist, practical liberal  
+**Doctrine**: Criminal justice reform, equal protection expansion
 
-### Voting Patterns (2022-2024 Terms)
+### Voting Patterns
 
-**Reliability Score**: 95% liberal alignment (predictably liberal on major issues)  
-**Swing Vote Frequency**: <5% (virtually never sides with conservative majority)  
-**Opinion Style**: Detailed, policy-focused, emphasis on real-world impacts
+**Liberal Alignment**: 95%  
+**Swing Vote**: <5%  
+**Opinion Style**: Detailed, policy-focused, real-world impacts
 
 **Notable Positions**:
 - **Criminal Justice**: Most liberal on criminal procedure and sentencing
@@ -26,68 +26,59 @@
 
 ### Prediction Indicators
 
-**High Confidence Predictors** (95%+ accuracy):
-- Jackson votes liberal on: Criminal justice, civil rights, voting rights, abortion
-- Jackson emphasizes when: Criminal justice reform and racial equity issues
-- Jackson likely to dissent when: Conservative majority restricts individual rights
+**High Confidence** (95%+):
+- Liberal: Criminal justice, civil rights, voting rights, abortion
+- Emphasizes: Criminal justice reform, racial equity
+- Dissents: Conservative restrictions on rights
 
-**Medium Confidence Predictors** (80-90% accuracy):
-- **Administrative Law**: Generally supportive but may have nuanced views based on regulatory experience
-- **First Amendment**: Liberal approach but complex on hate speech and criminal context
-- **Business Regulation**: Pro-regulation but less ideologically driven than social issues
+**Medium Confidence** (80-90%):
+- Administrative Law: Generally supportive
+- First Amendment: Liberal but complex on hate speech
+- Business Regulation: Pro-regulation
 
-**Low Confidence Predictors** (70-80% accuracy):
-- **National Security**: Limited track record but likely liberal with civil liberties concerns
-- **Environmental Law**: Probably liberal but limited judicial record
-- **International Law**: Unclear based on limited Supreme Court experience
+**Low Confidence** (70-80%):
+- National Security: Limited record
+- Environmental Law: Likely liberal
+- International Law: Unclear
 
-### Strategic Considerations
+### Strategic Factors
 
-**Criminal Justice Expertise**: Unique background as public defender brings different perspective  
-**Newest Justice**: Still developing judicial voice and coalition relationships  
-**Liberal Coalition**: Likely to become leading voice of liberal opposition
+**Expertise**: Criminal justice background brings unique perspective  
+**Development**: Still developing judicial voice  
+**Coalition**: Leading liberal opposition voice
 
-### Case Analysis Framework
+### Analysis Framework
 
-**Jackson Likely Majority**:
-- Rare in current Court composition
-- Liberal outcome with emphasis on criminal justice and civil rights
+**Likely Majority**:
+- Liberal outcome with criminal justice emphasis
 - Practical consequences over formalistic reasoning
 
-**Jackson Likely Concurrence**:
-- When liberal coalition wins but she wants broader reasoning
-- Emphasis on criminal justice implications
-- Cases where her unique background provides additional insight
+**Likely Concurrence**:
+- Liberal wins requiring broader reasoning
+- Criminal justice implications
+- Unique background insights
 
-**Jackson Likely Dissent**:
-- Most frequent role in current conservative Court
-- Strong emphasis on criminal justice reform and racial equity
-- Detailed analysis of real-world impacts on communities
+**Likely Dissent**:
+- Most frequent role
+- Criminal justice reform emphasis
+- Real-world impact analysis
 
-## Historical Context
+## Context
 
-**Historic Appointment**: First Black woman on Supreme Court  
-**Criminal Justice Background**: Unique perspective from public defender experience  
-**Current Role**: Liberal coalition member, developing voice on criminal justice issues
+**Historic**: First Black woman on Supreme Court  
+**Background**: Public defender experience provides unique perspective  
+**Role**: Liberal coalition member, criminal justice specialist
 
-### Key Jackson Indicators
-- **Criminal Justice Focus**: Background creates special expertise and passion for reform
-- **Practical Impact**: Emphasizes how decisions affect real people and communities
-- **Historical Awareness**: Conscious of her historic role and civil rights legacy
+### Key Indicators
+- Criminal justice expertise and reform focus
+- Practical impact emphasis
+- Historical role awareness
 
-### Prediction Reliability
-**Reliably Liberal**: 95%+ liberal voting pattern makes her highly predictable  
-**Criminal Justice Specialty**: Most liberal voice on criminal procedure and sentencing issues  
-**Developing Voice**: Still establishing her Supreme Court judicial identity
+### Reliability
+- 95%+ liberal voting pattern
+- Most liberal on criminal procedure
+- Still developing judicial identity
 
-### Early Observations (Limited Data)
-**Writing Style**: Detailed, comprehensive, policy-focused  
-**Oral Argument**: Active questioner, especially on criminal justice issues  
-**Coalition Building**: Working within established liberal bloc
-
----
-
-**Confidence Level**: High for liberal outcomes, Medium for specific positions (limited tenure)  
-**Last Updated**: Term data through 2023-2024  
-**Analysis Source**: ClaudeScotus Law Team collaborative assessment  
-**Note**: Analysis based on limited Supreme Court tenure; predictions may evolve with more data
+**Confidence**: High for liberal outcomes, Medium for specifics (limited tenure)  
+**Updated**: 2023-2024 term data  
+**Note**: Analysis based on limited tenure

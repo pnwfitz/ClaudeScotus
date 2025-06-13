@@ -1,21 +1,21 @@
 # Justice Amy Coney Barrett
 
 **Appointed**: 2020 by President Trump  
-**Confirmation Vote**: 52-48 (closest to election in modern history)  
+**Confirmation**: 52-48  
 **Tenure**: 4+ years  
-**Background**: Notre Dame Law Professor, 7th Circuit Judge
+**Background**: Notre Dame Professor, 7th Circuit
 
-## Law Team Analysis
+## Analysis
 
-### Jurisprudential Profile
-**Core Philosophy**: Originalist textualist with strong conservative convictions  
-**Approach**: Academic originalism, methodologically rigorous, intellectually honest  
-**Key Doctrine**: Original public meaning, separation of powers, federalism
+### Philosophy
+**Core**: Originalist textualist  
+**Approach**: Academic originalism, methodologically rigorous  
+**Doctrine**: Original public meaning, separation of powers, federalism
 
-### Voting Patterns (2022-2024 Terms)
+### Voting Patterns
 
-**Reliability Score**: 85% conservative alignment (reliably conservative but principled)  
-**Swing Vote Frequency**: 10-15% (occasional departures based on legal methodology)  
+**Conservative Alignment**: 85%  
+**Swing Vote**: 10-15%  
 **Opinion Style**: Scholarly, methodical, academically rigorous
 
 **Notable Positions**:
@@ -26,62 +26,59 @@
 
 ### Prediction Indicators
 
-**High Confidence Predictors** (85%+ accuracy):
-- Barrett votes conservative on: Abortion, religious liberty, gun rights, federalism
-- Barrett applies originalist methodology even when: It might not support conservative outcome
-- Barrett writes separately when: Majority reasoning insufficiently originalist
+**High Confidence** (85%+):
+- Conservative: Abortion, religious liberty, gun rights, federalism
+- Applies originalism even when: Against conservative outcome
+- Writes separately: Insufficient originalist reasoning
 
-**Medium Confidence Predictors** (75-85% accuracy):
-- **Statutory Interpretation**: Textualist approach may lead to unexpected liberal results
-- **Criminal Law**: Conservative outcomes but originalist methodology might protect defendants
-- **Administrative Law**: Anti-agency but will respect clear congressional delegation
+**Medium Confidence** (75-85%):
+- Statutory Interpretation: Textualist may yield liberal results
+- Criminal Law: Conservative but originalist protections
+- Administrative Law: Anti-agency but respects delegation
 
-**Low Confidence Predictors** (65-75% accuracy):
-- **Novel Constitutional Questions**: Academic approach may lead to surprising positions
-- **Separation of Powers**: Principled approach may conflict with conservative political preferences
-- **Civil Rights**: Originalist methodology complex on 14th Amendment issues
+**Low Confidence** (65-75%):
+- Novel constitutional questions
+- Separation of powers conflicts
+- Civil rights complexity
 
-### Strategic Considerations
+### Strategic Factors
 
-**Academic Approach**: Most methodologically consistent originalist on current Court  
-**Intellectual Honesty**: Willing to reach liberal results if originalism demands it  
-**Long-term Perspective**: Young justice likely considering long-term doctrinal development
+**Approach**: Most consistent originalist methodology  
+**Honesty**: Reaches liberal results when originalism demands  
+**Perspective**: Young justice considering long-term development
 
-### Case Analysis Framework
+### Analysis Framework
 
-**Barrett Likely Majority**:
-- Conservative outcome supported by rigorous originalist analysis
-- Clear historical evidence supporting conservative position
-- Methodologically sound constitutional interpretation
+**Likely Majority**:
+- Conservative outcome with rigorous originalist analysis
+- Clear historical evidence
+- Methodologically sound interpretation
 
-**Barrett Likely Concurrence**:
-- When conservative majority reaches right result with insufficient originalist reasoning
-- Opportunity to develop originalist doctrine more rigorously
-- Cases where she wants to clarify or limit majority reasoning
+**Likely Concurrence**:
+- Conservative result, insufficient reasoning
+- Originalist doctrine development
+- Clarify or limit majority
 
-**Barrett Likely Dissent**:
-- When majority ignores clear originalist analysis for political convenience
-- Cases where originalist methodology points away from conservative outcome
-- Separation of powers cases where majority too deferential to other branches
+**Likely Dissent**:
+- Majority ignores originalist analysis
+- Originalism points liberal
+- Separation of powers deference issues
 
-## Historical Context
+## Context
 
-**Recent Appointment**: Still developing judicial identity and coalition relationships  
-**Academic Background**: Brings scholarly rigor to originalist methodology  
-**Current Role**: Serious originalist voice, potential intellectual leader of conservative legal movement
+**Development**: Still developing judicial identity  
+**Background**: Academic rigor to originalist methodology  
+**Role**: Serious originalist voice, potential conservative intellectual leader
 
-### Key Barrett Indicators
-- **Academic Rigor**: Opinions demonstrate serious engagement with historical sources
-- **Methodological Consistency**: Originalism applied even when politically inconvenient
-- **Institutional Development**: Building reputation as thoughtful conservative intellectual
+### Key Indicators
+- Academic rigor in historical sources
+- Consistent originalism application
+- Building thoughtful conservative reputation
 
-### Prediction Reliability
-**Principled Conservative**: Originalist methodology creates some uncertainty in specific cases  
-**Academic Approach**: Scholarly background may lead to more complex reasoning  
-**Long-term Vision**: Young justice likely considering decades-long doctrinal development
+### Reliability
+- Originalist methodology creates uncertainty
+- Academic approach yields complex reasoning
+- Long-term doctrinal vision
 
----
-
-**Confidence Level**: High for originalist methodology, Medium-High for specific conservative outcomes  
-**Last Updated**: Term data through 2023-2024  
-**Analysis Source**: ClaudeScotus Law Team collaborative assessment
+**Confidence**: High for methodology, Medium-High for outcomes  
+**Updated**: 2023-2024 term data
