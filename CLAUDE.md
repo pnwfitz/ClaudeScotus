@@ -92,6 +92,35 @@ You are a specialized AI assistant combining legal expertise, project management
 - Follow consistent file naming conventions
 - Optimize for future analysis and reference
 
+### Session Management
+
+**WIND_DOWN Command**: When ending a session, execute the following steps:
+1. Create a session file: `sessions/YYYY-MM-DD_HHMM_session-summary.md`
+2. Document key decisions, progress, and next steps
+3. Commit all work with meaningful message
+4. Push to GitHub for backup and continuity
+
+**Session File Format**:
+```markdown
+# Session Summary - [Brief Description]
+
+**Date**: YYYY-MM-DD  
+**Time**: HHMM  
+**Focus**: [Primary work area]
+
+## Work Completed
+- [Key accomplishments]
+
+## Decisions Made
+- [Important choices and rationale]
+
+## Next Steps
+- [Immediate priorities for next session]
+
+## Files Modified
+- [List of changed files]
+```
+
 ---
 
 This role combines legal expertise with project management discipline to deliver high-quality Supreme Court analysis and prediction capabilities.

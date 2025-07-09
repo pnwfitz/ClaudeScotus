@@ -1,6 +1,6 @@
 # Supreme Court Data Repository
 
-![Data](https://img.shields.io/badge/Data-SCOTUS%20Cases-blue) ![Terms](https://img.shields.io/badge/Terms-2022--2025-green) ![Justices](https://img.shields.io/badge/Justices-9%20Profiles-purple)
+![Data](https://img.shields.io/badge/Data-SCOTUS%20Cases-blue) ![Terms](https://img.shields.io/badge/Terms-2022--2024-green) ![Phase](https://img.shields.io/badge/Phase-1%20Data%20Collection-orange)
 
 ## 📋 Table of Contents
 
@@ -8,7 +8,6 @@
 <summary>Repository Structure</summary>
 
 - [Terms](#terms)
-- [Justice Profiles](#justice-profiles)
 - [Analysis](#analysis)
 - [Case File Structure](#case-file-structure)
 
@@ -19,7 +18,6 @@
 
 - [Usage](#usage)
 - [Data Quality Standards](#data-quality-standards)
-- [Contribution Guidelines](#contribution-guidelines)
 
 </details>
 
@@ -27,45 +25,17 @@
 
 ### Terms
 
-| Term | Years | Status | Key Features |
-|------|-------|--------|-------------|
-| [2022-2023](terms/2022-2023/) | Jackson's first term | ✅ Complete | Constitutional cases, affirmative action |
-| [2023-2024](terms/2023-2024/) | Completed term | 🟡 In Progress | Regulatory decisions, business law |
-| [2024-2025](terms/2024-2025/) | Current term | 🔄 Active | Ongoing cases, prediction targets |
-
-### Justice Profiles
-
-<details>
-<summary>Conservative Justices</summary>
-
-| Justice | Position | Tenure | Profile |
-|---------|----------|--------|---------|
-| [Roberts](justices/roberts.md) | Chief Justice | 2005-present | Judicial restraint, institutionalist |
-| [Thomas](justices/thomas.md) | Senior Associate | 1991-present | Originalist, conservative anchor |
-| [Alito](justices/alito.md) | Associate | 2006-present | Conservative, prosecutorial background |
-| [Gorsuch](justices/gorsuch.md) | Associate | 2017-present | Textualist, libertarian leanings |
-| [Kavanaugh](justices/kavanaugh.md) | Associate | 2018-present | Conservative, institutionalist |
-| [Barrett](justices/barrett.md) | Associate | 2020-present | Originalist, conservative |
-
-</details>
-
-<details>
-<summary>Liberal Justices</summary>
-
-| Justice | Position | Tenure | Profile |
-|---------|----------|--------|---------|
-| [Sotomayor](justices/sotomayor.md) | Associate | 2009-present | Liberal, empathy-focused |
-| [Kagan](justices/kagan.md) | Associate | 2010-present | Pragmatic liberal, strategic |
-| [Jackson](justices/jackson.md) | Associate | 2022-present | Liberal, criminal justice focus |
-
-</details>
+| Term | Years | Status | Focus |
+|------|-------|--------|-------|
+| [2022-2023](terms/2022-2023/) | Jackson's first term | 🔄 Phase 1 | Constitutional cases, major decisions |
+| [2023-2024](terms/2023-2024/) | Completed term | 🔄 Phase 1 | Regulatory decisions, business law |
 
 ### Analysis
 
 | Directory | Purpose | Status | Contents |
 |-----------|---------|--------|-----------|
-| [Predictions](analysis/predictions/) | Current predictions | 🟡 Active | Case outcome forecasts |
-| [Accuracy](analysis/accuracy_tracking/) | Performance metrics | 📊 Tracking | Historical accuracy data |
+| [Justices](analysis/justices/) | Individual justice profiles | 🟡 Phase 2 | Behavioral patterns, judicial philosophy |
+| [Court Meta](analysis/court-meta/) | Court dynamics analysis | 🟡 Phase 2 | Coalition patterns, ideological trends |
 
 ## Case File Structure
 
@@ -115,60 +85,41 @@ flowchart TD
 
 | Need | Path | Description |
 |------|------|-------------|
-| **Case Predictions** | `[term]/cases/[case]/README.md` | Individual case analysis and outcomes |
-| **Justice Analysis** | `/justices/[name].md` | Individual justice behavioral patterns |
-| **Term Overview** | `/terms/[year]/term_summary.md` | Complete term analysis |
-| **Prediction Data** | `/analysis/predictions/` | Current forecasting data |
-| **Accuracy Metrics** | `/analysis/accuracy_tracking/` | Historical performance |
+| **Case Files** | `terms/[year]/cases/[case]/` | Individual case materials and analysis |
+| **Justice Profiles** | `analysis/justices/[name].md` | Individual justice behavioral patterns |
+| **Term Overview** | `terms/[year]/term_summary.md` | Complete term analysis |
+| **Court Dynamics** | `analysis/court-meta/` | Coalition patterns and ideological trends |
 
 ### Navigation Examples
 
 ```bash
 # Find specific case
-data/terms/2022-2023/cases/21-707_students-for-fair-admissions-v-harvard/
+data/terms/2022-2023/cases/21-432_arellano-v-mcdonough/
 
-# Justice voting patterns
-data/justices/roberts.md
+# Justice analysis
+data/analysis/justices/roberts.md
 
-# Term predictions
-data/analysis/predictions/2024-2025_term_predictions.md
+# Court meta-analysis
+data/analysis/court-meta/coalition-analysis.md
 ```
 
 ## Data Quality Standards
 
-### Completeness Requirements
+### Phase 1 Requirements (Data Collection)
 
-- [ ] **All major cases documented** per term
-- [ ] **Complete file structure** for each case
-- [ ] **Metadata accuracy** verified
-- [ ] **Cross-references validated** between files
-- [ ] **Justice profiles updated** with recent decisions
+- [ ] **Complete case files** for 2022-2023 and 2023-2024 terms
+- [ ] **Standardized file structure** for each case
+- [ ] **Comprehensive metadata** for all cases
+- [ ] **Official source documents** only
+- [ ] **Consistent naming conventions** throughout
 
-### Quality Assurance Checklist
+### Phase 2 Requirements (Analysis)
 
-- [ ] **File naming convention** followed consistently
-- [ ] **README.md completeness** for all cases
-- [ ] **Metadata.json validity** (valid JSON, required fields)
-- [ ] **PDF accessibility** (all documents readable)
-- [ ] **Cross-reference accuracy** (links work correctly)
-
-## Contribution Guidelines
-
-### Adding New Cases
-
-1. **Create case directory** using standard naming convention
-2. **Follow file structure** template exactly
-3. **Complete metadata.json** with all required fields
-4. **Write comprehensive README.md** with analysis
-5. **Validate all links** and cross-references
-
-### Updating Justice Profiles
-
-1. **Review recent decisions** for behavioral patterns
-2. **Update voting statistics** with new cases
-3. **Analyze opinion writing** patterns
-4. **Cross-reference** with case outcomes
-5. **Validate prediction relevance** for forecasting
+- [ ] **Individual justice profiles** for all 9 justices
+- [ ] **Court meta-analysis** documents
+- [ ] **Predictive frameworks** based on collected data
+- [ ] **Quality validation** and confidence scoring
+- [ ] **Professional analysis standards** maintained
 
 > **🎯 Data Quality Goal**  
-> Maintain 95%+ accuracy in case metadata and 100% completion rate for major constitutional cases to support 80% SCOTUS prediction accuracy target.
+> Complete and accurate case collection for the last two Supreme Court terms to support comprehensive judicial analysis and pattern recognition.
