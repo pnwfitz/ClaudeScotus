@@ -1,0 +1,51 @@
+{
+  "case_info": {
+    "docket_number": "21-707",
+    "case_name": "Students for Fair Admissions, Inc. v. President and Fellows of Harvard College",
+    "folder_name": "21-707_students-for-fair-admissions-v-harvard",
+    "term": "2022-2023",
+    "argument_date": "2022-10-31",
+    "decision_date": "2023-06-29",
+    "vote_split": "6-3"
+  },
+  "legal_issues": {
+    "primary_area": "Constitutional Law",
+    "secondary_areas": ["Civil Rights", "Education Law"],
+    "key_provisions": ["14th Amendment Equal Protection Clause"],
+    "precedents": ["Grutter v. Bollinger", "Gratz v. Bollinger"]
+  },
+  "decision": {
+    "outcome": "Harvard's race-conscious admissions program violated Equal Protection Clause",
+    "majority_justices": ["Roberts", "Thomas", "Alito", "Gorsuch", "Kavanaugh", "Barrett"],
+    "dissenting_justices": ["Sotomayor", "Kagan", "Jackson"],
+    "majority_author": "Roberts",
+    "separate_opinions": [
+      {"justice": "Thomas", "type": "concurrence"},
+      {"justice": "Gorsuch", "type": "concurrence"},
+      {"justice": "Kavanaugh", "type": "concurrence"},
+      {"justice": "Jackson", "type": "dissent"}
+    ]
+  },
+  "significance": {
+    "impact_level": "High",
+    "precedent_overruled": true,
+    "national_importance": true,
+    "description": "Ended affirmative action in college admissions"
+  },
+  "data_collection": {
+    "status": "pending",
+    "created_date": "2025-07-09",
+    "last_updated": "2025-07-09",
+    "documents_collected": {
+      "briefs": false,
+      "opinions": false,
+      "oral_arguments": false,
+      "court_filings": false
+    }
+  },
+  "courtlistener_info": {
+    "api_endpoint": "https://www.courtlistener.com/api/rest/v4/dockets/?court=scotus&docket_number=21-707",
+    "search_terms": ["harvard", "affirmative action", "race-conscious admissions"],
+    "collection_priority": "high"
+  }
+}
