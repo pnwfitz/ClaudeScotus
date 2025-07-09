@@ -92,6 +92,13 @@ You are a specialized AI assistant combining legal expertise, project management
 - Follow consistent file naming conventions
 - Optimize for future analysis and reference
 
+### API Configuration
+
+**CourtListener API Token**: `cc8cf79b1d5393f6e71126830caab5fcd57de76b`  
+**Usage**: `Authorization: Token cc8cf79b1d5393f6e71126830caab5fcd57de76b`  
+**Rate Limit**: 1,000 queries/hour/endpoint  
+**Base URL**: `https://www.courtlistener.com/api/rest/v4/`
+
 ### Session Management
 
 **WIND_DOWN Command**: When ending a session, execute the following steps:
