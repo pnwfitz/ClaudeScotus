@@ -1,10 +1,10 @@
 # ClaudeScotus
 
-![Status](https://img.shields.io/badge/Status-MVP%20Validation-orange) ![Accuracy](https://img.shields.io/badge/Target-80%25%20Accuracy-green) ![Phase](https://img.shields.io/badge/Phase-Arc%202-blue)
+![Status](https://img.shields.io/badge/Status-Phase%201-orange) ![Phase](https://img.shields.io/badge/Phase-Data%20Collection-blue) ![Role](https://img.shields.io/badge/Role-Legal%20Analysis-green)
 
-**Supreme Court Prediction System**
+**Supreme Court Analysis System**
 
-Experimental AI system for Supreme Court decision prediction using role-based analysis.
+Streamlined AI system for Supreme Court decision analysis and judicial pattern recognition.
 
 ## 📋 Table of Contents
 
@@ -13,18 +13,17 @@ Experimental AI system for Supreme Court decision prediction using role-based an
 
 - [Overview](#overview)
 - [Current Status](#current-status)
-- [Success Metrics](#success-metrics)
-- [Roadmap](#roadmap)
+- [Architecture](#architecture)
+- [Getting Started](#getting-started)
 
 </details>
 
 <details>
-<summary>System Architecture</summary>
+<summary>Project Structure</summary>
 
-- [Role System](#role-system)
-- [Architecture](#architecture)
-- [Getting Started](#getting-started)
-- [Session Management](#session-management)
+- [Phase Structure](#phase-structure)
+- [Data Organization](#data-organization)
+- [Analysis Framework](#analysis-framework)
 
 </details>
 
@@ -39,79 +38,77 @@ Experimental AI system for Supreme Court decision prediction using role-based an
 
 | Metric | Value | Status |
 |--------|-------|--------|
-| **Goal** | 80% prediction accuracy for Supreme Court decisions | 🎯 Target |
-| **Method** | Role-based AI analysis system | ✅ Active |
-| **Target** | Fortune 500 legal teams | 🏆 Client Focus |
-| **Default Role** | Product Manager (auto-loads) | ⚙️ Default |
+| **Goal** | Analyze Supreme Court decisions and judicial patterns | 🎯 Active |
+| **Method** | Legal analysis with project management discipline | ✅ Streamlined |
+| **Current Phase** | Phase 1 - Data Collection | 🔄 In Progress |
+| **Role** | Legal Analysis & Project Management Specialist | ⚙️ Unified |
 
 > **🎯 Core Mission**  
-> Transform Supreme Court decision prediction from educated guesswork to data-driven intelligence for Fortune 500 legal strategy.
+> Collect, organize, and analyze Supreme Court decisions to understand judicial patterns and decision-making processes.
 
 ## Current Status
 
 ```mermaid
 flowchart LR
-    A[Arc 1: Infrastructure] --> B[Arc 2: MVP Validation]
-    B --> C[Arc 3: Production Scale]
+    A[Phase 1: Data Collection] --> B[Phase 2: Analysis & Documentation]
     
-    A --> A1[9 Roles Created]
-    A --> A2[BaseEmployee System]
+    A --> A1[2022-2023 Term Cases]
+    A --> A2[2023-2024 Term Cases]
+    A --> A3[Case Organization]
     
-    B --> B1[Case Analysis Workflow]
-    B --> B2[80% Accuracy Testing]
-    B --> B3[Justice Modeling]
-    
-    C --> C1[Automated Pipeline]
-    C --> C2[Fortune 500 Deployment]
+    B --> B1[Justice Profiles]
+    B --> B2[Court Meta-Analysis]
+    B --> B3[Predictive Insights]
 ```
 
 | Phase | Status | Description |
 |-------|--------|-------------|
-| **Arc 1: Infrastructure** | ✅ Complete | 9 specialized roles with BaseEmployee inheritance |
-| **Arc 2: MVP Validation** | 🟡 Active | Testing case analysis workflow |
-| **Arc 3: Production Scale** | ⏸️ Planned | Automated pipeline for Fortune 500 deployment |
+| **Phase 1: Data Collection** | 🔄 In Progress | Collect case files for last two Supreme Court terms |
+| **Phase 2: Analysis & Documentation** | ⏸️ Planned | Create justice profiles and court meta-analysis |
 
-**Current Priority**: Achieve 80% prediction accuracy target
+**Current Priority**: Complete data collection for 2022-2023 and 2023-2024 terms
 
-## Role System
+## Phase Structure
 
-### Role Categories
+### Phase 1: Data Collection
+- **Objective**: Collect and organize Supreme Court case materials for the last two terms
+- **Scope**: 2022-2023 and 2023-2024 Supreme Court terms
+- **Deliverables**: 
+  - Complete case files with briefs, opinions, and oral arguments
+  - Standardized case folder structure
+  - Term summary documents
+  - Searchable metadata system
 
-<details>
-<summary>Legal Expertise</summary>
+### Phase 2: Analysis & Documentation
+- **Objective**: Create comprehensive justice profiles and court meta-analysis
+- **Scope**: All 9 current Supreme Court justices plus court dynamics
+- **Deliverables**:
+  - Individual justice behavioral profiles
+  - Court coalition and alignment analysis
+  - Predictive framework for future decisions
+  - Meta-analysis of court ideological trends
 
-| Role | Function | Status |
-|------|----------|--------|
-| **Supreme Court Specialist** | Case analysis, precedent research | ✅ Active |
-| **Law Partner** | Strategic decisions, client briefings | ✅ Active |
+## Data Organization
 
-</details>
+### Case Structure
+```
+data/terms/[YEAR]/cases/[case-name]/
+├── metadata.json           # Case identifiers and key information
+├── briefs/                # Petitioner and respondent briefs
+├── opinions/              # Majority, concurring, dissenting opinions
+├── oral_arguments/        # Transcripts and audio files
+└── README.md              # Case overview and analysis
+```
 
-<details>
-<summary>Technical Team</summary>
-
-| Role | Function | Status |
-|------|----------|--------|
-| **System Architect** | Technical foundation, system design | ✅ Active |
-| **Staff Engineer** | Code quality, technical leadership | ✅ Active |
-| **Full-Stack Engineer** | Implementation, feature development | ✅ Active |
-
-</details>
-
-<details>
-<summary>Data & Management</summary>
-
-| Role | Function | Status |
-|------|----------|--------|
-| **Data Specialist** | CourtListener API, data processing | ✅ Active |
-| **Product Manager** | Project orchestration (default) | ✅ Default |
-| **Finance Controller** | Budget management, efficiency | ✅ Active |
-| **Role Designer** | Maya Chen - System evolution | ✅ Active |
-
-</details>
-
-> **📝 Role Guide**  
-> See `corporate policy/role-reference-guide.md` for detailed consultation patterns and usage guidelines.
+### Justice Profiles
+```
+data/analysis/justices/[justice-name].md
+├── Voting Patterns        # Historical voting behavior
+├── Judicial Philosophy    # Constitutional interpretation approach
+├── Key Opinions          # Significant majority/dissenting opinions
+├── Coalition Behavior    # Alignment with other justices
+└── Prediction Factors    # Key indicators for future votes
+```
 
 ## Architecture
 
@@ -119,67 +116,56 @@ flowchart LR
 
 ```mermaid
 graph TD
-    A[Case Intake] --> B[Justice Modeling]
-    B --> C[Confidence Scoring]
-    C --> D[Executive Briefings]
-    D --> E[Validation]
-    E --> F[80% Accuracy Target]
+    A[Data Collection] --> B[Case Organization]
+    B --> C[Justice Analysis]
+    C --> D[Court Meta-Analysis]
+    D --> E[Predictive Insights]
     
-    G[BaseEmployee Foundation] --> H[9 Specialist Roles]
-    H --> I[File-based System]
+    F[Legal Expertise] --> G[Project Management]
+    G --> H[Quality Assurance]
+    H --> I[Documentation]
     I --> J[Git Workflows]
-    J --> K[Session Continuity]
 ```
 
 | Component | Description | Benefits |
 |-----------|-------------|----------|
+| **Unified Role** | Single role combining legal, PM, and prompt engineering | Streamlined workflow, reduced complexity |
 | **File-based System** | No databases required | Simple, version-controlled, transparent |
-| **Role Inheritance** | 9 specialists with BaseEmployee foundation | Consistent protocols, specialized expertise |
 | **Git Workflows** | Version control for all analysis | Audit trail, collaboration, recovery |
-| **Session Continuity** | Memory system across sessions | Context preservation, incremental improvement |
+| **Structured Documentation** | Consistent formats and standards | Searchable, reproducible, professional |
 
-## Success Metrics
+## Analysis Framework
 
-### Primary KPIs
+### Data Sources
+- **Primary**: Supreme Court official website, CourtListener API
+- **Secondary**: Legal databases, oral argument transcripts
+- **Quality**: Official sources only, complete case records
 
-| Metric | Target | Current | Validation Method |
-|--------|--------|---------|-------------------|
-| **Prediction Accuracy** | 80% | Testing | Historical case validation |
-| **Confidence Calibration** | Well-calibrated | In development | Accuracy vs confidence correlation |
-| **Fortune 500 Utility** | High | In validation | Client feedback, decision impact |
-| **Professional Quality** | Partner-level | Target | Law firm review standards |
+### Methodology
+1. **Systematic Collection**: Comprehensive case file gathering
+2. **Standardized Organization**: Consistent folder structure and metadata
+3. **Pattern Analysis**: Justice voting behavior and reasoning patterns
+4. **Coalition Mapping**: Inter-justice alignment and influence
+5. **Predictive Modeling**: Framework for future case analysis
 
 ### Quality Standards
-
-- [ ] **80% prediction accuracy** with confidence calibration
-- [ ] **Fortune 500 utility** - actionable corporate legal intelligence
-- [ ] **Professional quality** - Law firm partner-level analysis
-- [ ] **Audit trail** - Complete decision reasoning
-- [ ] **Confidence scoring** - Uncertainty quantification
-- [ ] **Strategic guidance** - Executive decision support
+- [ ] **Complete Case Records** - All briefs, opinions, oral arguments
+- [ ] **Consistent Metadata** - Standardized case information
+- [ ] **Searchable Documentation** - Clear organization and indexing
+- [ ] **Professional Analysis** - Legal accuracy and thoroughness
+- [ ] **Reproducible Methods** - Documented processes and decisions
 
 ## Getting Started
 
-1. **Product Manager auto-loads** - Check `CLAUDE.md` for startup routine
-2. **Review role guide** - `corporate policy/role-reference-guide.md`
-3. **Check recent sessions** - `claude sessions/` for context
+1. **Check Role Configuration** - Review `CLAUDE.md` for current role setup
+2. **Understand Architecture** - Read `ARCHITECTURE.md` for project structure
+3. **Begin Phase 1** - Start with data collection for target terms
 
-**Case Analysis**: Supreme Court Specialist → Law Partner → Executive deliverables
-
-## Roadmap
-
-**Arc 1**: Infrastructure ✅ Complete - 9 roles, BaseEmployee system  
-**Arc 2**: MVP Validation 🎯 Active - 80% accuracy testing  
-**Arc 3**: Production Scale 📋 Planned - Automated pipeline
-
-## Session Management
-
-**Wind-down**: Use `WIND_DOWN` macro → save to `claude sessions/`  
-**Resume**: Check last wind-down + open issues + role memories
+**Current Focus**: Data collection for 2022-2023 and 2023-2024 Supreme Court terms
 
 ## Quick Reference
 
-**Case analysis** → Supreme Court Specialist  
-**Strategic decisions** → Law Partner + Finance Controller  
-**Technical work** → System Architect + Staff Engineer  
-**Role help** → `corporate policy/role-reference-guide.md`
+**Project Structure** → See `ARCHITECTURE.md`  
+**Role Configuration** → See `CLAUDE.md`  
+**Data Organization** → `data/terms/[YEAR]/cases/`  
+**Analysis Output** → `data/analysis/justices/` and `data/analysis/court-meta/`
