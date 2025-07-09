@@ -7,7 +7,7 @@
 
 ## Overview
 
-This document is designed to track prediction accuracy for each justice across major Supreme Court cases from the 2022-2023 term. The ClaudeScotus prediction system will generate voting patterns, opinion authorship, and separate opinion predictions to be compared against actual outcomes.
+This document is designed to track prediction accuracy for each justice across all 58 Supreme Court cases from the 2022-2023 term. The ClaudeScotus prediction system will generate voting patterns, opinion authorship, and separate opinion predictions to be compared against actual outcomes.
 
 ## Legend
 
@@ -26,7 +26,7 @@ This document is designed to track prediction accuracy for each justice across m
 
 ## Cases Available for Prediction Testing
 
-### Major Cases with Complete Documentation
+### Cases Available for Testing (15 with Known Dockets)
 
 1. **Students for Fair Admissions v. Harvard (21-707)**
    - **Issue**: Affirmative action in college admissions
@@ -164,15 +164,15 @@ For each case, the prediction system will generate:
 
 ## Validation Plan
 
-### Phase 1: Major Cases (20 cases)
-- Test prediction system on the 20 major cases listed above
+### Phase 1: Known Cases (15 cases)
+- Test prediction system on the 15 cases with known docket numbers
 - Generate comprehensive prediction vs actual analysis
 - Calculate accuracy rates by justice and category
 
 ### Phase 2: Complete Term (58 cases)
-- Expand to all 58 cases from the 2022-2023 term
-- Test prediction system on lower-profile cases
-- Validate consistency across case types
+- Expand to all 58 cases from the 2022-2023 term (after docket research)
+- Test prediction system across all case types and importance levels
+- Validate consistency across the full spectrum of Court decisions
 
 ### Phase 3: Cross-Validation
 - Compare results with external prediction models

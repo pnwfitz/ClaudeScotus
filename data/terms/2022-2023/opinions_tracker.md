@@ -4,146 +4,135 @@
 **Total Cases**: 58  
 **Source**: Wikipedia - 2022 term opinions of the Supreme Court of the United States
 
-## Major Cases Table
-
-| Case Name | Docket | Argument Date | Decision Date | Vote Split | Majority | Dissent | Author | Notes |
-|-----------|--------|---------------|---------------|------------|----------|---------|--------|--------|
-| Students for Fair Admissions v. Harvard | 20-1199 | Oct 31, 2022 | Jun 29, 2023 | 6-3 | Roberts, Thomas, Alito, Gorsuch, Kavanaugh, Barrett | Sotomayor, Kagan, Jackson | Roberts | Struck down affirmative action |
-| Students for Fair Admissions v. UNC | 21-707 | Oct 31, 2022 | Jun 29, 2023 | 6-3 | Roberts, Thomas, Alito, Gorsuch, Kavanaugh, Barrett | Sotomayor, Kagan, Jackson | Roberts | Consolidated with Harvard case |
-| Moore v. Harper | 21-1271 | Dec 7, 2022 | Jun 27, 2023 | 6-3 | Roberts, Sotomayor, Kagan, Kavanaugh, Barrett, Jackson | Thomas, Alito, Gorsuch | Roberts | Rejected independent state legislature theory |
-| 303 Creative LLC v. Elenis | 21-476 | Dec 5, 2022 | Jun 30, 2023 | 6-3 | Roberts, Thomas, Alito, Gorsuch, Kavanaugh, Barrett | Sotomayor, Kagan, Jackson | Gorsuch | Free speech vs anti-discrimination |
-| Groff v. DeJoy | 22-174 | Apr 18, 2023 | Jun 29, 2023 | 9-0 | All justices | None | Alito | Religious workplace accommodation |
-| Counterman v. Colorado | 22-138 | Apr 19, 2023 | Jun 27, 2023 | 7-2 | Roberts, Alito, Sotomayor, Kagan, Gorsuch, Kavanaugh, Jackson | Thomas, Barrett | Kagan | True threats First Amendment |
-| Sackett v. EPA | 21-454 | Oct 3, 2022 | May 25, 2023 | 9-0 | All justices | None | Alito | Clean Water Act jurisdiction |
-| National Pork Producers v. Ross | 21-468 | Oct 11, 2022 | May 11, 2023 | 5-4 | Thomas, Sotomayor, Kagan, Gorsuch, Jackson | Roberts, Alito, Kavanaugh, Barrett | Gorsuch | Dormant Commerce Clause |
-| Tyler v. Hennepin County | 22-166 | Apr 26, 2023 | May 25, 2023 | 9-0 | All justices | None | Roberts | Property rights and tax sales |
-| Allen v. Milligan | 21-1086 | Oct 4, 2022 | Jun 8, 2023 | 5-4 | Roberts, Sotomayor, Kagan, Kavanaugh, Jackson | Thomas, Alito, Gorsuch, Barrett | Roberts | Voting Rights Act redistricting |
-| Andy Warhol Foundation v. Goldsmith | 21-869 | Oct 12, 2022 | May 18, 2023 | 7-2 | Roberts, Thomas, Alito, Kavanaugh, Barrett, Gorsuch, Jackson | Sotomayor, Kagan | Sotomayor | Fair use copyright |
-| Glacier Northwest v. Teamsters | 21-1449 | Mar 28, 2023 | Jun 1, 2023 | 8-1 | Roberts, Thomas, Alito, Sotomayor, Gorsuch, Kavanaugh, Barrett, Jackson | Kagan | Barrett | Labor law and property damage |
-| Arellano v. McDonough | 21-432 | Nov 1, 2022 | May 16, 2023 | 7-2 | Roberts, Thomas, Alito, Gorsuch, Kavanaugh, Barrett, Jackson | Sotomayor, Kagan | Gorsuch | Veterans benefits equitable tolling |
-| Reed v. Goertz | 21-1107 | Nov 2, 2022 | Apr 19, 2023 | 6-3 | Roberts, Thomas, Sotomayor, Kagan, Kavanaugh, Barrett | Alito, Gorsuch, Jackson | Thomas | Habeas corpus DNA testing |
-| Helix Energy Solutions v. Hewitt | 21-984 | Nov 8, 2022 | Feb 22, 2023 | 6-3 | Roberts, Thomas, Sotomayor, Kagan, Barrett, Jackson | Alito, Gorsuch, Kavanaugh | Kagan | Fair Labor Standards Act |
-| Twitter v. Taamneh | 21-1496 | Feb 21, 2023 | May 18, 2023 | 9-0 | All justices | None | Thomas | Social media terrorism liability |
-| Gonzalez v. Google | 21-1333 | Feb 21, 2023 | May 18, 2023 | 9-0 | All justices | None | Thomas | Section 230 dismissed |
-| Haaland v. Brackeen | 21-376 | Nov 9, 2022 | Jun 15, 2023 | 7-2 | Roberts, Thomas, Alito, Sotomayor, Gorsuch, Kavanaugh, Barrett | Kagan, Jackson | Barrett | Indian Child Welfare Act |
-| Abitron Austria v. Hetronic | 21-1043 | Dec 6, 2022 | May 30, 2023 | 9-0 | All justices | None | Alito | Trademark extraterritorial application |
-| Dupree v. Younger | 22-210 | Feb 27, 2023 | May 11, 2023 | 8-1 | Roberts, Thomas, Alito, Sotomayor, Kagan, Gorsuch, Kavanaugh, Barrett | Jackson | Kavanaugh | Federal sentencing guidelines |
-
 ## Complete Case List (All 58 Cases)
 
-*Note: This section will be populated with the complete list of all 58 cases from the 2022-2023 term. The above table shows the major cases currently tracked in our case list.*
+*This table will be populated with detailed voting information as data is collected. Currently showing case names and basic information.*
 
-### Cases by Decision Date
+| # | Case Name | Docket | Argument Date | Decision Date | Vote Split | Author | Issue Area | Status |
+|---|-----------|--------|---------------|---------------|------------|--------|------------|--------|
+| 1 | Arellano v. McDonough | 21-432 | TBD | TBD | TBD | TBD | Veterans law | Folder exists |
+| 2 | In re Grand Jury | TBD | TBD | TBD | TBD | TBD | Criminal procedure | Needs research |
+| 3 | Cruz v. Arizona | TBD | TBD | TBD | TBD | TBD | Criminal law | Needs research |
+| 4 | Helix Energy Solutions Group, Inc. v. Hewitt | 21-984 | TBD | TBD | TBD | TBD | Labor law | Folder exists |
+| 5 | Bartenwerfer v. Buckley | TBD | TBD | TBD | TBD | TBD | Bankruptcy law | Needs research |
+| 6 | Bittner v. United States | TBD | TBD | TBD | TBD | TBD | Tax law | Needs research |
+| 7 | Delaware v. Pennsylvania | TBD | TBD | TBD | TBD | TBD | Interstate disputes | Needs research |
+| 8 | Luna Perez v. Sturgis Public Schools | TBD | TBD | TBD | TBD | TBD | Education law | Needs research |
+| 9 | Wilkins v. United States | TBD | TBD | TBD | TBD | TBD | Federal claims | Needs research |
+| 10 | Axon Enterprise, Inc. v. Federal Trade Commission | TBD | TBD | TBD | TBD | TBD | Administrative law | Needs research |
+| 11 | New York v. New Jersey | TBD | TBD | TBD | TBD | TBD | Interstate disputes | Needs research |
+| 12 | Reed v. Goertz | 21-1107 | TBD | TBD | TBD | TBD | Habeas corpus | Folder exists |
+| 13 | Türkiye Halk Bankası A.Ş. v. United States | TBD | TBD | TBD | TBD | TBD | Foreign sovereign immunity | Needs research |
+| 14 | MOAC Mall Holdings LLC v. Transform Holdco LLC | TBD | TBD | TBD | TBD | TBD | Commercial law | Needs research |
+| 15 | Ciminelli v. United States | TBD | TBD | TBD | TBD | TBD | Criminal law | Needs research |
+| 16 | Percoco v. United States | TBD | TBD | TBD | TBD | TBD | Criminal law | Needs research |
+| 17 | Financial Oversight and Management Board for Puerto Rico v. Centro de Periodismo Investigativo, Inc. | TBD | TBD | TBD | TBD | TBD | Puerto Rico governance | Needs research |
+| 18 | National Pork Producers Council v. Ross | 21-468 | TBD | TBD | TBD | TBD | Commerce Clause | Folder exists |
+| 19 | Santos-Zacaria v. Garland | TBD | TBD | TBD | TBD | TBD | Immigration law | Needs research |
+| 20 | Polselli v. Internal Revenue Service | TBD | TBD | TBD | TBD | TBD | Tax law | Needs research |
+| 21 | Ohio Adjutant General's Department v. Federal Labor Relations Authority | TBD | TBD | TBD | TBD | TBD | Labor law | Needs research |
+| 22 | Twitter, Inc. v. Taamneh | 21-1496 | TBD | TBD | TBD | TBD | Social media liability | Folder exists |
+| 23 | Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith | 21-869 | TBD | TBD | TBD | TBD | Copyright law | Folder exists |
+| 24 | Amgen Inc. v. Sanofi | TBD | TBD | TBD | TBD | TBD | Patent law | Needs research |
+| 25 | Gonzalez v. Google LLC | 21-1333 | TBD | TBD | TBD | TBD | Section 230 | Folder exists |
+| 26 | Calcutt v. FDIC | TBD | TBD | TBD | TBD | TBD | Banking law | Needs research |
+| 27 | Tyler v. Hennepin County | 22-166 | TBD | TBD | TBD | TBD | Property rights | Folder exists |
+| 28 | Sackett v. EPA | 21-454 | TBD | TBD | TBD | TBD | Environmental law | Folder exists |
+| 29 | Dupree v. Younger | 22-210 | TBD | TBD | TBD | TBD | Criminal law | Folder exists |
+| 30 | United States ex rel. Schutte v. Supervalu Inc. | TBD | TBD | TBD | TBD | TBD | False Claims Act | Needs research |
+| 31 | Slack Technologies, LLC v. Pirani | TBD | TBD | TBD | TBD | TBD | Securities law | Needs research |
+| 32 | Glacier Northwest, Inc. v. Teamsters | 21-1449 | TBD | TBD | TBD | TBD | Labor law | Folder exists |
+| 33 | Allen v. Milligan | 21-1086 | TBD | TBD | TBD | TBD | Voting rights | Folder exists |
+| 34 | Dubin v. United States | TBD | TBD | TBD | TBD | TBD | Criminal law | Needs research |
+| 35 | Jack Daniel's Properties, Inc. v. VIP Products LLC | TBD | TBD | TBD | TBD | TBD | Trademark law | Needs research |
+| 36 | Health and Hospital Corporation of Marion County v. Talevski | TBD | TBD | TBD | TBD | TBD | Civil rights | Needs research |
+| 37 | Smith v. United States | TBD | TBD | TBD | TBD | TBD | Criminal law | Needs research |
+| 38 | Haaland v. Brackeen | 21-376 | TBD | TBD | TBD | TBD | Indian Child Welfare Act | Folder exists |
+| 39 | Lac du Flambeau Band of Lake Superior Chippewa Indians v. Coughlin | TBD | TBD | TBD | TBD | TBD | Tribal law | Needs research |
+| 40 | United States ex rel. Polansky v. Executive Health Resources, Inc. | TBD | TBD | TBD | TBD | TBD | False Claims Act | Needs research |
+| 41 | Lora v. United States | TBD | TBD | TBD | TBD | TBD | Criminal law | Needs research |
+| 42 | Jones v. Hendrix | TBD | TBD | TBD | TBD | TBD | Habeas corpus | Needs research |
+| 43 | Yegiazaryan v. Smagin | TBD | TBD | TBD | TBD | TBD | International law | Needs research |
+| 44 | Arizona v. Navajo Nation | TBD | TBD | TBD | TBD | TBD | Water rights | Needs research |
+| 45 | Pugin v. Garland | TBD | TBD | TBD | TBD | TBD | Immigration law | Needs research |
+| 46 | Samia v. United States | TBD | TBD | TBD | TBD | TBD | Criminal law | Needs research |
+| 47 | United States v. Texas | TBD | TBD | TBD | TBD | TBD | Immigration law | Needs research |
+| 48 | Coinbase, Inc. v. Bielski | TBD | TBD | TBD | TBD | TBD | Arbitration law | Needs research |
+| 49 | United States v. Hansen | TBD | TBD | TBD | TBD | TBD | Immigration law | Needs research |
+| 50 | Moore v. Harper | 21-1271 | TBD | TBD | TBD | TBD | Election law | Folder exists |
+| 51 | Counterman v. Colorado | 22-138 | TBD | TBD | TBD | TBD | First Amendment | Folder exists |
+| 52 | Mallory v. Norfolk Southern Railway Co. | TBD | TBD | TBD | TBD | TBD | Personal jurisdiction | Needs research |
+| 53 | Students for Fair Admissions, Inc. v. President and Fellows of Harvard College | 20-1199 | TBD | TBD | TBD | TBD | Affirmative action | Folder exists |
+| 54 | Abitron Austria GmbH v. Hetronic International, Inc. | 21-1043 | TBD | TBD | TBD | TBD | Trademark law | Folder exists |
+| 55 | Groff v. DeJoy | 22-174 | TBD | TBD | TBD | TBD | Religious accommodation | Folder exists |
+| 56 | Biden v. Nebraska | TBD | TBD | TBD | TBD | TBD | Student loan forgiveness | Needs research |
+| 57 | Department of Education v. Brown | TBD | TBD | TBD | TBD | TBD | Student loan forgiveness | Needs research |
+| 58 | 303 Creative LLC v. Elenis | 21-476 | TBD | TBD | TBD | TBD | Free speech | Folder exists |
 
-**October 2022**
-- [To be populated with complete case list]
+## Summary Statistics
 
-**November 2022**
-- [To be populated with complete case list]
+**Total Cases**: 58  
+**Cases with Known Docket Numbers**: 15 (26%)  
+**Cases with Existing Folders**: 15 (26%)  
+**Cases Needing Research**: 43 (74%)
 
-**December 2022**
-- [To be populated with complete case list]
-
-**January 2023**
-- [To be populated with complete case list]
-
-**February 2023**
-- [To be populated with complete case list]
-
-**March 2023**
-- [To be populated with complete case list]
-
-**April 2023**
-- [To be populated with complete case list]
-
-**May 2023**
-- [To be populated with complete case list]
-
-**June 2023**
-- [To be populated with complete case list]
-
-## Voting Patterns Summary
-
-### Justice Agreement Rates
-| Justice | Total Cases | Agreement with Majority | Dissent Rate | Concurrence Rate |
-|---------|-------------|-------------------------|--------------|------------------|
-| Roberts | 58 | TBD | TBD | TBD |
-| Thomas | 58 | TBD | TBD | TBD |
-| Alito | 58 | TBD | TBD | TBD |
-| Sotomayor | 58 | TBD | TBD | TBD |
-| Kagan | 58 | TBD | TBD | TBD |
-| Gorsuch | 58 | TBD | TBD | TBD |
-| Kavanaugh | 58 | TBD | TBD | TBD |
-| Barrett | 58 | TBD | TBD | TBD |
-| Jackson | 58 | TBD | TBD | TBD |
-
-### Opinion Authorship
-| Justice | Majority Opinions | Concurring Opinions | Dissenting Opinions | Total |
-|---------|-------------------|-------------------|-------------------|--------|
-| Roberts | TBD | TBD | TBD | TBD |
-| Thomas | TBD | TBD | TBD | TBD |
-| Alito | TBD | TBD | TBD | TBD |
-| Sotomayor | TBD | TBD | TBD | TBD |
-| Kagan | TBD | TBD | TBD | TBD |
-| Gorsuch | TBD | TBD | TBD | TBD |
-| Kavanaugh | TBD | TBD | TBD | TBD |
-| Barrett | TBD | TBD | TBD | TBD |
-| Jackson | TBD | TBD | TBD | TBD |
-
-## Case Categories
+## Case Categories by Legal Area
 
 ### Constitutional Law
-- Students for Fair Admissions v. Harvard (Equal Protection)
-- Students for Fair Admissions v. UNC (Equal Protection)
-- Moore v. Harper (Elections Clause)
-- 303 Creative LLC v. Elenis (First Amendment)
-- Counterman v. Colorado (First Amendment)
-- Allen v. Milligan (Voting Rights Act)
-
-### Administrative Law
-- Sackett v. EPA (Clean Water Act)
-- Groff v. DeJoy (Religious accommodation)
-
-### Commercial Law
-- National Pork Producers v. Ross (Commerce Clause)
-- Andy Warhol Foundation v. Goldsmith (Copyright)
-- Abitron Austria v. Hetronic (Trademark)
+- Affirmative action (Harvard/UNC)
+- Election law (Moore v. Harper)
+- Free speech (303 Creative, Counterman)
+- Religious rights (Groff)
 
 ### Criminal Law
-- Reed v. Goertz (Habeas corpus)
-- Dupree v. Younger (Sentencing)
+- Multiple cases requiring research and classification
 
-### Civil Rights
-- Haaland v. Brackeen (Indian Child Welfare Act)
-- Tyler v. Hennepin County (Property rights)
+### Administrative & Regulatory Law
+- Environmental (Sackett v. EPA)
+- Immigration (multiple cases)
+- Veterans affairs (Arellano)
 
-### Labor Law
-- Glacier Northwest v. Teamsters (Labor relations)
-- Helix Energy Solutions v. Hewitt (Fair Labor Standards Act)
+### Commercial Law
+- Trademark (Jack Daniel's, Abitron Austria)
+- Copyright (Andy Warhol Foundation)
+- Securities (Slack Technologies)
+- Labor (multiple cases)
 
-### Technology Law
-- Twitter v. Taamneh (Social media liability)
-- Gonzalez v. Google (Section 230)
+### Federal Jurisdiction & Procedure
+- Habeas corpus (Reed v. Goertz, Jones v. Hendrix)
+- Personal jurisdiction (Mallory)
+- False Claims Act (multiple cases)
 
-### Veterans Law
-- Arellano v. McDonough (Veterans benefits)
+## Data Collection Priority
 
-## Notes
+### High Priority (Constitutional Cases)
+1. Students for Fair Admissions v. Harvard
+2. Moore v. Harper
+3. 303 Creative LLC v. Elenis
+4. Biden v. Nebraska
+5. Counterman v. Colorado
 
-- **First Term**: Justice Jackson's first full term on the Court
-- **Major Shifts**: Several 6-3 decisions along ideological lines
-- **Unanimous Decisions**: Multiple 9-0 decisions showing areas of consensus
-- **Cross-Ideological Voting**: Notable instances in Moore v. Harper and National Pork Producers
+### Medium Priority (Significant Precedential Value)
+6. Sackett v. EPA
+7. Groff v. DeJoy
+8. Allen v. Milligan
+9. Andy Warhol Foundation v. Goldsmith
+10. Haaland v. Brackeen
 
-## Data Status
+### Standard Priority (All Remaining Cases)
+11-58. All other cases for comprehensive term coverage
 
-- **Current Status**: Major cases identified and tracked
-- **Needed**: Complete extraction of all 58 cases from Wikipedia
-- **Validation**: Cross-reference with official Supreme Court records
-- **Next Steps**: Populate complete case list and voting statistics
+## Next Steps
+
+1. **Complete docket number research** for 43 cases using CourtListener API
+2. **Populate detailed case information** including dates, votes, and authors
+3. **Create folder structure** for all remaining cases
+4. **Begin systematic document collection** starting with high-priority cases
+5. **Update tracking system** with complete voting and opinion data
 
 ---
 
 **Last Updated**: 2025-07-09  
 **Source**: Wikipedia 2022 term opinions table  
-**Maintained By**: ClaudeScotus analysis system
+**Status**: Framework complete, detailed data collection in progress  
+**Coverage**: All 58 cases from 2022-2023 Supreme Court term
