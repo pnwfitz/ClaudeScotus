@@ -171,21 +171,88 @@ This prediction aligns with [Justice]'s voting pattern in [similar cases/percent
 2. **[Justice Name]** ([Probability]%) - [Reason]
 ```
 
+### Separate Opinion Predictions
+```markdown
+## Separate Opinion Analysis
+
+### Concurring Opinions
+**Likely Concurrences**: [List of justices likely to write separate concurring opinions]
+
+| Justice | Concurrence Probability | Reasoning | Key Points |
+|---------|------------------------|-----------|------------|
+| [Name] | [High/Medium/Low] ([%]) | [Why they'd write separately] | [What they'd emphasize] |
+| [Name] | [High/Medium/Low] ([%]) | [Why they'd write separately] | [What they'd emphasize] |
+
+### Dissenting Opinions
+**Likely Dissents**: [List of justices likely to write separate dissenting opinions]
+
+| Justice | Dissent Probability | Reasoning | Key Arguments |
+|---------|-------------------|-----------|---------------|
+| [Name] | [High/Medium/Low] ([%]) | [Why they'd write separately] | [What they'd argue] |
+| [Name] | [High/Medium/Low] ([%]) | [Why they'd write separately] | [What they'd argue] |
+
+### Joint Opinions
+**Potential Joint Opinions**: [Justices who might join together in separate opinions]
+- **[Justice A + Justice B]**: [Probability]% chance of joint [concurrence/dissent] - [Reasoning]
+```
+
+### Meta-Analysis of Final Vote
+```markdown
+## Final Vote Meta-Analysis
+
+### Vote Breakdown Prediction
+**Predicted Final Vote**: [X-Y] ([Petitioner/Respondent] victory)
+
+| Vote Distribution | Justices | Confidence Level |
+|------------------|----------|------------------|
+| **Majority** | [List of justices] | [Overall confidence %] |
+| **Minority** | [List of justices] | [Overall confidence %] |
+
+### Coalition Dynamics
+**Majority Coalition Strength**: [Strong/Moderate/Fragile]
+- **Core Members**: [Justices with >90% confidence in majority]
+- **Swing Justices**: [Justices between 60-90% confidence]
+- **Potential Defectors**: [Justices who might switch sides]
+
+**Minority Coalition Strength**: [Strong/Moderate/Fragile]
+- **Core Members**: [Justices with >90% confidence in minority]
+- **Potential Converts**: [Justices who might be persuaded to join minority]
+
+### Opinion Structure Prediction
+**Majority Opinion**: [Justice Name] writes for [X] justices
+- **Full Joiners**: [Justices who will join the opinion completely]
+- **Partial Joiners**: [Justices who might join only parts of the opinion]
+
+**Separate Opinions Expected**: [Number] separate opinions likely
+- **Concurring Opinions**: [Number] - [Brief description of likely themes]
+- **Dissenting Opinions**: [Number] - [Brief description of likely themes]
+- **Special Situations**: [Any unusual opinion patterns expected]
+
+### Strategic Considerations
+**Opinion Assignment Strategy**: [Analysis of why Chief Justice would assign to predicted author]
+**Coalition Maintenance**: [How majority coalition will be maintained]
+**Separate Opinion Impact**: [How separate opinions might influence the precedential value]
+```
+
 ## Quality Standards
 
 ### Required Elements
 - [ ] All template sections completed
-- [ ] Confidence levels specified with percentages
+- [ ] Individual justice voting predictions with confidence levels
+- [ ] Final vote meta-analysis with coalition breakdown
+- [ ] Separate opinion predictions for concurrences and dissents
 - [ ] Justice-specific reasoning clearly articulated
 - [ ] Coalition analysis internally consistent
 - [ ] Historical comparison provided
 - [ ] Uncertainty factors honestly assessed
 
 ### Validation Criteria
-- [ ] Prediction aligns with justice's established voting patterns
-- [ ] Reasoning reflects justice's judicial philosophy
-- [ ] Confidence level matches strength of analysis
+- [ ] Individual justice predictions align with established voting patterns
+- [ ] Reasoning reflects each justice's judicial philosophy
+- [ ] Confidence levels match strength of analysis
 - [ ] Coalition math adds up correctly (9 justices total)
+- [ ] Final vote meta-analysis is internally consistent
+- [ ] Separate opinion predictions are realistic and justified
 - [ ] No contradictory statements within prediction
 
 ## Output File Naming
