@@ -388,11 +388,11 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Needs docket number research
 
 ### 53. Students for Fair Admissions, Inc. v. President and Fellows of Harvard College
-- **Docket Number**: `20-1199`
+- **Docket Number**: `21-707`
 - **Case Name**: `Students for Fair Admissions, Inc. v. President and Fellows of Harvard College`
-- **Folder Name**: `20-1199_students-for-fair-admissions-v-harvard`
+- **Folder Name**: `21-707_students-for-fair-admissions-v-harvard`
 - **Issue**: Affirmative action in college admissions
-- **Status**: Existing case folder (needs docket correction)
+- **Status**: Existing case folder
 
 ### 54. Abitron Austria GmbH v. Hetronic International, Inc.
 - **Docket Number**: `21-1043`

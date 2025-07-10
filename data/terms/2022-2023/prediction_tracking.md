@@ -12,125 +12,316 @@ This document is designed to track prediction accuracy for each justice across a
 ## Legend
 
 **Vote Types**:
-- **MAJ** = Majority vote
-- **MIN** = Minority vote  
-- **MAJ-A** = Majority opinion author
-- **MIN-A** = Minority opinion author
-- **CON** = Concurring opinion author
-- **DIS** = Separate dissenting opinion author
+- **Delivered the Court's opinion** = Authored the majority opinion for the Court
+- **Joined the Court's opinion** = Joined the majority opinion without separate writing
+- **Filed a concurrence** = Authored a separate concurring opinion
+- **Joined a concurrence** = Joined another justice's concurring opinion
+- **Filed a dissent** = Authored a separate dissenting opinion
+- **Joined a dissent** = Joined another justice's dissenting opinion
+- **Filed a concurrence/dissent** = Authored an opinion concurring in part and dissenting in part
+- **Joined a concurrence/dissent** = Joined another justice's concurrence/dissent
+- **Filed a statement** = Authored a statement (respecting denial of cert, etc.)
+- **Joined a statement** = Joined another justice's statement
+- **Did not participate in the decision** = Recused or otherwise did not participate
 
 **Prediction Accuracy**:
 - ✅ = Correct prediction
 - ❌ = Incorrect prediction
 - ⚠️ = Partially correct (e.g., correct vote, wrong opinion prediction)
 
-## Cases Available for Prediction Testing
+## Complete Case List for Prediction Testing (All 58 Cases)
 
-### Cases Available for Testing (15 with Known Dockets)
+### 1. Arellano v. McDonough
+- **Docket Number**: 21-432
+- **Issue**: Veterans' benefits and equitable tolling
+- **Prediction Status**: Ready for testing
 
-1. **Students for Fair Admissions v. Harvard (21-707)**
-   - **Issue**: Affirmative action in college admissions
-   - **Actual Decision**: 6-3, struck down affirmative action programs
-   - **Prediction Status**: Ready for testing
+### 2. In re Grand Jury
+- **Docket Number**: TBD
+- **Issue**: Grand jury proceedings
+- **Prediction Status**: Awaiting docket research
 
-2. **Students for Fair Admissions v. UNC (21-1194)**
-   - **Issue**: Affirmative action in college admissions
-   - **Actual Decision**: 6-3, consolidated with Harvard case
-   - **Prediction Status**: Ready for testing
+### 3. Cruz v. Arizona
+- **Docket Number**: TBD
+- **Issue**: Criminal law
+- **Prediction Status**: Awaiting docket research
 
-3. **Moore v. Harper (21-1271)**
-   - **Issue**: Independent state legislature theory
-   - **Actual Decision**: 6-3, rejected theory
-   - **Prediction Status**: Ready for testing
+### 4. Helix Energy Solutions Group, Inc. v. Hewitt
+- **Docket Number**: 21-984
+- **Issue**: Fair Labor Standards Act and overtime
+- **Prediction Status**: Ready for testing
 
-4. **303 Creative LLC v. Elenis (21-476)**
-   - **Issue**: Free speech vs anti-discrimination law
-   - **Actual Decision**: 6-3, sided with business
-   - **Prediction Status**: Ready for testing
+### 5. Bartenwerfer v. Buckley
+- **Docket Number**: TBD
+- **Issue**: Bankruptcy law
+- **Prediction Status**: Awaiting docket research
 
-5. **Groff v. DeJoy (22-174)**
-   - **Issue**: Religious accommodation in workplace
-   - **Actual Decision**: 9-0, unanimous
-   - **Prediction Status**: Ready for testing
+### 6. Bittner v. United States
+- **Docket Number**: TBD
+- **Issue**: Tax law
+- **Prediction Status**: Awaiting docket research
 
-6. **Counterman v. Colorado (22-138)**
-   - **Issue**: True threats and First Amendment
-   - **Actual Decision**: 7-2, required subjective intent
-   - **Prediction Status**: Ready for testing
+### 7. Delaware v. Pennsylvania
+- **Docket Number**: TBD
+- **Issue**: Interstate disputes
+- **Prediction Status**: Awaiting docket research
 
-7. **Sackett v. EPA (21-454)**
-   - **Issue**: Clean Water Act jurisdiction
-   - **Actual Decision**: 9-0, limited EPA jurisdiction
-   - **Prediction Status**: Ready for testing
+### 8. Luna Perez v. Sturgis Public Schools
+- **Docket Number**: TBD
+- **Issue**: Education law
+- **Prediction Status**: Awaiting docket research
 
-8. **National Pork Producers v. Ross (21-468)**
-   - **Issue**: Dormant Commerce Clause
-   - **Actual Decision**: 5-4, upheld California law
-   - **Prediction Status**: Ready for testing
+### 9. Wilkins v. United States
+- **Docket Number**: TBD
+- **Issue**: Federal claims
+- **Prediction Status**: Awaiting docket research
 
-9. **Tyler v. Hennepin County (22-166)**
-   - **Issue**: Property rights and tax sales
-   - **Actual Decision**: 9-0, unanimous
-   - **Prediction Status**: Ready for testing
+### 10. Axon Enterprise, Inc. v. Federal Trade Commission
+- **Docket Number**: TBD
+- **Issue**: Administrative law
+- **Prediction Status**: Awaiting docket research
 
-10. **Allen v. Milligan (21-1086)**
-    - **Issue**: Voting Rights Act and redistricting
-    - **Actual Decision**: 5-4, maintained VRA protections
-    - **Prediction Status**: Ready for testing
+### 11. New York v. New Jersey
+- **Docket Number**: TBD
+- **Issue**: Interstate disputes
+- **Prediction Status**: Awaiting docket research
 
-11. **Andy Warhol Foundation v. Goldsmith (21-869)**
-    - **Issue**: Fair use and transformative works
-    - **Actual Decision**: 7-2, limited fair use
-    - **Prediction Status**: Ready for testing
+### 12. Reed v. Goertz
+- **Docket Number**: 21-1107
+- **Issue**: Habeas corpus and DNA testing
+- **Prediction Status**: Ready for testing
 
-12. **Glacier Northwest v. Teamsters (21-1449)**
-    - **Issue**: Labor law and property damage
-    - **Actual Decision**: 8-1, allowed state tort claims
-    - **Prediction Status**: Ready for testing
+### 13. Türkiye Halk Bankası A.Ş. v. United States
+- **Docket Number**: TBD
+- **Issue**: Foreign sovereign immunity
+- **Prediction Status**: Awaiting docket research
 
-13. **Arellano v. McDonough (21-432)**
-    - **Issue**: Veterans' benefits and equitable tolling
-    - **Actual Decision**: 7-2, limited equitable tolling
-    - **Prediction Status**: Ready for testing
+### 14. MOAC Mall Holdings LLC v. Transform Holdco LLC
+- **Docket Number**: TBD
+- **Issue**: Commercial law
+- **Prediction Status**: Awaiting docket research
 
-14. **Reed v. Goertz (21-1107)**
-    - **Issue**: Habeas corpus and DNA testing
-    - **Actual Decision**: 6-3, reversed conviction
-    - **Prediction Status**: Ready for testing
+### 15. Ciminelli v. United States
+- **Docket Number**: TBD
+- **Issue**: Criminal law
+- **Prediction Status**: Awaiting docket research
 
-15. **Helix Energy Solutions v. Hewitt (21-984)**
-    - **Issue**: Fair Labor Standards Act and overtime
-    - **Actual Decision**: 6-3, required overtime pay
-    - **Prediction Status**: Ready for testing
+### 16. Percoco v. United States
+- **Docket Number**: TBD
+- **Issue**: Criminal law
+- **Prediction Status**: Awaiting docket research
 
-16. **Twitter v. Taamneh (21-1496)**
-    - **Issue**: Social media liability for terrorism
-    - **Actual Decision**: 9-0, limited liability
-    - **Prediction Status**: Ready for testing
+### 17. Financial Oversight and Management Board for Puerto Rico v. Centro de Periodismo Investigativo, Inc.
+- **Docket Number**: TBD
+- **Issue**: Puerto Rico governance
+- **Prediction Status**: Awaiting docket research
 
-17. **Gonzalez v. Google (21-1333)**
-    - **Issue**: Section 230 and algorithm liability
-    - **Actual Decision**: 9-0, dismissed without ruling
-    - **Prediction Status**: Ready for testing
+### 18. National Pork Producers Council v. Ross
+- **Docket Number**: 21-468
+- **Issue**: Dormant Commerce Clause
+- **Prediction Status**: Ready for testing
 
-18. **Haaland v. Brackeen (21-376)**
-    - **Issue**: Indian Child Welfare Act
-    - **Actual Decision**: 7-2, upheld ICWA
-    - **Prediction Status**: Ready for testing
+### 19. Santos-Zacaria v. Garland
+- **Docket Number**: TBD
+- **Issue**: Immigration law
+- **Prediction Status**: Awaiting docket research
 
-19. **Abitron Austria v. Hetronic (21-1043)**
-    - **Issue**: Extraterritorial application of trademark law
-    - **Actual Decision**: 9-0, limited extraterritorial reach
-    - **Prediction Status**: Ready for testing
+### 20. Polselli v. Internal Revenue Service
+- **Docket Number**: TBD
+- **Issue**: Tax law
+- **Prediction Status**: Awaiting docket research
 
-20. **Dupree v. Younger (22-210)**
-    - **Issue**: Federal sentencing guidelines
-    - **Actual Decision**: 8-1, limited guideline application
-    - **Prediction Status**: Ready for testing
+### 21. Ohio Adjutant General's Department v. Federal Labor Relations Authority
+- **Docket Number**: TBD
+- **Issue**: Labor law
+- **Prediction Status**: Awaiting docket research
 
-## Prediction Testing Framework
+### 22. Twitter, Inc. v. Taamneh
+- **Docket Number**: 21-1496
+- **Issue**: Social media liability for terrorism
+- **Prediction Status**: Ready for testing
 
-### Individual Justice Prediction Template
+### 23. Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith
+- **Docket Number**: 21-869
+- **Issue**: Fair use and transformative works
+- **Prediction Status**: Ready for testing
+
+### 24. Amgen Inc. v. Sanofi
+- **Docket Number**: TBD
+- **Issue**: Patent law
+- **Prediction Status**: Awaiting docket research
+
+### 25. Gonzalez v. Google LLC
+- **Docket Number**: 21-1333
+- **Issue**: Section 230 and algorithm liability
+- **Prediction Status**: Ready for testing
+
+### 26. Calcutt v. FDIC
+- **Docket Number**: TBD
+- **Issue**: Banking law
+- **Prediction Status**: Awaiting docket research
+
+### 27. Tyler v. Hennepin County
+- **Docket Number**: 22-166
+- **Issue**: Property rights and tax sales
+- **Prediction Status**: Ready for testing
+
+### 28. Sackett v. EPA
+- **Docket Number**: 21-454
+- **Issue**: Clean Water Act jurisdiction
+- **Prediction Status**: Ready for testing
+
+### 29. Dupree v. Younger
+- **Docket Number**: 22-210
+- **Issue**: Federal sentencing guidelines
+- **Prediction Status**: Ready for testing
+
+### 30. United States ex rel. Schutte v. Supervalu Inc.
+- **Docket Number**: TBD
+- **Issue**: False Claims Act
+- **Prediction Status**: Awaiting docket research
+
+### 31. Slack Technologies, LLC v. Pirani
+- **Docket Number**: TBD
+- **Issue**: Securities law
+- **Prediction Status**: Awaiting docket research
+
+### 32. Glacier Northwest, Inc. v. Teamsters
+- **Docket Number**: 21-1449
+- **Issue**: Labor law and property damage
+- **Prediction Status**: Ready for testing
+
+### 33. Allen v. Milligan
+- **Docket Number**: 21-1086
+- **Issue**: Voting Rights Act and redistricting
+- **Prediction Status**: Ready for testing
+
+### 34. Dubin v. United States
+- **Docket Number**: TBD
+- **Issue**: Criminal law
+- **Prediction Status**: Awaiting docket research
+
+### 35. Jack Daniel's Properties, Inc. v. VIP Products LLC
+- **Docket Number**: TBD
+- **Issue**: Trademark law
+- **Prediction Status**: Awaiting docket research
+
+### 36. Health and Hospital Corporation of Marion County v. Talevski
+- **Docket Number**: TBD
+- **Issue**: Civil rights law
+- **Prediction Status**: Awaiting docket research
+
+### 37. Smith v. United States
+- **Docket Number**: TBD
+- **Issue**: Criminal law
+- **Prediction Status**: Awaiting docket research
+
+### 38. Haaland v. Brackeen
+- **Docket Number**: 21-376
+- **Issue**: Indian Child Welfare Act
+- **Prediction Status**: Ready for testing
+
+### 39. Lac du Flambeau Band of Lake Superior Chippewa Indians v. Coughlin
+- **Docket Number**: TBD
+- **Issue**: Tribal law
+- **Prediction Status**: Awaiting docket research
+
+### 40. United States ex rel. Polansky v. Executive Health Resources, Inc.
+- **Docket Number**: TBD
+- **Issue**: False Claims Act
+- **Prediction Status**: Awaiting docket research
+
+### 41. Lora v. United States
+- **Docket Number**: TBD
+- **Issue**: Criminal law
+- **Prediction Status**: Awaiting docket research
+
+### 42. Jones v. Hendrix
+- **Docket Number**: TBD
+- **Issue**: Habeas corpus
+- **Prediction Status**: Awaiting docket research
+
+### 43. Yegiazaryan v. Smagin
+- **Docket Number**: TBD
+- **Issue**: International law
+- **Prediction Status**: Awaiting docket research
+
+### 44. Arizona v. Navajo Nation
+- **Docket Number**: TBD
+- **Issue**: Water rights
+- **Prediction Status**: Awaiting docket research
+
+### 45. Pugin v. Garland
+- **Docket Number**: TBD
+- **Issue**: Immigration law
+- **Prediction Status**: Awaiting docket research
+
+### 46. Samia v. United States
+- **Docket Number**: TBD
+- **Issue**: Criminal law
+- **Prediction Status**: Awaiting docket research
+
+### 47. United States v. Texas
+- **Docket Number**: TBD
+- **Issue**: Immigration law
+- **Prediction Status**: Awaiting docket research
+
+### 48. Coinbase, Inc. v. Bielski
+- **Docket Number**: TBD
+- **Issue**: Arbitration law
+- **Prediction Status**: Awaiting docket research
+
+### 49. United States v. Hansen
+- **Docket Number**: TBD
+- **Issue**: Immigration law
+- **Prediction Status**: Awaiting docket research
+
+### 50. Moore v. Harper
+- **Docket Number**: 21-1271
+- **Issue**: Independent state legislature theory
+- **Prediction Status**: Ready for testing
+
+### 51. Counterman v. Colorado
+- **Docket Number**: 22-138
+- **Issue**: True threats and First Amendment
+- **Prediction Status**: Ready for testing
+
+### 52. Mallory v. Norfolk Southern Railway Co.
+- **Docket Number**: TBD
+- **Issue**: Personal jurisdiction
+- **Prediction Status**: Awaiting docket research
+
+### 53. Students for Fair Admissions, Inc. v. President and Fellows of Harvard College
+- **Docket Number**: 21-707
+- **Issue**: Affirmative action in college admissions
+- **Prediction Status**: Ready for testing
+
+### 54. Abitron Austria GmbH v. Hetronic International, Inc.
+- **Docket Number**: 21-1043
+- **Issue**: Extraterritorial application of trademark law
+- **Prediction Status**: Ready for testing
+
+### 55. Groff v. DeJoy
+- **Docket Number**: 22-174
+- **Issue**: Religious accommodation in workplace
+- **Prediction Status**: Ready for testing
+
+### 56. Biden v. Nebraska
+- **Docket Number**: TBD
+- **Issue**: Student loan forgiveness
+- **Prediction Status**: Awaiting docket research
+
+### 57. Department of Education v. Brown
+- **Docket Number**: TBD
+- **Issue**: Student loan forgiveness
+- **Prediction Status**: Awaiting docket research
+
+### 58. 303 Creative LLC v. Elenis
+- **Docket Number**: 21-476
+- **Issue**: Free speech vs anti-discrimination law
+- **Prediction Status**: Ready for testing
+
+## Individual Justice Prediction Template
 
 For each case, the prediction system will generate:
 
@@ -146,18 +337,19 @@ For each case, the prediction system will generate:
 | Barrett | [TBD] | [TBD] | [Known] | [Known] | [TBD] | [TBD] |
 | Jackson | [TBD] | [TBD] | [Known] | [Known] | [TBD] | [TBD] |
 
-### Prediction Categories to Test
+## Prediction Categories to Test
 
-1. **Vote Direction**: Majority vs minority vote
-2. **Opinion Authorship**: Who will write the majority opinion
+1. **Vote Direction**: Which justices will be in majority vs minority
+2. **Opinion Authorship**: Who will write the Court's opinion
 3. **Separate Opinions**: Concurring and dissenting opinion predictions
 4. **Coalition Formation**: Which justices will vote together
 5. **Opinion Reasoning**: Primary legal reasoning approach
+6. **Participation**: Whether each justice will participate in the decision
 
-### Testing Methodology
+## Testing Methodology
 
 1. **Blind Prediction**: Generate predictions without knowing actual outcomes
-2. **Case-by-Case Analysis**: Test each case individually
+2. **Case-by-Case Analysis**: Test each case individually across all 58 cases
 3. **Accuracy Calculation**: Track percentage correct by category
 4. **Pattern Recognition**: Identify systematic prediction strengths/weaknesses
 5. **Model Refinement**: Adjust justice profiles based on results
@@ -206,18 +398,25 @@ For each case, the prediction system will generate:
 - Opinion authorship records
 - Concurring/dissenting opinion patterns
 
+## Summary Statistics
+
+**Total Cases for Testing**: 58  
+**Cases Ready for Immediate Testing**: 15 (with known dockets)  
+**Cases Awaiting Docket Research**: 43  
+**Expected Completion**: After docket research phase
+
 ## Next Steps
 
-1. **Collect Complete Case Data**: Gather all documents for major cases
-2. **Run Prediction Framework**: Generate predictions for test cases
-3. **Populate Tracking Tables**: Fill in prediction vs actual results
-4. **Calculate Accuracy Metrics**: Analyze system performance
-5. **Refine Justice Profiles**: Update based on prediction results
-6. **Expand Testing**: Apply to additional cases and terms
+1. **Complete Case Data Collection**: Gather all documents for all 58 cases
+2. **Run Prediction Framework**: Generate predictions for all test cases
+3. **Populate Tracking Tables**: Fill in prediction vs actual results for all 58 cases
+4. **Calculate Accuracy Metrics**: Analyze system performance across complete term
+5. **Refine Justice Profiles**: Update based on prediction results from full dataset
+6. **Expand Testing**: Apply refined system to additional terms
 
 ## Files Reference
 
-**Case Details**: Individual case folders in `cases/` directory  
+**Case Details**: Individual case folders in `cases/` directory (all 58 cases)  
 **Justice Profiles**: `data/analysis/justices/[justice-name].md`  
 **Prediction Framework**: `PREDICTION_PROCESS_FRAMEWORK.md`  
 **Actual Outcomes**: `opinions_tracker.md`
@@ -226,5 +425,6 @@ For each case, the prediction system will generate:
 
 **Analysis Date**: 2025-07-09  
 **ClaudeScotus Version**: Phase 1 Development  
-**Status**: Ready for prediction testing  
-**Next Update**: After prediction framework testing
+**Status**: Complete framework for all 58 cases, ready for systematic testing  
+**Coverage**: All 58 cases from 2022-2023 Supreme Court term  
+**Next Update**: After prediction framework testing on complete dataset
