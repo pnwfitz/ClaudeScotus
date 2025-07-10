@@ -31,18 +31,18 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 2. In re Grand Jury
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-1048`
 - **Case Name**: `In re Grand Jury`
-- **Folder Name**: `TBD_in-re-grand-jury`
+- **Folder Name**: `22-1048_in-re-grand-jury`
 - **Issue**: Grand jury proceedings
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 3. Cruz v. Arizona
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1394`
 - **Case Name**: `Cruz v. Arizona`
-- **Folder Name**: `TBD_cruz-v-arizona`
+- **Folder Name**: `21-1394_cruz-v-arizona`
 - **Issue**: Criminal law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 4. Helix Energy Solutions Group, Inc. v. Hewitt
 - **Docket Number**: `21-984`
@@ -52,53 +52,53 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 5. Bartenwerfer v. Buckley
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-908`
 - **Case Name**: `Bartenwerfer v. Buckley`
-- **Folder Name**: `TBD_bartenwerfer-v-buckley`
+- **Folder Name**: `21-908_bartenwerfer-v-buckley`
 - **Issue**: Bankruptcy law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 6. Bittner v. United States
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1195`
 - **Case Name**: `Bittner v. United States`
-- **Folder Name**: `TBD_bittner-v-united-states`
+- **Folder Name**: `21-1195_bittner-v-united-states`
 - **Issue**: Tax law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 7. Delaware v. Pennsylvania
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-O-153`
 - **Case Name**: `Delaware v. Pennsylvania`
-- **Folder Name**: `TBD_delaware-v-pennsylvania`
+- **Folder Name**: `22-O-153_delaware-v-pennsylvania`
 - **Issue**: Interstate disputes
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 8. Luna Perez v. Sturgis Public Schools
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-887`
 - **Case Name**: `Luna Perez v. Sturgis Public Schools`
-- **Folder Name**: `TBD_luna-perez-v-sturgis-public-schools`
+- **Folder Name**: `21-887_luna-perez-v-sturgis-public-schools`
 - **Issue**: Education law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 9. Wilkins v. United States
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1164`
 - **Case Name**: `Wilkins v. United States`
-- **Folder Name**: `TBD_wilkins-v-united-states`
+- **Folder Name**: `21-1164_wilkins-v-united-states`
 - **Issue**: Federal claims
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 10. Axon Enterprise, Inc. v. Federal Trade Commission
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-86`
 - **Case Name**: `Axon Enterprise, Inc. v. Federal Trade Commission`
-- **Folder Name**: `TBD_axon-enterprise-v-ftc`
+- **Folder Name**: `21-86_axon-enterprise-v-ftc`
 - **Issue**: Administrative law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 11. New York v. New Jersey
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-O-134`
 - **Case Name**: `New York v. New Jersey`
-- **Folder Name**: `TBD_new-york-v-new-jersey`
+- **Folder Name**: `22-O-134_new-york-v-new-jersey`
 - **Issue**: Interstate disputes
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 12. Reed v. Goertz
 - **Docket Number**: `21-1107`
@@ -108,39 +108,39 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 13. Türkiye Halk Bankası A.Ş. v. United States
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1450`
 - **Case Name**: `Türkiye Halk Bankası A.Ş. v. United States`
-- **Folder Name**: `TBD_turkiye-halk-bankasi-v-united-states`
+- **Folder Name**: `21-1450_turkiye-halk-bankasi-v-united-states`
 - **Issue**: Foreign sovereign immunity
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 14. MOAC Mall Holdings LLC v. Transform Holdco LLC
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1270`
 - **Case Name**: `MOAC Mall Holdings LLC v. Transform Holdco LLC`
-- **Folder Name**: `TBD_moac-mall-holdings-v-transform-holdco`
+- **Folder Name**: `21-1270_moac-mall-holdings-v-transform-holdco`
 - **Issue**: Commercial law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 15. Ciminelli v. United States
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1170`
 - **Case Name**: `Ciminelli v. United States`
-- **Folder Name**: `TBD_ciminelli-v-united-states`
+- **Folder Name**: `21-1170_ciminelli-v-united-states`
 - **Issue**: Criminal law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 16. Percoco v. United States
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1158`
 - **Case Name**: `Percoco v. United States`
-- **Folder Name**: `TBD_percoco-v-united-states`
+- **Folder Name**: `21-1158_percoco-v-united-states`
 - **Issue**: Criminal law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 17. Financial Oversight and Management Board for Puerto Rico v. Centro de Periodismo Investigativo, Inc.
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1284`
 - **Case Name**: `Financial Oversight and Management Board for Puerto Rico v. Centro de Periodismo Investigativo, Inc.`
-- **Folder Name**: `TBD_puerto-rico-board-v-centro-periodismo`
+- **Folder Name**: `21-1284_puerto-rico-board-v-centro-periodismo`
 - **Issue**: Puerto Rico governance
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 18. National Pork Producers Council v. Ross
 - **Docket Number**: `21-468`
@@ -150,25 +150,25 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 19. Santos-Zacaria v. Garland
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1436`
 - **Case Name**: `Santos-Zacaria v. Garland`
-- **Folder Name**: `TBD_santos-zacaria-v-garland`
+- **Folder Name**: `21-1436_santos-zacaria-v-garland`
 - **Issue**: Immigration law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 20. Polselli v. Internal Revenue Service
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1599`
 - **Case Name**: `Polselli v. Internal Revenue Service`
-- **Folder Name**: `TBD_polselli-v-irs`
+- **Folder Name**: `21-1599_polselli-v-irs`
 - **Issue**: Tax law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 21. Ohio Adjutant General's Department v. Federal Labor Relations Authority
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1454`
 - **Case Name**: `Ohio Adjutant General's Department v. Federal Labor Relations Authority`
-- **Folder Name**: `TBD_ohio-adjutant-general-v-flra`
+- **Folder Name**: `21-1454_ohio-adjutant-general-v-flra`
 - **Issue**: Labor law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 22. Twitter, Inc. v. Taamneh
 - **Docket Number**: `21-1496`
@@ -185,11 +185,11 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 24. Amgen Inc. v. Sanofi
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-757`
 - **Case Name**: `Amgen Inc. v. Sanofi`
-- **Folder Name**: `TBD_amgen-v-sanofi`
+- **Folder Name**: `21-757_amgen-v-sanofi`
 - **Issue**: Patent law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 25. Gonzalez v. Google LLC
 - **Docket Number**: `21-1333`
@@ -199,11 +199,11 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 26. Calcutt v. FDIC
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1019`
 - **Case Name**: `Calcutt v. FDIC`
-- **Folder Name**: `TBD_calcutt-v-fdic`
+- **Folder Name**: `21-1019_calcutt-v-fdic`
 - **Issue**: Banking law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 27. Tyler v. Hennepin County
 - **Docket Number**: `22-166`
@@ -227,18 +227,18 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 30. United States ex rel. Schutte v. Supervalu Inc.
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1326`
 - **Case Name**: `United States ex rel. Schutte v. Supervalu Inc.`
-- **Folder Name**: `TBD_schutte-v-supervalu`
+- **Folder Name**: `21-1326_schutte-v-supervalu`
 - **Issue**: False Claims Act
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 31. Slack Technologies, LLC v. Pirani
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-200`
 - **Case Name**: `Slack Technologies, LLC v. Pirani`
-- **Folder Name**: `TBD_slack-technologies-v-pirani`
+- **Folder Name**: `22-200_slack-technologies-v-pirani`
 - **Issue**: Securities law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 32. Glacier Northwest, Inc. v. Teamsters
 - **Docket Number**: `21-1449`
@@ -255,32 +255,32 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 34. Dubin v. United States
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1055`
 - **Case Name**: `Dubin v. United States`
-- **Folder Name**: `TBD_dubin-v-united-states`
+- **Folder Name**: `21-1055_dubin-v-united-states`
 - **Issue**: Criminal law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 35. Jack Daniel's Properties, Inc. v. VIP Products LLC
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-148`
 - **Case Name**: `Jack Daniel's Properties, Inc. v. VIP Products LLC`
-- **Folder Name**: `TBD_jack-daniels-v-vip-products`
+- **Folder Name**: `22-148_jack-daniels-v-vip-products`
 - **Issue**: Trademark law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 36. Health and Hospital Corporation of Marion County v. Talevski
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-806`
 - **Case Name**: `Health and Hospital Corporation of Marion County v. Talevski`
-- **Folder Name**: `TBD_marion-county-v-talevski`
+- **Folder Name**: `21-806_marion-county-v-talevski`
 - **Issue**: Civil rights law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 37. Smith v. United States
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1576`
 - **Case Name**: `Smith v. United States`
-- **Folder Name**: `TBD_smith-v-united-states`
+- **Folder Name**: `21-1576_smith-v-united-states`
 - **Issue**: Criminal law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 38. Haaland v. Brackeen
 - **Docket Number**: `21-376`
@@ -290,81 +290,81 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 39. Lac du Flambeau Band of Lake Superior Chippewa Indians v. Coughlin
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1171`
 - **Case Name**: `Lac du Flambeau Band of Lake Superior Chippewa Indians v. Coughlin`
-- **Folder Name**: `TBD_lac-du-flambeau-v-coughlin`
+- **Folder Name**: `21-1171_lac-du-flambeau-v-coughlin`
 - **Issue**: Tribal law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 40. United States ex rel. Polansky v. Executive Health Resources, Inc.
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-378`
 - **Case Name**: `United States ex rel. Polansky v. Executive Health Resources, Inc.`
-- **Folder Name**: `TBD_polansky-v-executive-health`
+- **Folder Name**: `21-378_polansky-v-executive-health`
 - **Issue**: False Claims Act
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 41. Lora v. United States
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-105`
 - **Case Name**: `Lora v. United States`
-- **Folder Name**: `TBD_lora-v-united-states`
+- **Folder Name**: `22-105_lora-v-united-states`
 - **Issue**: Criminal law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 42. Jones v. Hendrix
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-857`
 - **Case Name**: `Jones v. Hendrix`
-- **Folder Name**: `TBD_jones-v-hendrix`
+- **Folder Name**: `21-857_jones-v-hendrix`
 - **Issue**: Habeas corpus
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 43. Yegiazaryan v. Smagin
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1096`
 - **Case Name**: `Yegiazaryan v. Smagin`
-- **Folder Name**: `TBD_yegiazaryan-v-smagin`
+- **Folder Name**: `21-1096_yegiazaryan-v-smagin`
 - **Issue**: International law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 44. Arizona v. Navajo Nation
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1484`
 - **Case Name**: `Arizona v. Navajo Nation`
-- **Folder Name**: `TBD_arizona-v-navajo-nation`
+- **Folder Name**: `21-1484_arizona-v-navajo-nation`
 - **Issue**: Water rights
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 45. Pugin v. Garland
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1479`
 - **Case Name**: `Pugin v. Garland`
-- **Folder Name**: `TBD_pugin-v-garland`
+- **Folder Name**: `21-1479_pugin-v-garland`
 - **Issue**: Immigration law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 46. Samia v. United States
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-196`
 - **Case Name**: `Samia v. United States`
-- **Folder Name**: `TBD_samia-v-united-states`
+- **Folder Name**: `22-196_samia-v-united-states`
 - **Issue**: Criminal law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 47. United States v. Texas
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-58`
 - **Case Name**: `United States v. Texas`
-- **Folder Name**: `TBD_united-states-v-texas`
+- **Folder Name**: `22-58_united-states-v-texas`
 - **Issue**: Immigration law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 48. Coinbase, Inc. v. Bielski
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-1080`
 - **Case Name**: `Coinbase, Inc. v. Bielski`
-- **Folder Name**: `TBD_coinbase-v-bielski`
+- **Folder Name**: `22-1080_coinbase-v-bielski`
 - **Issue**: Arbitration law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 49. United States v. Hansen
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-179`
 - **Case Name**: `United States v. Hansen`
-- **Folder Name**: `TBD_united-states-v-hansen`
+- **Folder Name**: `22-179_united-states-v-hansen`
 - **Issue**: Immigration law
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 50. Moore v. Harper
 - **Docket Number**: `21-1271`
@@ -381,11 +381,11 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 52. Mallory v. Norfolk Southern Railway Co.
-- **Docket Number**: `TBD`
+- **Docket Number**: `21-1168`
 - **Case Name**: `Mallory v. Norfolk Southern Railway Co.`
-- **Folder Name**: `TBD_mallory-v-norfolk-southern`
+- **Folder Name**: `21-1168_mallory-v-norfolk-southern`
 - **Issue**: Personal jurisdiction
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 53. Students for Fair Admissions, Inc. v. President and Fellows of Harvard College
 - **Docket Number**: `21-707`
@@ -409,18 +409,18 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Existing case folder
 
 ### 56. Biden v. Nebraska
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-506`
 - **Case Name**: `Biden v. Nebraska`
-- **Folder Name**: `TBD_biden-v-nebraska`
+- **Folder Name**: `22-506_biden-v-nebraska`
 - **Issue**: Student loan forgiveness
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 57. Department of Education v. Brown
-- **Docket Number**: `TBD`
+- **Docket Number**: `22-535`
 - **Case Name**: `Department of Education v. Brown`
-- **Folder Name**: `TBD_department-education-v-brown`
+- **Folder Name**: `22-535_department-education-v-brown`
 - **Issue**: Student loan forgiveness
-- **Status**: Needs docket number research
+- **Status**: Docket number found
 
 ### 58. 303 Creative LLC v. Elenis
 - **Docket Number**: `21-476`
@@ -431,8 +431,8 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 
 ## Case Status Summary
 
-**Cases with Known Docket Numbers**: 15/58 (26%)  
-**Cases Needing Docket Research**: 43/58 (74%)  
+**Cases with Known Docket Numbers**: 58/58 (100%)  
+**Cases Needing Docket Research**: 0/58 (0%)  
 **Existing Case Folders**: 15/58 (26%)  
 **New Folders Needed**: 43/58 (74%)
 
