@@ -1,6 +1,6 @@
 # Students for Fair Admissions, Inc. v. President and Fellows of Harvard College
 
-**Docket Number**: 21-707  
+**Docket Number**: 20-1199  
 **Term**: 2022-2023  
 **Argument Date**: October 31, 2022  
 **Decision Date**: June 29, 2023  

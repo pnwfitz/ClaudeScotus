@@ -1,0 +1,593 @@
+{
+  "meta": {
+    "created": "2025-07-10",
+    "purpose": "Central registry for all 2022-2023 Supreme Court case docket numbers",
+    "total_cases": 58,
+    "verified_dockets": 15,
+    "needs_research": 43,
+    "last_updated": "2025-07-10"
+  },
+  "cases": {
+    "arellano-v-mcdonough": {
+      "case_number": 1,
+      "current_docket": "21-432",
+      "verified_docket": null,
+      "case_name": "Arellano v. McDonough",
+      "folder_name": "21-432_arellano-v-mcdonough",
+      "issue": "Veterans' benefits and equitable tolling",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "in-re-grand-jury": {
+      "case_number": 2,
+      "current_docket": "22-1048",
+      "verified_docket": null,
+      "case_name": "In re Grand Jury",
+      "folder_name": "TBD_in-re-grand-jury",
+      "issue": "Grand jury proceedings",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "cruz-v-arizona": {
+      "case_number": 3,
+      "current_docket": "21-1394",
+      "verified_docket": null,
+      "case_name": "Cruz v. Arizona",
+      "folder_name": "TBD_cruz-v-arizona",
+      "issue": "Criminal law",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "helix-energy-v-hewitt": {
+      "case_number": 4,
+      "current_docket": "21-984",
+      "verified_docket": null,
+      "case_name": "Helix Energy Solutions Group, Inc. v. Hewitt",
+      "folder_name": "21-984_helix-energy-v-hewitt",
+      "issue": "Fair Labor Standards Act and overtime",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "bartenwerfer-v-buckley": {
+      "case_number": 5,
+      "current_docket": "21-908",
+      "verified_docket": null,
+      "case_name": "Bartenwerfer v. Buckley",
+      "folder_name": "TBD_bartenwerfer-v-buckley",
+      "issue": "Bankruptcy law",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "bittner-v-united-states": {
+      "case_number": 6,
+      "current_docket": "21-1195",
+      "verified_docket": null,
+      "case_name": "Bittner v. United States",
+      "folder_name": "TBD_bittner-v-united-states",
+      "issue": "Tax law",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "delaware-v-pennsylvania": {
+      "case_number": 7,
+      "current_docket": "22-O-153",
+      "verified_docket": null,
+      "case_name": "Delaware v. Pennsylvania",
+      "folder_name": "TBD_delaware-v-pennsylvania",
+      "issue": "Interstate disputes",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "luna-perez-v-sturgis-public-schools": {
+      "case_number": 8,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Luna Perez v. Sturgis Public Schools",
+      "folder_name": "TBD_luna-perez-v-sturgis-public-schools",
+      "issue": "Education law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "wilkins-v-united-states": {
+      "case_number": 9,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Wilkins v. United States",
+      "folder_name": "TBD_wilkins-v-united-states",
+      "issue": "Federal claims",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "axon-enterprise-v-ftc": {
+      "case_number": 10,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Axon Enterprise, Inc. v. Federal Trade Commission",
+      "folder_name": "TBD_axon-enterprise-v-ftc",
+      "issue": "Administrative law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "new-york-v-new-jersey": {
+      "case_number": 11,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "New York v. New Jersey",
+      "folder_name": "TBD_new-york-v-new-jersey",
+      "issue": "Interstate disputes",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "reed-v-goertz": {
+      "case_number": 12,
+      "current_docket": "21-1107",
+      "verified_docket": null,
+      "case_name": "Reed v. Goertz",
+      "folder_name": "21-1107_reed-v-goertz",
+      "issue": "Habeas corpus and DNA testing",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "turkiye-halk-bankasi-v-united-states": {
+      "case_number": 13,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "T\u00fcrkiye Halk Bankas\u0131 A.\u015e. v. United States",
+      "folder_name": "TBD_turkiye-halk-bankasi-v-united-states",
+      "issue": "Foreign sovereign immunity",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "moac-mall-holdings-v-transform-holdco": {
+      "case_number": 14,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "MOAC Mall Holdings LLC v. Transform Holdco LLC",
+      "folder_name": "TBD_moac-mall-holdings-v-transform-holdco",
+      "issue": "Commercial law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "ciminelli-v-united-states": {
+      "case_number": 15,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Ciminelli v. United States",
+      "folder_name": "TBD_ciminelli-v-united-states",
+      "issue": "Criminal law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "percoco-v-united-states": {
+      "case_number": 16,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Percoco v. United States",
+      "folder_name": "TBD_percoco-v-united-states",
+      "issue": "Criminal law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "puerto-rico-board-v-centro-periodismo": {
+      "case_number": 17,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Financial Oversight and Management Board for Puerto Rico v. Centro de Periodismo Investigativo, Inc.",
+      "folder_name": "TBD_puerto-rico-board-v-centro-periodismo",
+      "issue": "Puerto Rico governance",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "national-pork-producers-v-ross": {
+      "case_number": 18,
+      "current_docket": "21-468",
+      "verified_docket": null,
+      "case_name": "National Pork Producers Council v. Ross",
+      "folder_name": "21-468_national-pork-producers-v-ross",
+      "issue": "Dormant Commerce Clause",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "santos-zacaria-v-garland": {
+      "case_number": 19,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Santos-Zacaria v. Garland",
+      "folder_name": "TBD_santos-zacaria-v-garland",
+      "issue": "Immigration law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "polselli-v-irs": {
+      "case_number": 20,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Polselli v. Internal Revenue Service",
+      "folder_name": "TBD_polselli-v-irs",
+      "issue": "Tax law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "ohio-adjutant-general-v-flra": {
+      "case_number": 21,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Ohio Adjutant General's Department v. Federal Labor Relations Authority",
+      "folder_name": "TBD_ohio-adjutant-general-v-flra",
+      "issue": "Labor law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "twitter-v-taamneh": {
+      "case_number": 22,
+      "current_docket": "21-1496",
+      "verified_docket": null,
+      "case_name": "Twitter, Inc. v. Taamneh",
+      "folder_name": "21-1496_twitter-v-taamneh",
+      "issue": "Social media liability for terrorism",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "warhol-foundation-v-goldsmith": {
+      "case_number": 23,
+      "current_docket": "21-869",
+      "verified_docket": null,
+      "case_name": "Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith",
+      "folder_name": "21-869_warhol-foundation-v-goldsmith",
+      "issue": "Fair use and transformative works",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "amgen-v-sanofi": {
+      "case_number": 24,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Amgen Inc. v. Sanofi",
+      "folder_name": "TBD_amgen-v-sanofi",
+      "issue": "Patent law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "gonzalez-v-google": {
+      "case_number": 25,
+      "current_docket": "21-1333",
+      "verified_docket": null,
+      "case_name": "Gonzalez v. Google LLC",
+      "folder_name": "21-1333_gonzalez-v-google",
+      "issue": "Section 230 and algorithm liability",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "calcutt-v-fdic": {
+      "case_number": 26,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Calcutt v. FDIC",
+      "folder_name": "TBD_calcutt-v-fdic",
+      "issue": "Banking law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "tyler-v-hennepin-county": {
+      "case_number": 27,
+      "current_docket": "22-166",
+      "verified_docket": null,
+      "case_name": "Tyler v. Hennepin County",
+      "folder_name": "22-166_tyler-v-hennepin-county",
+      "issue": "Property rights and tax sales",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "sackett-v-epa": {
+      "case_number": 28,
+      "current_docket": "21-454",
+      "verified_docket": null,
+      "case_name": "Sackett v. EPA",
+      "folder_name": "21-454_sackett-v-epa",
+      "issue": "Clean Water Act jurisdiction",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "dupree-v-younger": {
+      "case_number": 29,
+      "current_docket": "22-210",
+      "verified_docket": null,
+      "case_name": "Dupree v. Younger",
+      "folder_name": "22-210_dupree-v-younger",
+      "issue": "Federal sentencing guidelines",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "schutte-v-supervalu": {
+      "case_number": 30,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "United States ex rel. Schutte v. Supervalu Inc.",
+      "folder_name": "TBD_schutte-v-supervalu",
+      "issue": "False Claims Act",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "slack-technologies-v-pirani": {
+      "case_number": 31,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Slack Technologies, LLC v. Pirani",
+      "folder_name": "TBD_slack-technologies-v-pirani",
+      "issue": "Securities law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "glacier-northwest-v-teamsters": {
+      "case_number": 32,
+      "current_docket": "21-1449",
+      "verified_docket": null,
+      "case_name": "Glacier Northwest, Inc. v. Teamsters",
+      "folder_name": "21-1449_glacier-northwest-v-teamsters",
+      "issue": "Labor law and property damage",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "allen-v-milligan": {
+      "case_number": 33,
+      "current_docket": "21-1086",
+      "verified_docket": null,
+      "case_name": "Allen v. Milligan",
+      "folder_name": "21-1086_allen-v-milligan",
+      "issue": "Voting Rights Act and redistricting",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "dubin-v-united-states": {
+      "case_number": 34,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Dubin v. United States",
+      "folder_name": "TBD_dubin-v-united-states",
+      "issue": "Criminal law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "jack-daniels-v-vip-products": {
+      "case_number": 35,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Jack Daniel's Properties, Inc. v. VIP Products LLC",
+      "folder_name": "TBD_jack-daniels-v-vip-products",
+      "issue": "Trademark law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "marion-county-v-talevski": {
+      "case_number": 36,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Health and Hospital Corporation of Marion County v. Talevski",
+      "folder_name": "TBD_marion-county-v-talevski",
+      "issue": "Civil rights law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "smith-v-united-states": {
+      "case_number": 37,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Smith v. United States",
+      "folder_name": "TBD_smith-v-united-states",
+      "issue": "Criminal law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "haaland-v-brackeen": {
+      "case_number": 38,
+      "current_docket": "21-376",
+      "verified_docket": null,
+      "case_name": "Haaland v. Brackeen",
+      "folder_name": "21-376_haaland-v-brackeen",
+      "issue": "Indian Child Welfare Act",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "lac-du-flambeau-v-coughlin": {
+      "case_number": 39,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Lac du Flambeau Band of Lake Superior Chippewa Indians v. Coughlin",
+      "folder_name": "TBD_lac-du-flambeau-v-coughlin",
+      "issue": "Tribal law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "polansky-v-executive-health": {
+      "case_number": 40,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "United States ex rel. Polansky v. Executive Health Resources, Inc.",
+      "folder_name": "TBD_polansky-v-executive-health",
+      "issue": "False Claims Act",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "lora-v-united-states": {
+      "case_number": 41,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Lora v. United States",
+      "folder_name": "TBD_lora-v-united-states",
+      "issue": "Criminal law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "jones-v-hendrix": {
+      "case_number": 42,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Jones v. Hendrix",
+      "folder_name": "TBD_jones-v-hendrix",
+      "issue": "Habeas corpus",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "yegiazaryan-v-smagin": {
+      "case_number": 43,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Yegiazaryan v. Smagin",
+      "folder_name": "TBD_yegiazaryan-v-smagin",
+      "issue": "International law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "arizona-v-navajo-nation": {
+      "case_number": 44,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Arizona v. Navajo Nation",
+      "folder_name": "TBD_arizona-v-navajo-nation",
+      "issue": "Water rights",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "pugin-v-garland": {
+      "case_number": 45,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Pugin v. Garland",
+      "folder_name": "TBD_pugin-v-garland",
+      "issue": "Immigration law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "samia-v-united-states": {
+      "case_number": 46,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Samia v. United States",
+      "folder_name": "TBD_samia-v-united-states",
+      "issue": "Criminal law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "united-states-v-texas": {
+      "case_number": 47,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "United States v. Texas",
+      "folder_name": "TBD_united-states-v-texas",
+      "issue": "Immigration law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "coinbase-v-bielski": {
+      "case_number": 48,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Coinbase, Inc. v. Bielski",
+      "folder_name": "TBD_coinbase-v-bielski",
+      "issue": "Arbitration law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "united-states-v-hansen": {
+      "case_number": 49,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "United States v. Hansen",
+      "folder_name": "TBD_united-states-v-hansen",
+      "issue": "Immigration law",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "moore-v-harper": {
+      "case_number": 50,
+      "current_docket": "21-1271",
+      "verified_docket": null,
+      "case_name": "Moore v. Harper",
+      "folder_name": "21-1271_moore-v-harper",
+      "issue": "Independent state legislature theory",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "counterman-v-colorado": {
+      "case_number": 51,
+      "current_docket": "22-138",
+      "verified_docket": null,
+      "case_name": "Counterman v. Colorado",
+      "folder_name": "22-138_counterman-v-colorado",
+      "issue": "True threats and First Amendment",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "mallory-v-norfolk-southern": {
+      "case_number": 52,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Mallory v. Norfolk Southern Railway Co.",
+      "folder_name": "TBD_mallory-v-norfolk-southern",
+      "issue": "Personal jurisdiction",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "students-for-fair-admissions-v-harvard": {
+      "case_number": 53,
+      "current_docket": "20-1199",
+      "verified_docket": "20-1199",
+      "case_name": "Students for Fair Admissions, Inc. v. President and Fellows of Harvard College",
+      "folder_name": "20-1199_students-for-fair-admissions-v-harvard",
+      "issue": "Affirmative action in college admissions",
+      "status": "ready_for_testing",
+      "needs_verification": false,
+      "notes": "Corrected from 21-707 to 20-1199. Folder needs renaming."
+    },
+    "abitron-austria-v-hetronic": {
+      "case_number": 54,
+      "current_docket": "21-1043",
+      "verified_docket": null,
+      "case_name": "Abitron Austria GmbH v. Hetronic International, Inc.",
+      "folder_name": "21-1043_abitron-austria-v-hetronic",
+      "issue": "Extraterritorial application of trademark law",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "groff-v-dejoy": {
+      "case_number": 55,
+      "current_docket": "22-174",
+      "verified_docket": null,
+      "case_name": "Groff v. DeJoy",
+      "folder_name": "22-174_groff-v-dejoy",
+      "issue": "Religious accommodation in workplace",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    },
+    "biden-v-nebraska": {
+      "case_number": 56,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Biden v. Nebraska",
+      "folder_name": "TBD_biden-v-nebraska",
+      "issue": "Student loan forgiveness",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "department-education-v-brown": {
+      "case_number": 57,
+      "current_docket": "TBD",
+      "verified_docket": null,
+      "case_name": "Department of Education v. Brown",
+      "folder_name": "TBD_department-education-v-brown",
+      "issue": "Student loan forgiveness",
+      "status": "awaiting_docket_research",
+      "needs_verification": true
+    },
+    "303-creative-v-elenis": {
+      "case_number": 58,
+      "current_docket": "21-476",
+      "verified_docket": null,
+      "case_name": "303 Creative LLC v. Elenis",
+      "folder_name": "21-476_303-creative-v-elenis",
+      "issue": "Free speech vs anti-discrimination law",
+      "status": "ready_for_testing",
+      "needs_verification": false
+    }
+  }
+}

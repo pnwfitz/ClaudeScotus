@@ -37,14 +37,14 @@ This document is designed to track prediction accuracy for each justice across a
 - **Prediction Status**: Ready for testing
 
 ### 2. In re Grand Jury
-- **Docket Number**: TBD
+- **Docket Number**: 22-1048
 - **Issue**: Grand jury proceedings
-- **Prediction Status**: Awaiting docket research
+- **Prediction Status**: Ready for testing
 
 ### 3. Cruz v. Arizona
-- **Docket Number**: TBD
+- **Docket Number**: 21-1394
 - **Issue**: Criminal law
-- **Prediction Status**: Awaiting docket research
+- **Prediction Status**: Ready for testing
 
 ### 4. Helix Energy Solutions Group, Inc. v. Hewitt
 - **Docket Number**: 21-984
@@ -52,19 +52,19 @@ This document is designed to track prediction accuracy for each justice across a
 - **Prediction Status**: Ready for testing
 
 ### 5. Bartenwerfer v. Buckley
-- **Docket Number**: TBD
+- **Docket Number**: 21-908
 - **Issue**: Bankruptcy law
-- **Prediction Status**: Awaiting docket research
+- **Prediction Status**: Ready for testing
 
 ### 6. Bittner v. United States
-- **Docket Number**: TBD
+- **Docket Number**: 21-1195
 - **Issue**: Tax law
-- **Prediction Status**: Awaiting docket research
+- **Prediction Status**: Ready for testing
 
 ### 7. Delaware v. Pennsylvania
-- **Docket Number**: TBD
+- **Docket Number**: 22-O-153
 - **Issue**: Interstate disputes
-- **Prediction Status**: Awaiting docket research
+- **Prediction Status**: Ready for testing
 
 ### 8. Luna Perez v. Sturgis Public Schools
 - **Docket Number**: TBD
@@ -292,7 +292,7 @@ This document is designed to track prediction accuracy for each justice across a
 - **Prediction Status**: Awaiting docket research
 
 ### 53. Students for Fair Admissions, Inc. v. President and Fellows of Harvard College
-- **Docket Number**: 21-707
+- **Docket Number**: 20-1199
 - **Issue**: Affirmative action in college admissions
 - **Prediction Status**: Ready for testing
 

@@ -11,15 +11,15 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 ## API Requirements Summary
 
 **Primary Identifiers Needed**:
-- **Docket Number**: Format `21-XXXX` or `22-XXXX` (e.g., 21-707, 22-174)
+- **Docket Number**: Format `21-XXXX` or `22-XXXX` (e.g., 20-1199, 22-174)
 - **Case Name**: Full case name for searches
 - **CourtListener ID**: Internal database ID (obtained from API)
 - **Court**: Always `scotus` for Supreme Court
 
 **API Endpoints**:
-- **Dockets**: `/api/rest/v4/dockets/?court=scotus&docket_number=21-707`
-- **Opinions**: `/api/rest/v4/opinions/?cluster__docket__court=scotus&cluster__docket__docket_number=21-707`
-- **Oral Arguments**: `/api/rest/v4/oral-arguments/?docket__court=scotus&docket__docket_number=21-707`
+- **Dockets**: `/api/rest/v4/dockets/?court=scotus&docket_number=20-1199`
+- **Opinions**: `/api/rest/v4/opinions/?cluster__docket__court=scotus&cluster__docket__docket_number=20-1199`
+- **Oral Arguments**: `/api/rest/v4/oral-arguments/?docket__court=scotus&docket__docket_number=20-1199`
 
 ## Complete Case List (All 58 Cases)
 
@@ -388,9 +388,9 @@ This document provides the complete list of all 58 Supreme Court cases from the 
 - **Status**: Docket number found
 
 ### 53. Students for Fair Admissions, Inc. v. President and Fellows of Harvard College
-- **Docket Number**: `21-707`
+- **Docket Number**: `20-1199`
 - **Case Name**: `Students for Fair Admissions, Inc. v. President and Fellows of Harvard College`
-- **Folder Name**: `21-707_students-for-fair-admissions-v-harvard`
+- **Folder Name**: `20-1199_students-for-fair-admissions-v-harvard`
 - **Issue**: Affirmative action in college admissions
 - **Status**: Existing case folder
 
